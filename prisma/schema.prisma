@@ -1,0 +1,485 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Province {
+  id      Int      @id @default(autoincrement()) @db.SmallInt
+  name    String   @db.VarChar(64)
+  regions Region[] @relation("ProvinceRegions")
+
+  @@map(name: "province")
+}
+
+model Region {
+  id         Int        @id @default(autoincrement()) @db.SmallInt
+  name       String     @db.VarChar(64)
+  provinceId Int        @map("province_id") @db.SmallInt
+  province   Province   @relation("ProvinceRegions", fields: [provinceId], references: [id])
+  districts  District[] @relation("RegionDistricts")
+
+  @@map(name: "region")
+}
+
+model District {
+  id             Int            @id @default(autoincrement()) @db.SmallInt
+  name           String         @db.VarChar(128)
+  regionId       Int            @map("region_id") @db.SmallInt
+  region         Region         @relation("RegionDistricts", fields: [regionId], references: [id])
+  municipalities Municipality[] @relation("DistrictMunicipalities")
+  tribunals      Tribunal[]     @relation("DistrictTribunal")
+
+  @@map(name: "district")
+}
+
+model Municipality {
+  id          Int         @id @default(autoincrement())
+  name        String      @db.VarChar(128)
+  districtId  Int         @map("district_id") @db.SmallInt
+  district    District    @relation("DistrictMunicipalities", fields: [districtId], references: [id])
+  fokontanies Fokontany[] @relation("MunicipalityFokontany")
+
+  @@map(name: "municipality")
+}
+
+model Fokontany {
+  id             Int          @id @default(autoincrement())
+  name           String       @db.VarChar(256)
+  municipalityId Int          @map("municipality_id")
+  municipality   Municipality @relation("MunicipalityFokontany", fields: [municipalityId], references: [id])
+  addresses      Address[]    @relation("FokontanyAddresses")
+
+  @@map(name: "fokontany")
+}
+
+model Address {
+  id              BigInt          @id @default(autoincrement())
+  name            String          @db.VarChar(128)
+  fokontanyId     Int             @map("fokontany_id")
+  fokontany       Fokontany       @relation("FokontanyAddresses", fields: [fokontanyId], references: [id])
+  personAddresses PersonAddress[] @relation("PersonAddress")
+  agencyAddresses AgencyAddress[] @relation("AgencyAddress")
+
+  @@map(name: "address")
+}
+
+model Permission {
+  id              Int              @id @default(autoincrement()) @db.SmallInt
+  name            String           @db.VarChar(32)
+  label           String           @db.VarChar(128)
+  rolePermissions RolePermission[] @relation("RolePermissions")
+
+  @@map(name: "permission")
+}
+
+model Role {
+  id              Int              @id @default(autoincrement()) @db.SmallInt
+  name            String           @db.VarChar(32)
+  label           String           @db.VarChar(128)
+  rolePermissions RolePermission[] @relation("PermissionRoles")
+  userRoles       UserRole[]       @relation("UserRoles")
+
+  @@map(name: "role")
+}
+
+model RolePermission {
+  roleId       Int        @map("role_id") @db.SmallInt
+  permissionId Int        @map("permission_id") @db.SmallInt
+  role         Role       @relation("PermissionRoles", fields: [roleId], references: [id])
+  permission   Permission @relation("RolePermissions", fields: [permissionId], references: [id])
+
+  @@id([roleId, permissionId])
+  @@map(name: "role_permission")
+}
+
+model User {
+  id                 BigInt     @id @default(autoincrement())
+  personId           BigInt     @unique @map("person_id")
+  username           String?    @unique @db.VarChar(64)
+  password           String?    @db.VarChar(128)
+  isActive           Boolean?   @default(false) @map("is_active")
+  isConfirmed        Boolean?   @default(false) @map("is_confirmed")
+  passwordResetToken String?    @map("password_reset_token") @db.VarChar(256)
+  registrationToken  String?    @map("registration_token") @db.VarChar(256)
+  confirmationToken  String?    @map("confirm_token") @db.VarChar(256)
+  createdById        BigInt?    @map("created_by")
+  updatedById        BigInt?    @map("updated_by")
+  deletedById        BigInt?    @map("deleted_by")
+  createdOn          DateTime   @default(now()) @map("created_on")
+  updatedOn          DateTime?  @default(now()) @map("updated_on")
+  deletedOn          DateTime?  @map("deleted_on")
+  person             Person     @relation("UserPerson", fields: [personId], references: [id])
+  userRoles          UserRole[] @relation("RoleUsers")
+
+  @@map(name: "user")
+}
+
+model UserRole {
+  userId BigInt @map("user_id")
+  roleId Int    @map("role_id") @db.SmallInt
+  user   User   @relation("RoleUsers", fields: [userId], references: [id])
+  role   Role   @relation("UserRoles", fields: [roleId], references: [id])
+
+  @@id([userId, roleId])
+  @@map(name: "user_role")
+}
+
+model Job {
+  id         Int         @id @default(autoincrement())
+  name       String      @db.VarChar(128)
+  isOther    Boolean?    @default(false) @map("is_other")
+  personJobs PersonJob[] @relation("PersonJob")
+
+  @@map(name: "job")
+}
+
+model Nationality {
+  id      Int      @id @default(autoincrement()) @db.SmallInt
+  name    String   @db.VarChar(64)
+  persons Person[] @relation("PersonNationality")
+
+  @@map(name: "nationality")
+}
+
+model Country {
+  id              Int             @id @default(autoincrement()) @db.SmallInt
+  name            String          @db.VarChar(128)
+  nationality     String          @db.VarChar(128)
+  identityProoves IdentityProof[] @relation("IdentityProofIssuer")
+
+  @@map(name: "country")
+}
+
+model Person {
+  id              BigInt          @id @default(autoincrement())
+  name            String?         @db.VarChar(128)
+  firstName       String?         @map("first_name") @db.VarChar(128)
+  lastName        String?         @map("last_name") @db.VarChar(128)
+  birthDate       DateTime?       @map("birth_date") @db.Date
+  birthPlace      String?         @map("birth_place") @db.VarChar(128)
+  gender          Int?            @map("gender") @db.SmallInt
+  isHuman         Boolean?        @default(true) @map("is_human")
+  createdById     BigInt?         @map("created_by")
+  updatedById     BigInt?         @map("updated_by")
+  deletedById     BigInt?         @map("deleted_by")
+  createdOn       DateTime        @default(now()) @map("created_on")
+  updatedOn       DateTime?       @default(now()) @map("updated_on")
+  deletedOn       DateTime?       @map("deleted_on")
+  nationalityId   Int?            @map("nationality_id") @db.SmallInt
+  nationality     Nationality?    @relation("PersonNationality", fields: [nationalityId], references: [id])
+  personJobs      PersonJob[]     @relation("JobPerson")
+  personAddresses PersonAddress[] @relation("AddressPerson")
+  personContacts  PersonContact[] @relation("PersonContact")
+  user            User?           @relation("UserPerson")
+  lawyer          Lawyer?         @relation("LawyerPerson")
+  personPictures  PersonPicture[] @relation("PicturePerson")
+  dealParts       DealPart[]      @relation("DealPartPerson")
+
+  @@map(name: "person")
+}
+
+model IdentityProof {
+  id       BigInt @id @default(autoincrement())
+  personId BigInt @map("person_id")
+  type     Int    @db.SmallInt
+
+  number        String    @map("number") @db.VarChar(16)
+  deliveryPlace String?   @map("delivery_place") @db.VarChar(128)
+  deliveryDate  DateTime  @map("delivery_date") @db.Date
+  expiryDate    DateTime? @map("expiry_date") @db.Date
+
+  issuerCountryId Int     @map("issuer_country_id") @db.SmallInt
+  issuerCountry   Country @relation("IdentityProofIssuer", fields: [issuerCountryId], references: [id])
+
+  isVerified  Boolean? @default(false) @map("is_verified")
+  createdById BigInt?  @map("created_by")
+  createdOn   DateTime @default(now()) @map("created_on")
+
+  verifiedById BigInt?  @map("verified_by")
+  verifiedOn   DateTime @map("verified_on")
+
+  @@map(name: "identity_proof")
+}
+
+model PersonJob {
+  id          Int      @id @default(autoincrement())
+  personId    BigInt   @map("person_id")
+  jobId       Int      @map("job_id")
+  otherJob    String?  @map("other_job") @db.VarChar(128)
+  workPlace   String?  @map("work_place") @db.VarChar(128)
+  isCurrent   Boolean? @default(false) @map("is_current")
+  person      Person   @relation("JobPerson", fields: [personId], references: [id])
+  job         Job      @relation("PersonJob", fields: [jobId], references: [id])
+  createdById BigInt?  @map("created_by")
+  createdOn   DateTime @default(now()) @map("created_on")
+
+  @@map(name: "person_job")
+}
+
+model PersonAddress {
+  id          BigInt   @id @default(autoincrement())
+  personId    BigInt   @map("person_id")
+  addressId   BigInt   @map("address_id")
+  isCurrent   Boolean? @default(false) @map("is_current")
+  person      Person   @relation("AddressPerson", fields: [personId], references: [id])
+  address     Address  @relation("PersonAddress", fields: [addressId], references: [id])
+  createdById BigInt?  @map("created_by")
+  createdOn   DateTime @default(now()) @map("created_on")
+
+  @@map(name: "person_address")
+}
+
+model PersonContact {
+  id          BigInt   @id @default(autoincrement())
+  personId    BigInt   @map("person_id")
+  contact     String   @map("contact") @db.VarChar(128)
+  type        Int      @db.SmallInt
+  isPrimary   Boolean? @default(false) @map("is_primary")
+  isVerified  Boolean? @default(false) @map("is_verified")
+  person      Person   @relation("PersonContact", fields: [personId], references: [id])
+  createdById BigInt?  @map("created_by")
+  createdOn   DateTime @default(now()) @map("created_on")
+
+  @@map(name: "person_contact")
+}
+
+model Agency {
+  id              Int             @id @default(autoincrement()) @db.SmallInt
+  name            String          @db.VarChar(128)
+  createdById     BigInt?         @map("created_by")
+  updatedById     BigInt?         @map("updated_by")
+  deletedById     BigInt?         @map("deleted_by")
+  createdOn       DateTime        @default(now()) @map("created_on")
+  updatedOn       DateTime?       @default(now()) @map("updated_on")
+  deletedOn       DateTime?       @map("deleted_on")
+  agencyAddresses AgencyAddress[] @relation("AddressAgency")
+  agencyLawyers   AgencyLawyer[]  @relation("LawyerAgency")
+  deals           Deal[]          @relation("AgencyDeal")
+
+  @@map(name: "agency")
+}
+
+model AgencyAddress {
+  id          BigInt   @id @default(autoincrement())
+  agencyId    Int      @map("agency_id") @db.SmallInt
+  addressId   BigInt   @map("address_id")
+  isCurrent   Boolean? @default(false) @map("is_current")
+  agency      Agency   @relation("AddressAgency", fields: [agencyId], references: [id])
+  address     Address  @relation("AgencyAddress", fields: [addressId], references: [id])
+  createdById BigInt?  @map("created_by")
+  createdOn   DateTime @default(now()) @map("created_on")
+
+  @@map(name: "agency_address")
+}
+
+model Lawyer {
+  id            BigInt         @id @default(autoincrement())
+  personId      BigInt         @unique @map("person_id")
+  bio           String?        @db.VarChar(256)
+  createdById   BigInt?        @map("created_by")
+  updatedById   BigInt?        @map("updated_by")
+  deletedById   BigInt?        @map("deleted_by")
+  createdOn     DateTime       @default(now()) @map("created_on")
+  updatedOn     DateTime?      @default(now()) @map("updated_on")
+  deletedOn     DateTime?      @map("deleted_on")
+  person        Person         @relation("LawyerPerson", fields: [personId], references: [id])
+  agencyLawyers AgencyLawyer[] @relation("AgencyLawyer")
+
+  @@map(name: "lawyer")
+}
+
+model AgencyLawyer {
+  id          BigInt    @id @default(autoincrement())
+  agencyId    Int       @map("agency_id") @db.SmallInt
+  lawyerId    BigInt    @map("lawyer_id")
+  agency      Agency    @relation("LawyerAgency", fields: [agencyId], references: [id])
+  lawyer      Lawyer    @relation("AgencyLawyer", fields: [lawyerId], references: [id])
+  createdById BigInt?   @map("created_by")
+  deletedById BigInt?   @map("deleted_by")
+  createdOn   DateTime  @default(now()) @map("created_on")
+  deletedOn   DateTime? @map("deleted_on")
+
+  @@map(name: "agency_lawyer")
+}
+
+model MediaType {
+  id      Int      @id @default(autoincrement()) @db.SmallInt
+  name    String   @db.VarChar(128)
+  isOther Boolean? @default(false) @map("is_other")
+  medias  Media[]  @relation("MediaType")
+
+  @@map(name: "media_type")
+}
+
+model Media {
+  id              BigInt           @id @default(autoincrement())
+  mediaTypeId     Int              @map("media_type_id") @db.SmallInt
+  name            String           @db.VarChar(256)
+  hash            String           @db.VarChar(256)
+  ext             String           @db.VarChar(16)
+  mime            String           @db.VarChar(16)
+  url             String           @db.VarChar(256)
+  description     String?          @db.VarChar(256)
+  tag             String?          @db.VarChar(16)
+  createdById     BigInt?          @map("created_by")
+  updatedById     BigInt?          @map("updated_by")
+  deletedById     BigInt?          @map("deleted_by")
+  createdOn       DateTime         @default(now()) @map("created_on")
+  updatedOn       DateTime?        @default(now()) @map("updated_on")
+  deletedOn       DateTime?        @map("deleted_on")
+  mediaType       MediaType        @relation("MediaType", fields: [mediaTypeId], references: [id])
+  personPictures  PersonPicture[]  @relation("PersonPicture")
+  dealAttachments DealAttachment[] @relation("AttachmentDeal")
+
+  @@map(name: "media")
+}
+
+model PersonPicture {
+  id          BigInt   @id @default(autoincrement())
+  personId    BigInt   @map("person_id")
+  mediaId     BigInt   @map("media_id")
+  isCurrent   Boolean? @default(false) @map("is_current")
+  person      Person   @relation("PicturePerson", fields: [personId], references: [id])
+  media       Media    @relation("PersonPicture", fields: [mediaId], references: [id])
+  createdById BigInt?  @map("created_by")
+  createdOn   DateTime @default(now()) @map("created_on")
+
+  @@map(name: "person_picture")
+}
+
+model TribunalCateg {
+  id          Int        @id @default(autoincrement()) @db.SmallInt
+  name        String     @db.VarChar(128)
+  description String?    @db.VarChar(256)
+  Tribunal    Tribunal[] @relation("CategTribunal")
+
+  @@map(name: "tribunal_categ")
+}
+
+model Tribunal {
+  id                Int                @id @default(autoincrement())
+  tribunalCategId   Int                @map("tribunal_categ_id") @db.SmallInt
+  districtId        Int                @map("district_id") @db.SmallInt
+  name              String             @db.VarChar(128)
+  district          District           @relation("DistrictTribunal", fields: [districtId], references: [id])
+  tribunalCateg     TribunalCateg      @relation("CategTribunal", fields: [tribunalCategId], references: [id])
+  dealJurisdictions DealJurisdiction[] @relation("JurisdictionDeal")
+  dealEvents        DealEvent[]        @relation("DealEventJurisdiction")
+
+  @@map(name: "tribunal")
+}
+
+model Deal {
+  id                BigInt             @id @default(autoincrement())
+  agencyId          Int                @map("agency_id") @db.SmallInt
+  num               String             @db.VarChar(32)
+  name              String             @db.VarChar(128)
+  subject           String             @db.Text
+  agency            Agency             @relation("AgencyDeal", fields: [agencyId], references: [id])
+  createdById       BigInt?            @map("created_by")
+  updatedById       BigInt?            @map("updated_by")
+  deletedById       BigInt?            @map("deleted_by")
+  createdOn         DateTime           @default(now()) @map("created_on")
+  updatedOn         DateTime?          @default(now()) @map("updated_on")
+  deletedOn         DateTime?          @map("deleted_on")
+  dealParts         DealPart[]         @relation("DealPartDeal")
+  dealComments      DealComment[]      @relation("DealComment")
+  dealAttachments   DealAttachment[]   @relation("DealAttachment")
+  dealJurisdictions DealJurisdiction[] @relation("DealJurisdiction")
+  dealEvents        DealEvent[]        @relation("EventDeal")
+
+  @@map(name: "deal")
+}
+
+model DealPart {
+  dealId      BigInt    @map("deal_id")
+  personId    BigInt    @map("person_id")
+  isOffender  Boolean?  @default(false) @map("is_offender")
+  asLawyer    Boolean?  @default(false) @map("as_lawyer")
+  deal        Deal      @relation("DealPartDeal", fields: [dealId], references: [id])
+  person      Person    @relation("DealPartPerson", fields: [personId], references: [id])
+  createdById BigInt?   @map("created_by")
+  deletedById BigInt?   @map("deleted_by")
+  createdOn   DateTime  @default(now()) @map("created_on")
+  deletedOn   DateTime? @map("deleted_on")
+
+  @@id([dealId, personId])
+  @@map(name: "deal_part")
+}
+
+model DealComment {
+  id          BigInt    @id @default(autoincrement())
+  dealId      BigInt    @map("deal_id")
+  comment     String    @db.Text
+  deal        Deal      @relation("DealComment", fields: [dealId], references: [id])
+  createdById BigInt?   @map("created_by")
+  updatedById BigInt?   @map("updated_by")
+  deletedById BigInt?   @map("deleted_by")
+  createdOn   DateTime  @default(now()) @map("created_on")
+  updatedOn   DateTime? @default(now()) @map("updated_on")
+  deletedOn   DateTime? @map("deleted_on")
+
+  @@map(name: "deal_comment")
+}
+
+model DealAttachment {
+  dealId  BigInt @map("deal_id")
+  mediaId BigInt @map("media_id")
+  deal    Deal   @relation("DealAttachment", fields: [dealId], references: [id])
+  media   Media  @relation("AttachmentDeal", fields: [mediaId], references: [id])
+
+  @@id([dealId, mediaId])
+  @@map(name: "deal_attachment")
+}
+
+model DealJurisdiction {
+  id          BigInt   @id @default(autoincrement())
+  dealId      BigInt   @map("deal_id")
+  tribunalId  Int      @map("tribunal_id")
+  isCurrent   Boolean? @default(false) @map("is_current")
+  deal        Deal     @relation("DealJurisdiction", fields: [dealId], references: [id])
+  tribunal    Tribunal @relation("JurisdictionDeal", fields: [tribunalId], references: [id])
+  createdById BigInt?  @map("created_by")
+  createdOn   DateTime @default(now()) @map("created_on")
+
+  @@map(name: "deal_jurisdiction")
+}
+
+model EventType {
+  id          Int         @id @default(autoincrement()) @db.SmallInt
+  name        String      @db.VarChar(128)
+  description String?     @db.VarChar(256)
+  isOther     Boolean?    @default(false) @map("is_other")
+  dealEvents  DealEvent[] @relation("DealEventType")
+
+  @@map(name: "event_type")
+}
+
+model DealEvent {
+  id            BigInt    @id @default(autoincrement())
+  name          String    @db.VarChar(128)
+  description   String?   @db.VarChar(256)
+  eventTypeId   Int       @map("event_type_id") @db.SmallInt
+  dealId        BigInt    @map("deal_id")
+  tribunalId    Int?      @map("tribunal_id")
+  startDatetime DateTime? @map("start_date")
+  startDateTime DateTime? @map("end_date")
+  deal          Deal      @relation("EventDeal", fields: [dealId], references: [id])
+  eventType     EventType @relation("DealEventType", fields: [eventTypeId], references: [id])
+  tribunal      Tribunal? @relation("DealEventJurisdiction", fields: [tribunalId], references: [id])
+  createdById   BigInt?   @map("created_by")
+  updatedById   BigInt?   @map("updated_by")
+  deletedById   BigInt?   @map("deleted_by")
+  createdOn     DateTime  @default(now()) @map("created_on")
+  updatedOn     DateTime? @default(now()) @map("updated_on")
+  deletedOn     DateTime? @map("deleted_on")
+
+  @@map(name: "deal_event")
+}
