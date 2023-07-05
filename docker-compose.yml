@@ -1,0 +1,30 @@
+version: '3.9'
+
+services:
+  nest-graphql:
+    build:
+      context: .
+      target: development
+    ports:
+      - 4000:4000
+    volumes:
+      - ./:/app
+    command: >
+      sh -c "npx prisma migrate dev && npm run prisma:generate && npm run start:dev"
+    env_file:
+      - .env
+    depends_on:
+      - postgres-db
+  postgres-db:
+    image: postgres:13-alpine
+    volumes:
+      - postgres-db-data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_DB=diary_db
+      - POSTGRES_USER=dbuser
+      - POSTGRES_PASSWORD=123456
+
+volumes:
+  postgres-db-data:
