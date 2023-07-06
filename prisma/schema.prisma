@@ -10,60 +10,38 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Province {
-  id      Int      @id @default(autoincrement()) @db.SmallInt
-  name    String   @db.VarChar(64)
-  regions Region[] @relation("ProvinceRegions")
+model Country {
+  id              Int             @id @default(autoincrement()) @db.SmallInt
+  name            String          @db.VarChar(128)
+  nationality     String          @db.VarChar(128)
+  locations       Location[]      @relation("CountryLocations")
+  persons         Person[]        @relation("PersonNationality")
+  identities Identity[] @relation("IdentityProofIssuer")
 
-  @@map(name: "province")
+  @@map(name: "country")
 }
 
-model Region {
-  id         Int        @id @default(autoincrement()) @db.SmallInt
-  name       String     @db.VarChar(64)
-  provinceId Int        @map("province_id") @db.SmallInt
-  province   Province   @relation("ProvinceRegions", fields: [provinceId], references: [id])
-  districts  District[] @relation("RegionDistricts")
+model Location {
+  id        BigInt     @id @default(autoincrement())
+  name      String     @db.VarChar(128)
+  code      String?    @db.VarChar(8)
+  level     Int        @db.SmallInt
+  parentId  BigInt?    @map("parent_id")
+  countryId Int?       @map("country_id") @db.SmallInt
+  country   Country?   @relation("CountryLocations", fields: [countryId], references: [id])
+  parent    Location?  @relation("LocationParent", fields: [parentId], references: [id])
+  locations Location[] @relation("LocationParent")
+  tribunals Tribunal[] @relation("LocationTribunals")
+  addresses Address[]  @relation("LocationAddresses")
 
-  @@map(name: "region")
-}
-
-model District {
-  id             Int            @id @default(autoincrement()) @db.SmallInt
-  name           String         @db.VarChar(128)
-  regionId       Int            @map("region_id") @db.SmallInt
-  region         Region         @relation("RegionDistricts", fields: [regionId], references: [id])
-  municipalities Municipality[] @relation("DistrictMunicipalities")
-  tribunals      Tribunal[]     @relation("DistrictTribunal")
-
-  @@map(name: "district")
-}
-
-model Municipality {
-  id          Int         @id @default(autoincrement())
-  name        String      @db.VarChar(128)
-  districtId  Int         @map("district_id") @db.SmallInt
-  district    District    @relation("DistrictMunicipalities", fields: [districtId], references: [id])
-  fokontanies Fokontany[] @relation("MunicipalityFokontany")
-
-  @@map(name: "municipality")
-}
-
-model Fokontany {
-  id             Int          @id @default(autoincrement())
-  name           String       @db.VarChar(256)
-  municipalityId Int          @map("municipality_id")
-  municipality   Municipality @relation("MunicipalityFokontany", fields: [municipalityId], references: [id])
-  addresses      Address[]    @relation("FokontanyAddresses")
-
-  @@map(name: "fokontany")
+  @@map(name: "location")
 }
 
 model Address {
   id              BigInt          @id @default(autoincrement())
   name            String          @db.VarChar(128)
-  fokontanyId     Int             @map("fokontany_id")
-  fokontany       Fokontany       @relation("FokontanyAddresses", fields: [fokontanyId], references: [id])
+  locationId      BigInt          @map("location_id")
+  location        Location        @relation("LocationAddresses", fields: [locationId], references: [id])
   personAddresses PersonAddress[] @relation("PersonAddress")
   agencyAddresses AgencyAddress[] @relation("AgencyAddress")
 
@@ -140,23 +118,6 @@ model Job {
   @@map(name: "job")
 }
 
-model Nationality {
-  id      Int      @id @default(autoincrement()) @db.SmallInt
-  name    String   @db.VarChar(64)
-  persons Person[] @relation("PersonNationality")
-
-  @@map(name: "nationality")
-}
-
-model Country {
-  id              Int             @id @default(autoincrement()) @db.SmallInt
-  name            String          @db.VarChar(128)
-  nationality     String          @db.VarChar(128)
-  identityProoves IdentityProof[] @relation("IdentityProofIssuer")
-
-  @@map(name: "country")
-}
-
 model Person {
   id              BigInt          @id @default(autoincrement())
   name            String?         @db.VarChar(128)
@@ -173,7 +134,7 @@ model Person {
   updatedOn       DateTime?       @default(now()) @map("updated_on")
   deletedOn       DateTime?       @map("deleted_on")
   nationalityId   Int?            @map("nationality_id") @db.SmallInt
-  nationality     Nationality?    @relation("PersonNationality", fields: [nationalityId], references: [id])
+  nationality     Country?        @relation("PersonNationality", fields: [nationalityId], references: [id])
   personJobs      PersonJob[]     @relation("JobPerson")
   personAddresses PersonAddress[] @relation("AddressPerson")
   personContacts  PersonContact[] @relation("PersonContact")
@@ -185,27 +146,23 @@ model Person {
   @@map(name: "person")
 }
 
-model IdentityProof {
-  id       BigInt @id @default(autoincrement())
-  personId BigInt @map("person_id")
-  type     Int    @db.SmallInt
+model Identity {
+  id              BigInt    @id @default(autoincrement())
+  personId        BigInt    @map("person_id")
+  type            Int       @db.SmallInt
+  number          String    @map("number") @db.VarChar(16)
+  deliveryPlace   String?   @map("delivery_place") @db.VarChar(128)
+  deliveryDate    DateTime  @map("delivery_date") @db.Date
+  expiryDate      DateTime? @map("expiry_date") @db.Date
+  issuerCountryId Int       @map("country_id") @db.SmallInt
+  issuerCountry   Country   @relation("IdentityProofIssuer", fields: [issuerCountryId], references: [id])
+  isVerified      Boolean?  @default(false) @map("is_verified")
+  createdById     BigInt?   @map("created_by")
+  createdOn       DateTime  @default(now()) @map("created_on")
+  verifiedById    BigInt?   @map("verified_by")
+  verifiedOn      DateTime  @map("verified_on")
 
-  number        String    @map("number") @db.VarChar(16)
-  deliveryPlace String?   @map("delivery_place") @db.VarChar(128)
-  deliveryDate  DateTime  @map("delivery_date") @db.Date
-  expiryDate    DateTime? @map("expiry_date") @db.Date
-
-  issuerCountryId Int     @map("issuer_country_id") @db.SmallInt
-  issuerCountry   Country @relation("IdentityProofIssuer", fields: [issuerCountryId], references: [id])
-
-  isVerified  Boolean? @default(false) @map("is_verified")
-  createdById BigInt?  @map("created_by")
-  createdOn   DateTime @default(now()) @map("created_on")
-
-  verifiedById BigInt?  @map("verified_by")
-  verifiedOn   DateTime @map("verified_on")
-
-  @@map(name: "identity_proof")
+  @@map(name: "identity")
 }
 
 model PersonJob {
@@ -366,9 +323,9 @@ model TribunalCateg {
 model Tribunal {
   id                Int                @id @default(autoincrement())
   tribunalCategId   Int                @map("tribunal_categ_id") @db.SmallInt
-  districtId        Int                @map("district_id") @db.SmallInt
+  locationId        BigInt             @map("location_id")
   name              String             @db.VarChar(128)
-  district          District           @relation("DistrictTribunal", fields: [districtId], references: [id])
+  location          Location           @relation("LocationTribunals", fields: [locationId], references: [id])
   tribunalCateg     TribunalCateg      @relation("CategTribunal", fields: [tribunalCategId], references: [id])
   dealJurisdictions DealJurisdiction[] @relation("JurisdictionDeal")
   dealEvents        DealEvent[]        @relation("DealEventJurisdiction")
