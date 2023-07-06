@@ -11,12 +11,17 @@ datasource db {
 }
 
 model Country {
-  id              Int             @id @default(autoincrement()) @db.SmallInt
-  name            String          @db.VarChar(128)
-  nationality     String          @db.VarChar(128)
-  locations       Location[]      @relation("CountryLocations")
-  persons         Person[]        @relation("PersonNationality")
-  identities Identity[] @relation("IdentityProofIssuer")
+  id             Int        @id @default(autoincrement()) @db.SmallInt
+  alpha2Code     String     @map("alpha_2_code") @db.VarChar(8)
+  alpha3Code     String     @map("alpha_3_code") @db.VarChar(8)
+  name           String     @map("name_native") @db.VarChar(128)
+  name_en        String     @map("name_en") @db.VarChar(128)
+  name_fr        String     @map("name_fr") @db.VarChar(128)
+  nationality    String     @map("nationality_fr") @db.VarChar(128)
+  nationality_en String     @map("nationality_en") @db.VarChar(128)
+  locations      Location[] @relation("CountryLocations")
+  persons        Person[]   @relation("PersonNationality")
+  identities     Identity[] @relation("IdentityProofIssuer")
 
   @@map(name: "country")
 }
