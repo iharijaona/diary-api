@@ -3,7 +3,7 @@ import { readFile } from 'fs/promises';
 import { join } from 'path'
 
  
-export async function localizationSeed(prisma: PrismaClient) {
+export async function locationSeed(prisma: PrismaClient) {
 
   // Seed Country
   const rawCountryData = await readFile(join(__dirname, 'country-data.json')  , { encoding: 'utf8' })
@@ -28,7 +28,7 @@ export async function localizationSeed(prisma: PrismaClient) {
   }
 
   // Seed Location
-  const rawLocationData = await readFile(join(__dirname, 'localization-data.json')  , { encoding: 'utf8' })
+  const rawLocationData = await readFile(join(__dirname, 'location-data.json')  , { encoding: 'utf8' })
 
   const locations = JSON.parse(rawLocationData);
 

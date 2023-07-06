@@ -1,10 +1,10 @@
 import { PrismaClient } from '@prisma/client';
-import { localizationSeed } from './localization';
+import { locationSeed } from './location';
 
 const prisma = new PrismaClient();
 
 async function main() {
-  localizationSeed(prisma)
+  locationSeed(prisma)
 }
 
 main()
