@@ -310,14 +310,14 @@
     "nationality_en": "Brazilian"
   },
   {
-    "id": 0,
-    "alpha_2_code": "UK",
-    "alpha_3_code": "",
-    "name_en": "",
-    "name_fr": "",
-    "name_native": "",
+    "id": 826,
+    "alpha_2_code": "GB",
+    "alpha_3_code": "GBR",
+    "name_en": "United Kingdom of Great Britain and Northern Ireland",
+    "name_fr": "Royaume-Uni",
+    "name_native": "United Kingdom",
     "nationality_fr": "Britannique",
-    "nationality_en": ""
+    "nationality_en": "British, UK"
   },
   {
     "id": 96,
@@ -930,14 +930,14 @@
     "nationality_en": "Kittitian or Nevisian"
   },
   {
-    "id": 0,
+    "id": 757,
     "alpha_2_code": "XK",
     "alpha_3_code": "KOS",
     "name_en": "Republic of Kosovo",
     "name_fr": "Kosovo",
     "name_native": "Republika e Kosov\u00ebs",
     "nationality_fr": "Kossovienne",
-    "nationality_en": ""
+    "nationality_en": "Kosovo"
   },
   {
     "id": 414,
@@ -1220,14 +1220,14 @@
     "nationality_en": "Mozambican"
   },
   {
-    "id": 0,
+    "id": 516,
     "alpha_2_code": "NA",
-    "alpha_3_code": "",
-    "name_en": "",
-    "name_fr": "",
-    "name_native": "",
+    "alpha_3_code": "NAM",
+    "name_en": "Namibia",
+    "name_fr": "Namibie",
+    "name_native": "Namibia",
     "nationality_fr": "Namibienne",
-    "nationality_en": ""
+    "nationality_en": "Namibian"
   },
   {
     "id": 520,

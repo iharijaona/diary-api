@@ -10,7 +10,7 @@ services:
     volumes:
       - ./:/app
     command: >
-      sh -c "npx prisma migrate dev --name update && npm run prisma:generate && npm run start:dev"
+      sh -c "npx prisma migrate dev --name update && npm run prisma:generate && npm run prisma:seed && npm run start:dev"
     env_file:
       - .env
     depends_on:
