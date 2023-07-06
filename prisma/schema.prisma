@@ -22,13 +22,13 @@ model Country {
   locations      Location[] @relation("CountryLocations")
   persons        Person[]   @relation("PersonNationality")
   identities     Identity[] @relation("IdentityProofIssuer")
-
+  
   @@map(name: "country")
 }
 
 model Location {
   id        BigInt     @id @default(autoincrement())
-  name      String     @db.VarChar(128)
+  name      String     @db.VarChar(256)
   code      String?    @db.VarChar(8)
   level     Int        @db.SmallInt
   parentId  BigInt?    @map("parent_id")
