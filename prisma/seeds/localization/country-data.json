@@ -1,0 +1,1982 @@
+[
+  {
+    "id": 250,
+    "alpha_2_code": "FR",
+    "alpha_3_code": "FRA",
+    "name_en": "France",
+    "name_fr": "France",
+    "name_native": "France",
+    "nationality_fr": "Fran\u00e7aise",
+    "nationality_en": "French"
+  },
+  {
+    "id": 756,
+    "alpha_2_code": "CH",
+    "alpha_3_code": "CHE",
+    "name_en": "Switzerland",
+    "name_fr": "Suisse",
+    "name_native": "Schweiz",
+    "nationality_fr": "Suisse",
+    "nationality_en": "Swiss"
+  },
+  {
+    "id": 56,
+    "alpha_2_code": "BE",
+    "alpha_3_code": "BEL",
+    "name_en": "Belgium",
+    "name_fr": "Belgique",
+    "name_native": "Belgi\u00eb",
+    "nationality_fr": "Belge",
+    "nationality_en": "Belgian"
+  },
+  {
+    "id": 276,
+    "alpha_2_code": "DE",
+    "alpha_3_code": "DEU",
+    "name_en": "Germany",
+    "name_fr": "Allemagne",
+    "name_native": "Deutschland",
+    "nationality_fr": "Allemande",
+    "nationality_en": "German"
+  },
+  {
+    "id": 380,
+    "alpha_2_code": "IT",
+    "alpha_3_code": "ITA",
+    "name_en": "Italy",
+    "name_fr": "Italie",
+    "name_native": "Italia",
+    "nationality_fr": "Italienne",
+    "nationality_en": "Italian"
+  },
+  {
+    "id": 4,
+    "alpha_2_code": "AF",
+    "alpha_3_code": "AFG",
+    "name_en": "Afghanistan",
+    "name_fr": "Afghanistan",
+    "name_native": "\u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646",
+    "nationality_fr": "Afghane",
+    "nationality_en": "Afghan"
+  },
+  {
+    "id": 8,
+    "alpha_2_code": "AL",
+    "alpha_3_code": "ALB",
+    "name_en": "Albania",
+    "name_fr": "Albanie",
+    "name_native": "Shqip\u00ebria",
+    "nationality_fr": "Albanaise",
+    "nationality_en": "Albanian"
+  },
+  {
+    "id": 12,
+    "alpha_2_code": "DZ",
+    "alpha_3_code": "DZA",
+    "name_en": "Algeria",
+    "name_fr": "Alg\u00e9rie",
+    "name_native": "\u0627\u0644\u062c\u0632\u0627\u0626\u0631",
+    "nationality_fr": "Algerienne",
+    "nationality_en": "Algerian"
+  },
+  {
+    "id": 840,
+    "alpha_2_code": "US",
+    "alpha_3_code": "USA",
+    "name_en": "United States of America",
+    "name_fr": "Etats-Unis",
+    "name_native": "United States",
+    "nationality_fr": "Americaine",
+    "nationality_en": "American"
+  },
+  {
+    "id": 20,
+    "alpha_2_code": "AD",
+    "alpha_3_code": "AND",
+    "name_en": "Andorra",
+    "name_fr": "Andorre",
+    "name_native": "Andorra",
+    "nationality_fr": "Andorrane",
+    "nationality_en": "Andorran"
+  },
+  {
+    "id": 24,
+    "alpha_2_code": "AO",
+    "alpha_3_code": "AGO",
+    "name_en": "Angola",
+    "name_fr": "Angola",
+    "name_native": "Angola",
+    "nationality_fr": "Angolaise",
+    "nationality_en": "Angolan"
+  },
+  {
+    "id": 28,
+    "alpha_2_code": "AG",
+    "alpha_3_code": "ATG",
+    "name_en": "Antigua and Barbuda",
+    "name_fr": "Antigua-et-Barbuda",
+    "name_native": "Antigua and Barbuda",
+    "nationality_fr": "Antiguaise et barbudienne",
+    "nationality_en": "Antiguan or Barbudan"
+  },
+  {
+    "id": 32,
+    "alpha_2_code": "AR",
+    "alpha_3_code": "ARG",
+    "name_en": "Argentina",
+    "name_fr": "Argentine",
+    "name_native": "Argentina",
+    "nationality_fr": "Argentine",
+    "nationality_en": "Argentine"
+  },
+  {
+    "id": 51,
+    "alpha_2_code": "AM",
+    "alpha_3_code": "ARM",
+    "name_en": "Armenia",
+    "name_fr": "Arm\u00e9nie",
+    "name_native": "\u0540\u0561\u0575\u0561\u057d\u057f\u0561\u0576",
+    "nationality_fr": "Armenienne",
+    "nationality_en": "Armenian"
+  },
+  {
+    "id": 36,
+    "alpha_2_code": "AU",
+    "alpha_3_code": "AUS",
+    "name_en": "Australia",
+    "name_fr": "Australie",
+    "name_native": "Australia",
+    "nationality_fr": "Australienne",
+    "nationality_en": "Australian"
+  },
+  {
+    "id": 40,
+    "alpha_2_code": "AT",
+    "alpha_3_code": "AUT",
+    "name_en": "Austria",
+    "name_fr": "Autriche",
+    "name_native": "\u00d6sterreich",
+    "nationality_fr": "Autrichienne",
+    "nationality_en": "Austrian"
+  },
+  {
+    "id": 31,
+    "alpha_2_code": "AZ",
+    "alpha_3_code": "AZE",
+    "name_en": "Azerbaijan",
+    "name_fr": "Azerba\u00efdjan",
+    "name_native": "Az\u0259rbaycan",
+    "nationality_fr": "Azerba\u00efdjanaise",
+    "nationality_en": "Azerbaijani, Azeri"
+  },
+  {
+    "id": 44,
+    "alpha_2_code": "BS",
+    "alpha_3_code": "BHS",
+    "name_en": "Bahamas",
+    "name_fr": "Bahamas",
+    "name_native": "Bahamas",
+    "nationality_fr": "Bahamienne",
+    "nationality_en": "Bahamian"
+  },
+  {
+    "id": 48,
+    "alpha_2_code": "BH",
+    "alpha_3_code": "BHR",
+    "name_en": "Bahrain",
+    "name_fr": "Bahre\u00efn",
+    "name_native": "\u200f\u0627\u0644\u0628\u062d\u0631\u064a\u0646",
+    "nationality_fr": "Bahreinienne",
+    "nationality_en": "Bahraini"
+  },
+  {
+    "id": 50,
+    "alpha_2_code": "BD",
+    "alpha_3_code": "BGD",
+    "name_en": "Bangladesh",
+    "name_fr": "Bangladesh",
+    "name_native": "Bangladesh",
+    "nationality_fr": "Bangladaise",
+    "nationality_en": "Bangladeshi"
+  },
+  {
+    "id": 52,
+    "alpha_2_code": "BB",
+    "alpha_3_code": "BRB",
+    "name_en": "Barbados",
+    "name_fr": "Barbade",
+    "name_native": "Barbados",
+    "nationality_fr": "Barbadienne",
+    "nationality_en": "Barbadian"
+  },
+  {
+    "id": 84,
+    "alpha_2_code": "BZ",
+    "alpha_3_code": "BLZ",
+    "name_en": "Belize",
+    "name_fr": "Belize",
+    "name_native": "Belize",
+    "nationality_fr": "Belizienne",
+    "nationality_en": "Belizean"
+  },
+  {
+    "id": 204,
+    "alpha_2_code": "BJ",
+    "alpha_3_code": "BEN",
+    "name_en": "Benin",
+    "name_fr": "B\u00e9nin",
+    "name_native": "B\u00e9nin",
+    "nationality_fr": "Beninoise",
+    "nationality_en": "Beninese, Beninois"
+  },
+  {
+    "id": 64,
+    "alpha_2_code": "BT",
+    "alpha_3_code": "BTN",
+    "name_en": "Bhutan",
+    "name_fr": "Bhoutan",
+    "name_native": "\u02bcbrug-yul",
+    "nationality_fr": "Bhoutanaise",
+    "nationality_en": "Bhutanese"
+  },
+  {
+    "id": 112,
+    "alpha_2_code": "BY",
+    "alpha_3_code": "BLR",
+    "name_en": "Belarus",
+    "name_fr": "Bi\u00e9lorussie",
+    "name_native": "\u0411\u0435\u043b\u0430\u0440\u0443\u0301\u0441\u044c",
+    "nationality_fr": "Bielorusse",
+    "nationality_en": "Belarusian"
+  },
+  {
+    "id": 104,
+    "alpha_2_code": "MM",
+    "alpha_3_code": "MMR",
+    "name_en": "Myanmar",
+    "name_fr": "Birmanie",
+    "name_native": "Myanma",
+    "nationality_fr": "Birmane",
+    "nationality_en": "Burmese"
+  },
+  {
+    "id": 624,
+    "alpha_2_code": "GW",
+    "alpha_3_code": "GNB",
+    "name_en": "Guinea-Bissau",
+    "name_fr": "Guin\u00e9e-Bissau",
+    "name_native": "Guin\u00e9-Bissau",
+    "nationality_fr": "Bissau-Guin\u00e9enne",
+    "nationality_en": "Bissau-Guinean"
+  },
+  {
+    "id": 68,
+    "alpha_2_code": "BO",
+    "alpha_3_code": "BOL",
+    "name_en": "Bolivia (Plurinational State of)",
+    "name_fr": "Bolivie",
+    "name_native": "Bolivia",
+    "nationality_fr": "Bolivienne",
+    "nationality_en": "Bolivian"
+  },
+  {
+    "id": 70,
+    "alpha_2_code": "BA",
+    "alpha_3_code": "BIH",
+    "name_en": "Bosnia and Herzegovina",
+    "name_fr": "Bosnie-Herz\u00e9govine",
+    "name_native": "Bosna i Hercegovina",
+    "nationality_fr": "Bosnienne",
+    "nationality_en": "Bosnian or Herzegovinian"
+  },
+  {
+    "id": 72,
+    "alpha_2_code": "BW",
+    "alpha_3_code": "BWA",
+    "name_en": "Botswana",
+    "name_fr": "Botswana",
+    "name_native": "Botswana",
+    "nationality_fr": "Botswanaise",
+    "nationality_en": "Motswana, Botswanan"
+  },
+  {
+    "id": 76,
+    "alpha_2_code": "BR",
+    "alpha_3_code": "BRA",
+    "name_en": "Brazil",
+    "name_fr": "Br\u00e9sil",
+    "name_native": "Brasil",
+    "nationality_fr": "Bresilienne",
+    "nationality_en": "Brazilian"
+  },
+  {
+    "id": 0,
+    "alpha_2_code": "UK",
+    "alpha_3_code": "",
+    "name_en": "",
+    "name_fr": "",
+    "name_native": "",
+    "nationality_fr": "Britannique",
+    "nationality_en": ""
+  },
+  {
+    "id": 96,
+    "alpha_2_code": "BN",
+    "alpha_3_code": "BRN",
+    "name_en": "Brunei Darussalam",
+    "name_fr": "Brunei",
+    "name_native": "Negara Brunei Darussalam",
+    "nationality_fr": "Bruneienne",
+    "nationality_en": "Bruneian"
+  },
+  {
+    "id": 100,
+    "alpha_2_code": "BG",
+    "alpha_3_code": "BGR",
+    "name_en": "Bulgaria",
+    "name_fr": "Bulgarie",
+    "name_native": "\u0411\u044a\u043b\u0433\u0430\u0440\u0438\u044f",
+    "nationality_fr": "Bulgare",
+    "nationality_en": "Bulgarian"
+  },
+  {
+    "id": 854,
+    "alpha_2_code": "BF",
+    "alpha_3_code": "BFA",
+    "name_en": "Burkina Faso",
+    "name_fr": "Burkina Faso",
+    "name_native": "Burkina Faso",
+    "nationality_fr": "Burkinabe",
+    "nationality_en": "Burkinab\u00e9"
+  },
+  {
+    "id": 108,
+    "alpha_2_code": "BI",
+    "alpha_3_code": "BDI",
+    "name_en": "Burundi",
+    "name_fr": "Burundi",
+    "name_native": "Burundi",
+    "nationality_fr": "Burundaise",
+    "nationality_en": "Burundian"
+  },
+  {
+    "id": 116,
+    "alpha_2_code": "KH",
+    "alpha_3_code": "KHM",
+    "name_en": "Cambodia",
+    "name_fr": "Cambodge",
+    "name_native": "K\u00e2mp\u016dch\u00e9a",
+    "nationality_fr": "Cambodgienne",
+    "nationality_en": "Cambodian"
+  },
+  {
+    "id": 120,
+    "alpha_2_code": "CM",
+    "alpha_3_code": "CMR",
+    "name_en": "Cameroon",
+    "name_fr": "Cameroun",
+    "name_native": "Cameroon",
+    "nationality_fr": "Camerounaise",
+    "nationality_en": "Cameroonian"
+  },
+  {
+    "id": 124,
+    "alpha_2_code": "CA",
+    "alpha_3_code": "CAN",
+    "name_en": "Canada",
+    "name_fr": "Canada",
+    "name_native": "Canada",
+    "nationality_fr": "Canadienne",
+    "nationality_en": "Canadian"
+  },
+  {
+    "id": 132,
+    "alpha_2_code": "CV",
+    "alpha_3_code": "CPV",
+    "name_en": "Cabo Verde",
+    "name_fr": "Cap Vert",
+    "name_native": "Cabo Verde",
+    "nationality_fr": "Cap-verdienne",
+    "nationality_en": "Cabo Verdean"
+  },
+  {
+    "id": 140,
+    "alpha_2_code": "CF",
+    "alpha_3_code": "CAF",
+    "name_en": "Central African Republic",
+    "name_fr": "R\u00e9publique centrafricaine",
+    "name_native": "K\u00f6d\u00f6r\u00f6s\u00ease t\u00ee B\u00eaafr\u00eeka",
+    "nationality_fr": "Centrafricaine",
+    "nationality_en": "Central African"
+  },
+  {
+    "id": 152,
+    "alpha_2_code": "CL",
+    "alpha_3_code": "CHL",
+    "name_en": "Chile",
+    "name_fr": "Chili",
+    "name_native": "Chile",
+    "nationality_fr": "Chilienne",
+    "nationality_en": "Chilean"
+  },
+  {
+    "id": 156,
+    "alpha_2_code": "CN",
+    "alpha_3_code": "CHN",
+    "name_en": "China",
+    "name_fr": "Chine",
+    "name_native": "\u4e2d\u56fd",
+    "nationality_fr": "Chinoise",
+    "nationality_en": "Chinese"
+  },
+  {
+    "id": 196,
+    "alpha_2_code": "CY",
+    "alpha_3_code": "CYP",
+    "name_en": "Cyprus",
+    "name_fr": "Chypre",
+    "name_native": "\u039a\u03cd\u03c0\u03c1\u03bf\u03c2",
+    "nationality_fr": "Chypriote",
+    "nationality_en": "Cypriot"
+  },
+  {
+    "id": 170,
+    "alpha_2_code": "CO",
+    "alpha_3_code": "COL",
+    "name_en": "Colombia",
+    "name_fr": "Colombie",
+    "name_native": "Colombia",
+    "nationality_fr": "Colombienne",
+    "nationality_en": "Colombian"
+  },
+  {
+    "id": 174,
+    "alpha_2_code": "KM",
+    "alpha_3_code": "COM",
+    "name_en": "Comoros",
+    "name_fr": "Comores",
+    "name_native": "Komori",
+    "nationality_fr": "Comorienne",
+    "nationality_en": "Comoran, Comorian"
+  },
+  {
+    "id": 178,
+    "alpha_2_code": "CG",
+    "alpha_3_code": "COG",
+    "name_en": "Congo",
+    "name_fr": "Congo",
+    "name_native": "R\u00e9publique du Congo",
+    "nationality_fr": "Congolaise",
+    "nationality_en": "Congolese"
+  },
+  {
+    "id": 188,
+    "alpha_2_code": "CR",
+    "alpha_3_code": "CRI",
+    "name_en": "Costa Rica",
+    "name_fr": "Costa Rica",
+    "name_native": "Costa Rica",
+    "nationality_fr": "Costaricaine",
+    "nationality_en": "Costa Rican"
+  },
+  {
+    "id": 191,
+    "alpha_2_code": "HR",
+    "alpha_3_code": "HRV",
+    "name_en": "Croatia",
+    "name_fr": "Croatie",
+    "name_native": "Hrvatska",
+    "nationality_fr": "Croate",
+    "nationality_en": "Croatian"
+  },
+  {
+    "id": 192,
+    "alpha_2_code": "CU",
+    "alpha_3_code": "CUB",
+    "name_en": "Cuba",
+    "name_fr": "Cuba",
+    "name_native": "Cuba",
+    "nationality_fr": "Cubaine",
+    "nationality_en": "Cuban"
+  },
+  {
+    "id": 531,
+    "alpha_2_code": "CW",
+    "alpha_3_code": "CUW",
+    "name_en": "Cura\u00e7ao",
+    "name_fr": "Cura\u00e7ao",
+    "name_native": "Cura\u00e7ao",
+    "nationality_fr": "Cura\u00e7aoane",
+    "nationality_en": "Cura\u00e7aoan"
+  },
+  {
+    "id": 208,
+    "alpha_2_code": "DK",
+    "alpha_3_code": "DNK",
+    "name_en": "Denmark",
+    "name_fr": "Danemark",
+    "name_native": "Danmark",
+    "nationality_fr": "Danoise",
+    "nationality_en": "Danish"
+  },
+  {
+    "id": 262,
+    "alpha_2_code": "DJ",
+    "alpha_3_code": "DJI",
+    "name_en": "Djibouti",
+    "name_fr": "Djibouti",
+    "name_native": "Djibouti",
+    "nationality_fr": "Djiboutienne",
+    "nationality_en": "Djiboutian"
+  },
+  {
+    "id": 214,
+    "alpha_2_code": "DO",
+    "alpha_3_code": "DOM",
+    "name_en": "Dominican Republic",
+    "name_fr": "R\u00e9publique dominicaine",
+    "name_native": "Rep\u00fablica Dominicana",
+    "nationality_fr": "Dominicaine",
+    "nationality_en": "Dominican"
+  },
+  {
+    "id": 212,
+    "alpha_2_code": "DM",
+    "alpha_3_code": "DMA",
+    "name_en": "Dominica",
+    "name_fr": "Dominique",
+    "name_native": "Dominica",
+    "nationality_fr": "Dominiquaise",
+    "nationality_en": "Dominican"
+  },
+  {
+    "id": 818,
+    "alpha_2_code": "EG",
+    "alpha_3_code": "EGY",
+    "name_en": "Egypt",
+    "name_fr": "Egypte",
+    "name_native": "\u0645\u0635\u0631\u200e",
+    "nationality_fr": "Egyptienne",
+    "nationality_en": "Egyptian"
+  },
+  {
+    "id": 784,
+    "alpha_2_code": "AE",
+    "alpha_3_code": "ARE",
+    "name_en": "United Arab Emirates",
+    "name_fr": "Emirats arabes unis",
+    "name_native": "\u062f\u0648\u0644\u0629 \u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0645\u062a\u062d\u062f\u0629",
+    "nationality_fr": "Emirienne",
+    "nationality_en": "Emirati, Emirian, Emiri"
+  },
+  {
+    "id": 226,
+    "alpha_2_code": "GQ",
+    "alpha_3_code": "GNQ",
+    "name_en": "Equatorial Guinea",
+    "name_fr": "Guin\u00e9e-\u00c9quatoriale",
+    "name_native": "Guinea Ecuatorial",
+    "nationality_fr": "Equato-guineenne",
+    "nationality_en": "Equatorial Guinean, Equatoguinean"
+  },
+  {
+    "id": 218,
+    "alpha_2_code": "EC",
+    "alpha_3_code": "ECU",
+    "name_en": "Ecuador",
+    "name_fr": "Equateur",
+    "name_native": "Ecuador",
+    "nationality_fr": "Equatorienne",
+    "nationality_en": "Ecuadorian"
+  },
+  {
+    "id": 232,
+    "alpha_2_code": "ER",
+    "alpha_3_code": "ERI",
+    "name_en": "Eritrea",
+    "name_fr": "Erythr\u00e9e",
+    "name_native": "\u12a4\u122d\u1275\u122b",
+    "nationality_fr": "Erythreenne",
+    "nationality_en": "Eritrean"
+  },
+  {
+    "id": 724,
+    "alpha_2_code": "ES",
+    "alpha_3_code": "ESP",
+    "name_en": "Spain",
+    "name_fr": "Espagne",
+    "name_native": "Espa\u00f1a",
+    "nationality_fr": "Espagnole",
+    "nationality_en": "Spanish"
+  },
+  {
+    "id": 626,
+    "alpha_2_code": "TL",
+    "alpha_3_code": "TLS",
+    "name_en": "Timor-Leste",
+    "name_fr": "Timor oriental",
+    "name_native": "Timor-Leste",
+    "nationality_fr": "Est-timoraise",
+    "nationality_en": "Timorese"
+  },
+  {
+    "id": 233,
+    "alpha_2_code": "EE",
+    "alpha_3_code": "EST",
+    "name_en": "Estonia",
+    "name_fr": "Estonie",
+    "name_native": "Eesti",
+    "nationality_fr": "Estonienne",
+    "nationality_en": "Estonian"
+  },
+  {
+    "id": 231,
+    "alpha_2_code": "ET",
+    "alpha_3_code": "ETH",
+    "name_en": "Ethiopia",
+    "name_fr": "Ethiopie",
+    "name_native": "\u12a2\u1275\u12ee\u1335\u12eb",
+    "nationality_fr": "Ethiopienne",
+    "nationality_en": "Ethiopian"
+  },
+  {
+    "id": 242,
+    "alpha_2_code": "FJ",
+    "alpha_3_code": "FJI",
+    "name_en": "Fiji",
+    "name_fr": "Fidji",
+    "name_native": "Fiji",
+    "nationality_fr": "Fidjienne",
+    "nationality_en": "Fijian"
+  },
+  {
+    "id": 246,
+    "alpha_2_code": "FI",
+    "alpha_3_code": "FIN",
+    "name_en": "Finland",
+    "name_fr": "Finlande",
+    "name_native": "Suomi",
+    "nationality_fr": "Finlandaise",
+    "nationality_en": "Finnish"
+  },
+  {
+    "id": 266,
+    "alpha_2_code": "GA",
+    "alpha_3_code": "GAB",
+    "name_en": "Gabon",
+    "name_fr": "Gabon",
+    "name_native": "Gabon",
+    "nationality_fr": "Gabonaise",
+    "nationality_en": "Gabonese"
+  },
+  {
+    "id": 270,
+    "alpha_2_code": "GM",
+    "alpha_3_code": "GMB",
+    "name_en": "Gambia",
+    "name_fr": "Gambie",
+    "name_native": "Gambia",
+    "nationality_fr": "Gambienne",
+    "nationality_en": "Gambian"
+  },
+  {
+    "id": 268,
+    "alpha_2_code": "GE",
+    "alpha_3_code": "GEO",
+    "name_en": "Georgia",
+    "name_fr": "G\u00e9orgie",
+    "name_native": "\u10e1\u10d0\u10e5\u10d0\u10e0\u10d7\u10d5\u10d4\u10da\u10dd",
+    "nationality_fr": "Georgienne",
+    "nationality_en": "Georgian"
+  },
+  {
+    "id": 288,
+    "alpha_2_code": "GH",
+    "alpha_3_code": "GHA",
+    "name_en": "Ghana",
+    "name_fr": "Ghana",
+    "name_native": "Ghana",
+    "nationality_fr": "Ghaneenne",
+    "nationality_en": "Ghanaian"
+  },
+  {
+    "id": 308,
+    "alpha_2_code": "GD",
+    "alpha_3_code": "GRD",
+    "name_en": "Grenada",
+    "name_fr": "Grenade",
+    "name_native": "Grenada",
+    "nationality_fr": "Grenadienne",
+    "nationality_en": "Grenadian"
+  },
+  {
+    "id": 320,
+    "alpha_2_code": "GT",
+    "alpha_3_code": "GTM",
+    "name_en": "Guatemala",
+    "name_fr": "Guatemala",
+    "name_native": "Guatemala",
+    "nationality_fr": "Guatemalteque",
+    "nationality_en": "Guatemalan"
+  },
+  {
+    "id": 324,
+    "alpha_2_code": "GN",
+    "alpha_3_code": "GIN",
+    "name_en": "Guinea",
+    "name_fr": "Guin\u00e9e",
+    "name_native": "Guin\u00e9e",
+    "nationality_fr": "Guineenne",
+    "nationality_en": "Guinean"
+  },
+  {
+    "id": 328,
+    "alpha_2_code": "GY",
+    "alpha_3_code": "GUY",
+    "name_en": "Guyana",
+    "name_fr": "Guyana",
+    "name_native": "Guyana",
+    "nationality_fr": "Guyanienne",
+    "nationality_en": "Guyanese"
+  },
+  {
+    "id": 332,
+    "alpha_2_code": "HT",
+    "alpha_3_code": "HTI",
+    "name_en": "Haiti",
+    "name_fr": "Ha\u00efti",
+    "name_native": "Ha\u00efti",
+    "nationality_fr": "Ha\u00eftienne",
+    "nationality_en": "Haitian"
+  },
+  {
+    "id": 300,
+    "alpha_2_code": "GR",
+    "alpha_3_code": "GRC",
+    "name_en": "Greece",
+    "name_fr": "Gr\u00e8ce",
+    "name_native": "\u0395\u03bb\u03bb\u03ac\u03b4\u03b1",
+    "nationality_fr": "Hellenique",
+    "nationality_en": "Greek, Hellenic"
+  },
+  {
+    "id": 340,
+    "alpha_2_code": "HN",
+    "alpha_3_code": "HND",
+    "name_en": "Honduras",
+    "name_fr": "Honduras",
+    "name_native": "Honduras",
+    "nationality_fr": "Hondurienne",
+    "nationality_en": "Honduran"
+  },
+  {
+    "id": 348,
+    "alpha_2_code": "HU",
+    "alpha_3_code": "HUN",
+    "name_en": "Hungary",
+    "name_fr": "Hongrie",
+    "name_native": "Magyarorsz\u00e1g",
+    "nationality_fr": "Hongroise",
+    "nationality_en": "Hungarian, Magyar"
+  },
+  {
+    "id": 356,
+    "alpha_2_code": "IN",
+    "alpha_3_code": "IND",
+    "name_en": "India",
+    "name_fr": "Inde",
+    "name_native": "\u092d\u093e\u0930\u0924",
+    "nationality_fr": "Indienne",
+    "nationality_en": "Indian"
+  },
+  {
+    "id": 360,
+    "alpha_2_code": "ID",
+    "alpha_3_code": "IDN",
+    "name_en": "Indonesia",
+    "name_fr": "Indon\u00e9sie",
+    "name_native": "Indonesia",
+    "nationality_fr": "Indonesienne",
+    "nationality_en": "Indonesian"
+  },
+  {
+    "id": 368,
+    "alpha_2_code": "IQ",
+    "alpha_3_code": "IRQ",
+    "name_en": "Iraq",
+    "name_fr": "Irak",
+    "name_native": "\u0627\u0644\u0639\u0631\u0627\u0642",
+    "nationality_fr": "Irakienne",
+    "nationality_en": "Iraqi"
+  },
+  {
+    "id": 372,
+    "alpha_2_code": "IE",
+    "alpha_3_code": "IRL",
+    "name_en": "Ireland",
+    "name_fr": "Irlande",
+    "name_native": "\u00c9ire",
+    "nationality_fr": "Irlandaise",
+    "nationality_en": "Irish"
+  },
+  {
+    "id": 352,
+    "alpha_2_code": "IS",
+    "alpha_3_code": "ISL",
+    "name_en": "Iceland",
+    "name_fr": "Islande",
+    "name_native": "\u00cdsland",
+    "nationality_fr": "Islandaise",
+    "nationality_en": "Icelandic"
+  },
+  {
+    "id": 376,
+    "alpha_2_code": "IL",
+    "alpha_3_code": "ISR",
+    "name_en": "Israel",
+    "name_fr": "Isra\u00ebl",
+    "name_native": "\u05d9\u05b4\u05e9\u05b0\u05c2\u05e8\u05b8\u05d0\u05b5\u05dc",
+    "nationality_fr": "Isra\u00e9lienne",
+    "nationality_en": "Israeli"
+  },
+  {
+    "id": 384,
+    "alpha_2_code": "CI",
+    "alpha_3_code": "CIV",
+    "name_en": "C\u00f4te dIvoire",
+    "name_fr": "C\u00f4te dIvoire",
+    "name_native": "C\u00f4te dIvoire",
+    "nationality_fr": "Ivoirienne",
+    "nationality_en": "Ivorian"
+  },
+  {
+    "id": 388,
+    "alpha_2_code": "JM",
+    "alpha_3_code": "JAM",
+    "name_en": "Jamaica",
+    "name_fr": "Jama\u00efque",
+    "name_native": "Jamaica",
+    "nationality_fr": "Jama\u00efcaine",
+    "nationality_en": "Jamaican"
+  },
+  {
+    "id": 392,
+    "alpha_2_code": "JP",
+    "alpha_3_code": "JPN",
+    "name_en": "Japan",
+    "name_fr": "Japon",
+    "name_native": "\u65e5\u672c",
+    "nationality_fr": "Japonaise",
+    "nationality_en": "Japanese"
+  },
+  {
+    "id": 400,
+    "alpha_2_code": "JO",
+    "alpha_3_code": "JOR",
+    "name_en": "Jordan",
+    "name_fr": "Jordanie",
+    "name_native": "\u0627\u0644\u0623\u0631\u062f\u0646",
+    "nationality_fr": "Jordanienne",
+    "nationality_en": "Jordanian"
+  },
+  {
+    "id": 398,
+    "alpha_2_code": "KZ",
+    "alpha_3_code": "KAZ",
+    "name_en": "Kazakhstan",
+    "name_fr": "Kazakhstan",
+    "name_native": "\u049a\u0430\u0437\u0430\u049b\u0441\u0442\u0430\u043d",
+    "nationality_fr": "Kazakhstanaise",
+    "nationality_en": "Kazakhstani, Kazakh"
+  },
+  {
+    "id": 404,
+    "alpha_2_code": "KE",
+    "alpha_3_code": "KEN",
+    "name_en": "Kenya",
+    "name_fr": "Kenya",
+    "name_native": "Kenya",
+    "nationality_fr": "Kenyane",
+    "nationality_en": "Kenyan"
+  },
+  {
+    "id": 417,
+    "alpha_2_code": "KG",
+    "alpha_3_code": "KGZ",
+    "name_en": "Kyrgyzstan",
+    "name_fr": "Kirghizistan",
+    "name_native": "\u041a\u044b\u0440\u0433\u044b\u0437\u0441\u0442\u0430\u043d",
+    "nationality_fr": "Kirghize",
+    "nationality_en": "Kyrgyzstani, Kyrgyz, Kirgiz, Kirghiz"
+  },
+  {
+    "id": 296,
+    "alpha_2_code": "KI",
+    "alpha_3_code": "KIR",
+    "name_en": "Kiribati",
+    "name_fr": "Kiribati",
+    "name_native": "Kiribati",
+    "nationality_fr": "Kiribatienne",
+    "nationality_en": "I-Kiribati"
+  },
+  {
+    "id": 659,
+    "alpha_2_code": "KN",
+    "alpha_3_code": "KNA",
+    "name_en": "Saint Kitts and Nevis",
+    "name_fr": "Saint-Christophe-et-Ni\u00e9v\u00e8s",
+    "name_native": "Saint Kitts and Nevis",
+    "nationality_fr": "Kittitienne-et-nevicienne",
+    "nationality_en": "Kittitian or Nevisian"
+  },
+  {
+    "id": 0,
+    "alpha_2_code": "XK",
+    "alpha_3_code": "KOS",
+    "name_en": "Republic of Kosovo",
+    "name_fr": "Kosovo",
+    "name_native": "Republika e Kosov\u00ebs",
+    "nationality_fr": "Kossovienne",
+    "nationality_en": ""
+  },
+  {
+    "id": 414,
+    "alpha_2_code": "KW",
+    "alpha_3_code": "KWT",
+    "name_en": "Kuwait",
+    "name_fr": "Kowe\u00eft",
+    "name_native": "\u0627\u0644\u0643\u0648\u064a\u062a",
+    "nationality_fr": "Koweitienne",
+    "nationality_en": "Kuwaiti"
+  },
+  {
+    "id": 418,
+    "alpha_2_code": "LA",
+    "alpha_3_code": "LAO",
+    "name_en": "Lao Peoples Democratic Republic",
+    "name_fr": "Laos",
+    "name_native": "\u0eaa\u0e9b\u0e9b\u0ea5\u0eb2\u0ea7",
+    "nationality_fr": "Laotienne",
+    "nationality_en": "Lao, Laotian"
+  },
+  {
+    "id": 426,
+    "alpha_2_code": "LS",
+    "alpha_3_code": "LSO",
+    "name_en": "Lesotho",
+    "name_fr": "Lesotho",
+    "name_native": "Lesotho",
+    "nationality_fr": "Lesothane",
+    "nationality_en": "Basotho"
+  },
+  {
+    "id": 428,
+    "alpha_2_code": "LV",
+    "alpha_3_code": "LVA",
+    "name_en": "Latvia",
+    "name_fr": "Lettonie",
+    "name_native": "Latvija",
+    "nationality_fr": "Lettone",
+    "nationality_en": "Latvian"
+  },
+  {
+    "id": 422,
+    "alpha_2_code": "LB",
+    "alpha_3_code": "LBN",
+    "name_en": "Lebanon",
+    "name_fr": "Liban",
+    "name_native": "\u0644\u0628\u0646\u0627\u0646",
+    "nationality_fr": "Libanaise",
+    "nationality_en": "Lebanese"
+  },
+  {
+    "id": 430,
+    "alpha_2_code": "LR",
+    "alpha_3_code": "LBR",
+    "name_en": "Liberia",
+    "name_fr": "Liberia",
+    "name_native": "Liberia",
+    "nationality_fr": "Liberienne",
+    "nationality_en": "Liberian"
+  },
+  {
+    "id": 434,
+    "alpha_2_code": "LY",
+    "alpha_3_code": "LBY",
+    "name_en": "Libya",
+    "name_fr": "Libye",
+    "name_native": "\u200f\u0644\u064a\u0628\u064a\u0627",
+    "nationality_fr": "Libyenne",
+    "nationality_en": "Libyan"
+  },
+  {
+    "id": 438,
+    "alpha_2_code": "LI",
+    "alpha_3_code": "LIE",
+    "name_en": "Liechtenstein",
+    "name_fr": "Liechtenstein",
+    "name_native": "Liechtenstein",
+    "nationality_fr": "Liechtensteinoise",
+    "nationality_en": "Liechtenstein"
+  },
+  {
+    "id": 440,
+    "alpha_2_code": "LT",
+    "alpha_3_code": "LTU",
+    "name_en": "Lithuania",
+    "name_fr": "Lituanie",
+    "name_native": "Lietuva",
+    "nationality_fr": "Lituanienne",
+    "nationality_en": "Lithuanian"
+  },
+  {
+    "id": 442,
+    "alpha_2_code": "LU",
+    "alpha_3_code": "LUX",
+    "name_en": "Luxembourg",
+    "name_fr": "Luxembourg",
+    "name_native": "Luxembourg",
+    "nationality_fr": "Luxembourgeoise",
+    "nationality_en": "Luxembourg, Luxembourgish"
+  },
+  {
+    "id": 807,
+    "alpha_2_code": "MK",
+    "alpha_3_code": "MKD",
+    "name_en": "Macedonia (the former Yugoslav Republic of)",
+    "name_fr": "Mac\u00e9doine du Nord",
+    "name_native": "\u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u0458\u0430",
+    "nationality_fr": "Macedonienne",
+    "nationality_en": "Macedonian"
+  },
+  {
+    "id": 458,
+    "alpha_2_code": "MY",
+    "alpha_3_code": "MYS",
+    "name_en": "Malaysia",
+    "name_fr": "Malaisie",
+    "name_native": "Malaysia",
+    "nationality_fr": "Malaisienne",
+    "nationality_en": "Malaysian"
+  },
+  {
+    "id": 454,
+    "alpha_2_code": "MW",
+    "alpha_3_code": "MWI",
+    "name_en": "Malawi",
+    "name_fr": "Malawi",
+    "name_native": "Malawi",
+    "nationality_fr": "Malawienne",
+    "nationality_en": "Malawian"
+  },
+  {
+    "id": 462,
+    "alpha_2_code": "MV",
+    "alpha_3_code": "MDV",
+    "name_en": "Maldives",
+    "name_fr": "Maldives",
+    "name_native": "Maldives",
+    "nationality_fr": "Maldivienne",
+    "nationality_en": "Maldivian"
+  },
+  {
+    "id": 450,
+    "alpha_2_code": "MG",
+    "alpha_3_code": "MDG",
+    "name_en": "Madagascar",
+    "name_fr": "Madagascar",
+    "name_native": "Madagasikara",
+    "nationality_fr": "Malgache",
+    "nationality_en": "Malagasy"
+  },
+  {
+    "id": 466,
+    "alpha_2_code": "ML",
+    "alpha_3_code": "MLI",
+    "name_en": "Mali",
+    "name_fr": "Mali",
+    "name_native": "Mali",
+    "nationality_fr": "Malienne",
+    "nationality_en": "Malian, Malinese"
+  },
+  {
+    "id": 470,
+    "alpha_2_code": "MT",
+    "alpha_3_code": "MLT",
+    "name_en": "Malta",
+    "name_fr": "Malte",
+    "name_native": "Malta",
+    "nationality_fr": "Maltaise",
+    "nationality_en": "Maltese"
+  },
+  {
+    "id": 504,
+    "alpha_2_code": "MA",
+    "alpha_3_code": "MAR",
+    "name_en": "Morocco",
+    "name_fr": "Maroc",
+    "name_native": "\u0627\u0644\u0645\u063a\u0631\u0628",
+    "nationality_fr": "Marocaine",
+    "nationality_en": "Moroccan"
+  },
+  {
+    "id": 584,
+    "alpha_2_code": "MH",
+    "alpha_3_code": "MHL",
+    "name_en": "Marshall Islands",
+    "name_fr": "\u00celes Marshall",
+    "name_native": "M\u0327aje\u013c",
+    "nationality_fr": "Marshallaise",
+    "nationality_en": "Marshallese"
+  },
+  {
+    "id": 480,
+    "alpha_2_code": "MU",
+    "alpha_3_code": "MUS",
+    "name_en": "Mauritius",
+    "name_fr": "Ile Maurice",
+    "name_native": "Maurice",
+    "nationality_fr": "Mauricienne",
+    "nationality_en": "Mauritian"
+  },
+  {
+    "id": 478,
+    "alpha_2_code": "MR",
+    "alpha_3_code": "MRT",
+    "name_en": "Mauritania",
+    "name_fr": "Mauritanie",
+    "name_native": "\u0645\u0648\u0631\u064a\u062a\u0627\u0646\u064a\u0627",
+    "nationality_fr": "Mauritanienne",
+    "nationality_en": "Mauritanian"
+  },
+  {
+    "id": 484,
+    "alpha_2_code": "MX",
+    "alpha_3_code": "MEX",
+    "name_en": "Mexico",
+    "name_fr": "Mexique",
+    "name_native": "M\u00e9xico",
+    "nationality_fr": "Mexicaine",
+    "nationality_en": "Mexican"
+  },
+  {
+    "id": 583,
+    "alpha_2_code": "FM",
+    "alpha_3_code": "FSM",
+    "name_en": "Micronesia (Federated States of)",
+    "name_fr": "Micron\u00e9sie",
+    "name_native": "Micronesia",
+    "nationality_fr": "Micronesienne",
+    "nationality_en": "Micronesian"
+  },
+  {
+    "id": 498,
+    "alpha_2_code": "MD",
+    "alpha_3_code": "MDA",
+    "name_en": "Moldova (Republic of)",
+    "name_fr": "Moldavie",
+    "name_native": "Moldova",
+    "nationality_fr": "Moldave",
+    "nationality_en": "Moldovan"
+  },
+  {
+    "id": 492,
+    "alpha_2_code": "MC",
+    "alpha_3_code": "MCO",
+    "name_en": "Monaco",
+    "name_fr": "Monaco",
+    "name_native": "Monaco",
+    "nationality_fr": "Monegasque",
+    "nationality_en": "Mon\u00e9gasque, Monacan"
+  },
+  {
+    "id": 496,
+    "alpha_2_code": "MN",
+    "alpha_3_code": "MNG",
+    "name_en": "Mongolia",
+    "name_fr": "Mongolie",
+    "name_native": "\u041c\u043e\u043d\u0433\u043e\u043b \u0443\u043b\u0441",
+    "nationality_fr": "Mongole",
+    "nationality_en": "Mongolian"
+  },
+  {
+    "id": 499,
+    "alpha_2_code": "ME",
+    "alpha_3_code": "MNE",
+    "name_en": "Montenegro",
+    "name_fr": "Mont\u00e9n\u00e9gro",
+    "name_native": "\u0426\u0440\u043d\u0430 \u0413\u043e\u0440\u0430",
+    "nationality_fr": "Montenegrine",
+    "nationality_en": "Montenegrin"
+  },
+  {
+    "id": 508,
+    "alpha_2_code": "MZ",
+    "alpha_3_code": "MOZ",
+    "name_en": "Mozambique",
+    "name_fr": "Mozambique",
+    "name_native": "Mo\u00e7ambique",
+    "nationality_fr": "Mozambicaine",
+    "nationality_en": "Mozambican"
+  },
+  {
+    "id": 0,
+    "alpha_2_code": "NA",
+    "alpha_3_code": "",
+    "name_en": "",
+    "name_fr": "",
+    "name_native": "",
+    "nationality_fr": "Namibienne",
+    "nationality_en": ""
+  },
+  {
+    "id": 520,
+    "alpha_2_code": "NR",
+    "alpha_3_code": "NRU",
+    "name_en": "Nauru",
+    "name_fr": "Nauru",
+    "name_native": "Nauru",
+    "nationality_fr": "Nauruane",
+    "nationality_en": "Nauruan"
+  },
+  {
+    "id": 528,
+    "alpha_2_code": "NL",
+    "alpha_3_code": "NLD",
+    "name_en": "Netherlands",
+    "name_fr": "Pays-Bas",
+    "name_native": "Nederland",
+    "nationality_fr": "Neerlandaise",
+    "nationality_en": "Dutch, Netherlandic"
+  },
+  {
+    "id": 554,
+    "alpha_2_code": "NZ",
+    "alpha_3_code": "NZL",
+    "name_en": "New Zealand",
+    "name_fr": "Nouvelle-Z\u00e9lande",
+    "name_native": "New Zealand",
+    "nationality_fr": "Neo-zelandaise",
+    "nationality_en": "New Zealand, NZ"
+  },
+  {
+    "id": 524,
+    "alpha_2_code": "NP",
+    "alpha_3_code": "NPL",
+    "name_en": "Nepal",
+    "name_fr": "N\u00e9pal",
+    "name_native": "\u0928\u0947\u092a\u093e\u0932",
+    "nationality_fr": "Nepalaise",
+    "nationality_en": "Nepali, Nepalese"
+  },
+  {
+    "id": 558,
+    "alpha_2_code": "NI",
+    "alpha_3_code": "NIC",
+    "name_en": "Nicaragua",
+    "name_fr": "Nicaragua",
+    "name_native": "Nicaragua",
+    "nationality_fr": "Nicaraguayenne",
+    "nationality_en": "Nicaraguan"
+  },
+  {
+    "id": 566,
+    "alpha_2_code": "NG",
+    "alpha_3_code": "NGA",
+    "name_en": "Nigeria",
+    "name_fr": "Nig\u00e9ria",
+    "name_native": "Nigeria",
+    "nationality_fr": "Nigeriane",
+    "nationality_en": "Nigerian"
+  },
+  {
+    "id": 562,
+    "alpha_2_code": "NE",
+    "alpha_3_code": "NER",
+    "name_en": "Niger",
+    "name_fr": "Niger",
+    "name_native": "Niger",
+    "nationality_fr": "Nigerienne",
+    "nationality_en": "Nigerien"
+  },
+  {
+    "id": 408,
+    "alpha_2_code": "KP",
+    "alpha_3_code": "PRK",
+    "name_en": "Korea (Democratic Peoples Republic of)",
+    "name_fr": "Cor\u00e9e du Nord",
+    "name_native": "\ubd81\ud55c",
+    "nationality_fr": "Nord-cor\u00e9enne",
+    "nationality_en": "North Korean"
+  },
+  {
+    "id": 578,
+    "alpha_2_code": "NO",
+    "alpha_3_code": "NOR",
+    "name_en": "Norway",
+    "name_fr": "Norv\u00e8ge",
+    "name_native": "Norge",
+    "nationality_fr": "Norvegienne",
+    "nationality_en": "Norwegian"
+  },
+  {
+    "id": 512,
+    "alpha_2_code": "OM",
+    "alpha_3_code": "OMN",
+    "name_en": "Oman",
+    "name_fr": "Oman",
+    "name_native": "\u0639\u0645\u0627\u0646",
+    "nationality_fr": "Omanaise",
+    "nationality_en": "Omani"
+  },
+  {
+    "id": 800,
+    "alpha_2_code": "UG",
+    "alpha_3_code": "UGA",
+    "name_en": "Uganda",
+    "name_fr": "Uganda",
+    "name_native": "Uganda",
+    "nationality_fr": "Ougandaise",
+    "nationality_en": "Ugandan"
+  },
+  {
+    "id": 860,
+    "alpha_2_code": "UZ",
+    "alpha_3_code": "UZB",
+    "name_en": "Uzbekistan",
+    "name_fr": "Ouzb\u00e9kistan",
+    "name_native": "O\u2018zbekiston",
+    "nationality_fr": "Ouzbeke",
+    "nationality_en": "Uzbekistani, Uzbek"
+  },
+  {
+    "id": 586,
+    "alpha_2_code": "PK",
+    "alpha_3_code": "PAK",
+    "name_en": "Pakistan",
+    "name_fr": "Pakistan",
+    "name_native": "Pakistan",
+    "nationality_fr": "Pakistanaise",
+    "nationality_en": "Pakistani"
+  },
+  {
+    "id": 585,
+    "alpha_2_code": "PW",
+    "alpha_3_code": "PLW",
+    "name_en": "Palau",
+    "name_fr": "Palaos",
+    "name_native": "Palau",
+    "nationality_fr": "Palau",
+    "nationality_en": "Palauan"
+  },
+  {
+    "id": 275,
+    "alpha_2_code": "PS",
+    "alpha_3_code": "PSE",
+    "name_en": "Palestine,State of",
+    "name_fr": "Territoires palestiniens",
+    "name_native": "\u0641\u0644\u0633\u0637\u064a\u0646",
+    "nationality_fr": "Palestinienne",
+    "nationality_en": "Palestinian"
+  },
+  {
+    "id": 591,
+    "alpha_2_code": "PA",
+    "alpha_3_code": "PAN",
+    "name_en": "Panama",
+    "name_fr": "Panama",
+    "name_native": "Panam\u00e1",
+    "nationality_fr": "Panameenne",
+    "nationality_en": "Panamanian"
+  },
+  {
+    "id": 598,
+    "alpha_2_code": "PG",
+    "alpha_3_code": "PNG",
+    "name_en": "Papua New Guinea",
+    "name_fr": "Papouasie-Nouvelle-Guin\u00e9e",
+    "name_native": "Papua Niugini",
+    "nationality_fr": "Papouane-neoguineenne",
+    "nationality_en": "Papua New Guinean, Papuan"
+  },
+  {
+    "id": 600,
+    "alpha_2_code": "PY",
+    "alpha_3_code": "PRY",
+    "name_en": "Paraguay",
+    "name_fr": "Paraguay",
+    "name_native": "Paraguay",
+    "nationality_fr": "Paraguayenne",
+    "nationality_en": "Paraguayan"
+  },
+  {
+    "id": 604,
+    "alpha_2_code": "PE",
+    "alpha_3_code": "PER",
+    "name_en": "Peru",
+    "name_fr": "P\u00e9rou",
+    "name_native": "Per\u00fa",
+    "nationality_fr": "Peruvienne",
+    "nationality_en": "Peruvian"
+  },
+  {
+    "id": 608,
+    "alpha_2_code": "PH",
+    "alpha_3_code": "PHL",
+    "name_en": "Philippines",
+    "name_fr": "Philippines",
+    "name_native": "Pilipinas",
+    "nationality_fr": "Philippine",
+    "nationality_en": "Philippine, Filipino"
+  },
+  {
+    "id": 616,
+    "alpha_2_code": "PL",
+    "alpha_3_code": "POL",
+    "name_en": "Poland",
+    "name_fr": "Pologne",
+    "name_native": "Polska",
+    "nationality_fr": "Polonaise",
+    "nationality_en": "Polish"
+  },
+  {
+    "id": 630,
+    "alpha_2_code": "PR",
+    "alpha_3_code": "PRI",
+    "name_en": "Puerto Rico",
+    "name_fr": "Porto Rico",
+    "name_native": "Puerto Rico",
+    "nationality_fr": "Portoricaine",
+    "nationality_en": "Puerto Rican"
+  },
+  {
+    "id": 620,
+    "alpha_2_code": "PT",
+    "alpha_3_code": "PRT",
+    "name_en": "Portugal",
+    "name_fr": "Portugal",
+    "name_native": "Portugal",
+    "nationality_fr": "Portugaise",
+    "nationality_en": "Portuguese"
+  },
+  {
+    "id": 634,
+    "alpha_2_code": "QA",
+    "alpha_3_code": "QAT",
+    "name_en": "Qatar",
+    "name_fr": "Qatar",
+    "name_native": "\u0642\u0637\u0631",
+    "nationality_fr": "Qatarienne",
+    "nationality_en": "Qatari"
+  },
+  {
+    "id": 642,
+    "alpha_2_code": "RO",
+    "alpha_3_code": "ROU",
+    "name_en": "Romania",
+    "name_fr": "Roumanie",
+    "name_native": "Rom\u00e2nia",
+    "nationality_fr": "Roumaine",
+    "nationality_en": "Romanian"
+  },
+  {
+    "id": 643,
+    "alpha_2_code": "RU",
+    "alpha_3_code": "RUS",
+    "name_en": "Russian Federation",
+    "name_fr": "Russie",
+    "name_native": "\u0420\u043e\u0441\u0441\u0438\u044f",
+    "nationality_fr": "Russe",
+    "nationality_en": "Russian"
+  },
+  {
+    "id": 646,
+    "alpha_2_code": "RW",
+    "alpha_3_code": "RWA",
+    "name_en": "Rwanda",
+    "name_fr": "Rwanda",
+    "name_native": "Rwanda",
+    "nationality_fr": "Rwandaise",
+    "nationality_en": "Rwandan"
+  },
+  {
+    "id": 662,
+    "alpha_2_code": "LC",
+    "alpha_3_code": "LCA",
+    "name_en": "Saint Lucia",
+    "name_fr": "Sainte-Lucie",
+    "name_native": "Saint Lucia",
+    "nationality_fr": "Saint-Lucienne",
+    "nationality_en": "Saint Lucian"
+  },
+  {
+    "id": 674,
+    "alpha_2_code": "SM",
+    "alpha_3_code": "SMR",
+    "name_en": "San Marino",
+    "name_fr": "Saint-Marin",
+    "name_native": "San Marino",
+    "nationality_fr": "Saint-Marinaise",
+    "nationality_en": "Sammarinese"
+  },
+  {
+    "id": 534,
+    "alpha_2_code": "SX",
+    "alpha_3_code": "SXM",
+    "name_en": "Sint Maarten (Dutch part)",
+    "name_fr": "Saint Martin (partie n\u00e9erlandaise)",
+    "name_native": "Sint Maarten",
+    "nationality_fr": "Saint-Martinoise",
+    "nationality_en": "Sint Maarten"
+  },
+  {
+    "id": 670,
+    "alpha_2_code": "VC",
+    "alpha_3_code": "VCT",
+    "name_en": "Saint Vincent and the Grenadines",
+    "name_fr": "Saint-Vincent-et-les-Grenadines",
+    "name_native": "Saint Vincent and the Grenadines",
+    "nationality_fr": "Saint-Vincentaise-et-Grenadine",
+    "nationality_en": "Saint Vincentian, Vincentian"
+  },
+  {
+    "id": 90,
+    "alpha_2_code": "SB",
+    "alpha_3_code": "SLB",
+    "name_en": "Solomon Islands",
+    "name_fr": "\u00celes Salomon",
+    "name_native": "Solomon Islands",
+    "nationality_fr": "Salomonaise",
+    "nationality_en": "Solomon Island"
+  },
+  {
+    "id": 222,
+    "alpha_2_code": "SV",
+    "alpha_3_code": "SLV",
+    "name_en": "El Salvador",
+    "name_fr": "Salvador",
+    "name_native": "El Salvador",
+    "nationality_fr": "Salvadorienne",
+    "nationality_en": "Salvadoran"
+  },
+  {
+    "id": 882,
+    "alpha_2_code": "WS",
+    "alpha_3_code": "WSM",
+    "name_en": "Samoa",
+    "name_fr": "Samoa",
+    "name_native": "Samoa",
+    "nationality_fr": "Samoane",
+    "nationality_en": "Samoan"
+  },
+  {
+    "id": 678,
+    "alpha_2_code": "ST",
+    "alpha_3_code": "STP",
+    "name_en": "Sao Tome and Principe",
+    "name_fr": "Sao Tom\u00e9-et-Principe",
+    "name_native": "S\u00e3o Tom\u00e9 e Pr\u00edncipe",
+    "nationality_fr": "Santomeenne",
+    "nationality_en": "S\u00e3o Tom\u00e9an"
+  },
+  {
+    "id": 682,
+    "alpha_2_code": "SA",
+    "alpha_3_code": "SAU",
+    "name_en": "Saudi Arabia",
+    "name_fr": "Arabie Saoudite",
+    "name_native": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629",
+    "nationality_fr": "Saoudienne",
+    "nationality_en": "Saudi, Saudi Arabian"
+  },
+  {
+    "id": 686,
+    "alpha_2_code": "SN",
+    "alpha_3_code": "SEN",
+    "name_en": "Senegal",
+    "name_fr": "S\u00e9n\u00e9gal",
+    "name_native": "S\u00e9n\u00e9gal",
+    "nationality_fr": "Senegalaise",
+    "nationality_en": "Senegalese"
+  },
+  {
+    "id": 728,
+    "alpha_2_code": "SS",
+    "alpha_3_code": "SSD",
+    "name_en": "South Sudan",
+    "name_fr": "Soudan du Sud",
+    "name_native": "South Sudan",
+    "nationality_fr": "Sud-Soudanaise",
+    "nationality_en": "South Sudanese"
+  },
+  {
+    "id": 688,
+    "alpha_2_code": "RS",
+    "alpha_3_code": "SRB",
+    "name_en": "Serbia",
+    "name_fr": "Serbie",
+    "name_native": "\u0421\u0440\u0431\u0438\u0458\u0430",
+    "nationality_fr": "Serbe",
+    "nationality_en": "Serbian"
+  },
+  {
+    "id": 690,
+    "alpha_2_code": "SC",
+    "alpha_3_code": "SYC",
+    "name_en": "Seychelles",
+    "name_fr": "Seychelles",
+    "name_native": "Seychelles",
+    "nationality_fr": "Seychelloise",
+    "nationality_en": "Seychellois"
+  },
+  {
+    "id": 694,
+    "alpha_2_code": "SL",
+    "alpha_3_code": "SLE",
+    "name_en": "Sierra Leone",
+    "name_fr": "Sierra Leone",
+    "name_native": "Sierra Leone",
+    "nationality_fr": "Sierra-leonaise",
+    "nationality_en": "Sierra Leonean"
+  },
+  {
+    "id": 702,
+    "alpha_2_code": "SG",
+    "alpha_3_code": "SGP",
+    "name_en": "Singapore",
+    "name_fr": "Singapour",
+    "name_native": "Singapore",
+    "nationality_fr": "Singapourienne",
+    "nationality_en": "Singaporean"
+  },
+  {
+    "id": 703,
+    "alpha_2_code": "SK",
+    "alpha_3_code": "SVK",
+    "name_en": "Slovakia",
+    "name_fr": "Slovaquie",
+    "name_native": "Slovensko",
+    "nationality_fr": "Slovaque",
+    "nationality_en": "Slovak"
+  },
+  {
+    "id": 705,
+    "alpha_2_code": "SI",
+    "alpha_3_code": "SVN",
+    "name_en": "Slovenia",
+    "name_fr": "Slov\u00e9nie",
+    "name_native": "Slovenija",
+    "nationality_fr": "Slovene",
+    "nationality_en": "Slovenian, Slovene"
+  },
+  {
+    "id": 706,
+    "alpha_2_code": "SO",
+    "alpha_3_code": "SOM",
+    "name_en": "Somalia",
+    "name_fr": "Somalie",
+    "name_native": "Soomaaliya",
+    "nationality_fr": "Somalienne",
+    "nationality_en": "Somali, Somalian"
+  },
+  {
+    "id": 729,
+    "alpha_2_code": "SD",
+    "alpha_3_code": "SDN",
+    "name_en": "Sudan",
+    "name_fr": "Soudan",
+    "name_native": "\u0627\u0644\u0633\u0648\u062f\u0627\u0646",
+    "nationality_fr": "Soudanaise",
+    "nationality_en": "Sudanese"
+  },
+  {
+    "id": 144,
+    "alpha_2_code": "LK",
+    "alpha_3_code": "LKA",
+    "name_en": "Sri Lanka",
+    "name_fr": "Sri Lanka",
+    "name_native": "\u015br\u012b la\u1e43k\u0101va",
+    "nationality_fr": "Sri-lankaise",
+    "nationality_en": "Sri Lankan"
+  },
+  {
+    "id": 710,
+    "alpha_2_code": "ZA",
+    "alpha_3_code": "ZAF",
+    "name_en": "South Africa",
+    "name_fr": "Afrique du Sud",
+    "name_native": "South Africa",
+    "nationality_fr": "Sud-africaine",
+    "nationality_en": "South African"
+  },
+  {
+    "id": 410,
+    "alpha_2_code": "KR",
+    "alpha_3_code": "KOR",
+    "name_en": "Korea (Republic of)",
+    "name_fr": "Cor\u00e9e du Sud",
+    "name_native": "\ub300\ud55c\ubbfc\uad6d",
+    "nationality_fr": "Sud-cor\u00e9enne",
+    "nationality_en": "South Korean"
+  },
+  {
+    "id": 752,
+    "alpha_2_code": "SE",
+    "alpha_3_code": "SWE",
+    "name_en": "Sweden",
+    "name_fr": "Su\u00e8de",
+    "name_native": "Sverige",
+    "nationality_fr": "Suedoise",
+    "nationality_en": "Swedish"
+  },
+  {
+    "id": 740,
+    "alpha_2_code": "SR",
+    "alpha_3_code": "SUR",
+    "name_en": "Suriname",
+    "name_fr": "Suriname",
+    "name_native": "Suriname",
+    "nationality_fr": "Surinamaise",
+    "nationality_en": "Surinamese"
+  },
+  {
+    "id": 748,
+    "alpha_2_code": "SZ",
+    "alpha_3_code": "SWZ",
+    "name_en": "Swaziland",
+    "name_fr": "Eswatini",
+    "name_native": "Swaziland",
+    "nationality_fr": "Swazie",
+    "nationality_en": "Swazi"
+  },
+  {
+    "id": 760,
+    "alpha_2_code": "SY",
+    "alpha_3_code": "SYR",
+    "name_en": "Syrian Arab Republic",
+    "name_fr": "Syrie",
+    "name_native": "\u0633\u0648\u0631\u064a\u0627",
+    "nationality_fr": "Syrienne",
+    "nationality_en": "Syrian"
+  },
+  {
+    "id": 762,
+    "alpha_2_code": "TJ",
+    "alpha_3_code": "TJK",
+    "name_en": "Tajikistan",
+    "name_fr": "Tadjikistan",
+    "name_native": "\u0422\u043e\u04b7\u0438\u043a\u0438\u0441\u0442\u043e\u043d",
+    "nationality_fr": "Tadjike",
+    "nationality_en": "Tajikistani"
+  },
+  {
+    "id": 158,
+    "alpha_2_code": "TW",
+    "alpha_3_code": "TWN",
+    "name_en": "Taiwan",
+    "name_fr": "Ta\u00efwan",
+    "name_native": "\u81fa\u7063",
+    "nationality_fr": "Taiwanaise",
+    "nationality_en": "Chinese, Taiwanese"
+  },
+  {
+    "id": 834,
+    "alpha_2_code": "TZ",
+    "alpha_3_code": "TZA",
+    "name_en": "Tanzania,United Republic of",
+    "name_fr": "Tanzanie",
+    "name_native": "Tanzania",
+    "nationality_fr": "Tanzanienne",
+    "nationality_en": "Tanzanian"
+  },
+  {
+    "id": 148,
+    "alpha_2_code": "TD",
+    "alpha_3_code": "TCD",
+    "name_en": "Chad",
+    "name_fr": "Tchad",
+    "name_native": "Tchad",
+    "nationality_fr": "Tchadienne",
+    "nationality_en": "Chadian"
+  },
+  {
+    "id": 203,
+    "alpha_2_code": "CZ",
+    "alpha_3_code": "CZE",
+    "name_en": "Czech Republic",
+    "name_fr": "R\u00e9publique tch\u00e8que",
+    "name_native": "\u010cesk\u00e1 republika",
+    "nationality_fr": "Tcheque",
+    "nationality_en": "Czech"
+  },
+  {
+    "id": 764,
+    "alpha_2_code": "TH",
+    "alpha_3_code": "THA",
+    "name_en": "Thailand",
+    "name_fr": "Tha\u00eflande",
+    "name_native": "\u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28\u0e44\u0e17\u0e22",
+    "nationality_fr": "Tha\u00eflandaise",
+    "nationality_en": "Thai"
+  },
+  {
+    "id": 768,
+    "alpha_2_code": "TG",
+    "alpha_3_code": "TGO",
+    "name_en": "Togo",
+    "name_fr": "Togo",
+    "name_native": "Togo",
+    "nationality_fr": "Togolaise",
+    "nationality_en": "Togolese"
+  },
+  {
+    "id": 776,
+    "alpha_2_code": "TO",
+    "alpha_3_code": "TON",
+    "name_en": "Tonga",
+    "name_fr": "Tonga",
+    "name_native": "Tonga",
+    "nationality_fr": "Tonguienne",
+    "nationality_en": "Tongan"
+  },
+  {
+    "id": 780,
+    "alpha_2_code": "TT",
+    "alpha_3_code": "TTO",
+    "name_en": "Trinidad and Tobago",
+    "name_fr": "Trinit\u00e9 et Tobago",
+    "name_native": "Trinidad and Tobago",
+    "nationality_fr": "Trinidadienne",
+    "nationality_en": "Trinidadian or Tobagonian"
+  },
+  {
+    "id": 788,
+    "alpha_2_code": "TN",
+    "alpha_3_code": "TUN",
+    "name_en": "Tunisia",
+    "name_fr": "Tunisie",
+    "name_native": "\u062a\u0648\u0646\u0633",
+    "nationality_fr": "Tunisienne",
+    "nationality_en": "Tunisian"
+  },
+  {
+    "id": 795,
+    "alpha_2_code": "TM",
+    "alpha_3_code": "TKM",
+    "name_en": "Turkmenistan",
+    "name_fr": "Turkm\u00e9nistan",
+    "name_native": "T\u00fcrkmenistan",
+    "nationality_fr": "Turkmene",
+    "nationality_en": "Turkmen"
+  },
+  {
+    "id": 792,
+    "alpha_2_code": "TR",
+    "alpha_3_code": "TUR",
+    "name_en": "Turkey",
+    "name_fr": "Turquie",
+    "name_native": "T\u00fcrkiye",
+    "nationality_fr": "Turque",
+    "nationality_en": "Turkish"
+  },
+  {
+    "id": 798,
+    "alpha_2_code": "TV",
+    "alpha_3_code": "TUV",
+    "name_en": "Tuvalu",
+    "name_fr": "Tuvalu",
+    "name_native": "Tuvalu",
+    "nationality_fr": "Tuvaluane",
+    "nationality_en": "Tuvaluan"
+  },
+  {
+    "id": 804,
+    "alpha_2_code": "UA",
+    "alpha_3_code": "UKR",
+    "name_en": "Ukraine",
+    "name_fr": "Ukraine",
+    "name_native": "\u0423\u043a\u0440\u0430\u0457\u043d\u0430",
+    "nationality_fr": "Ukrainienne",
+    "nationality_en": "Ukrainian"
+  },
+  {
+    "id": 858,
+    "alpha_2_code": "UY",
+    "alpha_3_code": "URY",
+    "name_en": "Uruguay",
+    "name_fr": "Uruguay",
+    "name_native": "Uruguay",
+    "nationality_fr": "Uruguayenne",
+    "nationality_en": "Uruguayan"
+  },
+  {
+    "id": 336,
+    "alpha_2_code": "VA",
+    "alpha_3_code": "VAT",
+    "name_en": "Vatican City",
+    "name_fr": "Vatican",
+    "name_native": "Vaticano",
+    "nationality_fr": "Vaticane",
+    "nationality_en": "Vatican"
+  },
+  {
+    "id": 548,
+    "alpha_2_code": "VU",
+    "alpha_3_code": "VUT",
+    "name_en": "Vanuatu",
+    "name_fr": "Vanuatu",
+    "name_native": "Vanuatu",
+    "nationality_fr": "Vanuatuane",
+    "nationality_en": "Ni-Vanuatu, Vanuatuan"
+  },
+  {
+    "id": 862,
+    "alpha_2_code": "VE",
+    "alpha_3_code": "VEN",
+    "name_en": "Venezuela (Bolivarian Republic of)",
+    "name_fr": "Venezuela",
+    "name_native": "Venezuela",
+    "nationality_fr": "Venezuelienne",
+    "nationality_en": "Venezuelan"
+  },
+  {
+    "id": 704,
+    "alpha_2_code": "VN",
+    "alpha_3_code": "VNM",
+    "name_en": "Viet Nam",
+    "name_fr": "Vi\u00eat Nam",
+    "name_native": "Vi\u1ec7t Nam",
+    "nationality_fr": "Vietnamienne",
+    "nationality_en": "Vietnamese"
+  },
+  {
+    "id": 887,
+    "alpha_2_code": "YE",
+    "alpha_3_code": "YEM",
+    "name_en": "Yemen",
+    "name_fr": "Y\u00e9men",
+    "name_native": "\u0627\u0644\u064a\u064e\u0645\u064e\u0646",
+    "nationality_fr": "Yemenite",
+    "nationality_en": "Yemeni"
+  },
+  {
+    "id": 894,
+    "alpha_2_code": "ZM",
+    "alpha_3_code": "ZMB",
+    "name_en": "Zambia",
+    "name_fr": "Zambie",
+    "name_native": "Zambia",
+    "nationality_fr": "Zambienne",
+    "nationality_en": "Zambian"
+  },
+  {
+    "id": 716,
+    "alpha_2_code": "ZW",
+    "alpha_3_code": "ZWE",
+    "name_en": "Zimbabwe",
+    "name_fr": "Zimbabwe",
+    "name_native": "Zimbabwe",
+    "nationality_fr": "Zimbabweenne",
+    "nationality_en": "Zimbabwean"
+  }
+]
