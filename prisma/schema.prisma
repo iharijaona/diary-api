@@ -22,22 +22,31 @@ model Country {
   locations      Location[] @relation("CountryLocations")
   persons        Person[]   @relation("PersonNationality")
   identities     Identity[] @relation("IdentityProofIssuer")
-  
+
   @@map(name: "country")
 }
 
+enum LocationType {
+  PROVINCE
+  REGION
+  DISTRICT
+  MUNICIPALITY
+  NEIGHBORHOOD
+}
+
+
 model Location {
-  id        BigInt     @id @default(autoincrement())
-  name      String     @db.VarChar(256)
-  code      String?    @db.VarChar(8)
-  level     Int        @db.SmallInt
-  parentId  BigInt?    @map("parent_id")
-  countryId Int?       @map("country_id") @db.SmallInt
-  country   Country?   @relation("CountryLocations", fields: [countryId], references: [id])
-  parent    Location?  @relation("LocationParent", fields: [parentId], references: [id])
-  locations Location[] @relation("LocationParent")
-  tribunals Tribunal[] @relation("LocationTribunals")
-  addresses Address[]  @relation("LocationAddresses")
+  id        BigInt       @id @default(autoincrement())
+  name      String       @db.VarChar(256)
+  code      String?      @db.VarChar(8)
+  type      LocationType
+  parentId  BigInt?      @map("parent_id")
+  countryId Int?         @map("country_id") @db.SmallInt
+  country   Country?     @relation("CountryLocations", fields: [countryId], references: [id])
+  parent    Location?    @relation("LocationParent", fields: [parentId], references: [id])
+  locations Location[]   @relation("LocationParent")
+  tribunals Tribunal[]   @relation("LocationTribunals")
+  addresses Address[]    @relation("LocationAddresses")
 
   @@map(name: "location")
 }

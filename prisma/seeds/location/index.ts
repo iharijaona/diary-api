@@ -39,7 +39,7 @@ export async function locationSeed(prisma: PrismaClient) {
       create: {
         id: location["id"],
         name: location["name"],
-        level: location["level"],
+        type: location["type"],
         code: location["code"],
         countryId: location["country_id"],
         parentId: location["parent_id"],
