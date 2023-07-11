@@ -2,7 +2,7 @@ import { Resolver, Query, Args, ID } from '@nestjs/graphql';
 import { NotFoundException } from '@nestjs/common';
 import { CountryService } from './country.service';
 import { Country, PaginatedCountry } from './entities/country.entity';
-import { CountryQueryArgs } from './dto/query-location.args';
+import { CountryQueryArgs } from './dto/query-country.args';
 
 
 @Resolver(() => Country)

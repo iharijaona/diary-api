@@ -3,7 +3,7 @@ import { Prisma } from '@prisma/client';
 import { decodeId, encodeId } from 'src/common/hashids.helper';
 import { PrismaService } from 'src/prisma.service';
 import { Country, PaginatedCountry } from './entities/country.entity';
-import { CountryQueryArgs } from './dto/query-location.args';
+import { CountryQueryArgs } from './dto/query-country.args';
 
 @Injectable()
 export class CountryService {
@@ -23,9 +23,6 @@ export class CountryService {
       ],
     }
     : {}
-
-    console.log("args.orderBy => ", args.orderBy);
-    console.log(JSON.stringify(args.orderBy));
 
     // Compute pagination metadata
     const totalItemCount = await this.prisma.country.count({ where : whereFilter });
