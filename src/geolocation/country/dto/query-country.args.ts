@@ -6,19 +6,19 @@ import { PageArgs, EnumSortOrder } from 'src/common/query.metadata';
 export class CountryOrderByInput {
   @Field((type) => EnumSortOrder, { nullable: true })
   @IsOptional()
-  name?: EnumSortOrder
+  name?: EnumSortOrder;
 
   @Field((type) => EnumSortOrder, { nullable: true })
   @IsOptional()
-  nationality?: EnumSortOrder
+  nationality?: EnumSortOrder;
 
   @Field((type) => EnumSortOrder, { nullable: true })
   @IsOptional()
-  alpha2Code?: EnumSortOrder
+  alpha2Code?: EnumSortOrder;
 
   @Field((type) => EnumSortOrder, { nullable: true })
   @IsOptional()
-  alpha3Code?: EnumSortOrder
+  alpha3Code?: EnumSortOrder;
 }
 
 @ArgsType()
@@ -36,6 +36,5 @@ export class CountryQueryArgs extends PageArgs {
   @Field({ nullable: true })
   @IsObject()
   @IsOptional()
-  orderBy?: CountryOrderByInput
+  orderBy?: CountryOrderByInput;
 }
-

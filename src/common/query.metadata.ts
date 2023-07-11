@@ -1,10 +1,16 @@
-import { ArgsType, Field, Int, ObjectType, registerEnumType } from '@nestjs/graphql';
+import {
+  ArgsType,
+  Field,
+  Int,
+  ObjectType,
+  registerEnumType,
+} from '@nestjs/graphql';
 import { Type } from '@nestjs/common';
 import { Min } from 'class-validator';
 
 export enum EnumSortOrder {
-  asc = "asc",
-  desc = "desc"
+  asc = 'asc',
+  desc = 'desc',
 }
 
 registerEnumType(EnumSortOrder, {
@@ -28,18 +34,18 @@ export interface IPaginatedType<T> {
   currentPage: number;
 
   pageSize: number;
-  
+
   totalItemCount: number;
 
   totalPageCount: number;
 }
 
-
-export function Paginated<T>(classRef: Type<T>, defaultPageSize = 100): Type<IPaginatedType<T>> {
-  // @ObjectType(`${classRef.name}Edge`)
+export function Paginated<T>(
+  classRef: Type<T>,
+  defaultPageSize = 100,
+): Type<IPaginatedType<T>> {
   @ObjectType({ isAbstract: true })
   abstract class PaginatedType implements IPaginatedType<T> {
-
     @Field((type) => [classRef], { nullable: true })
     nodes: T[];
 
@@ -48,7 +54,7 @@ export function Paginated<T>(classRef: Type<T>, defaultPageSize = 100): Type<IPa
 
     @Field((type) => Int)
     pageSize: number = defaultPageSize;
-    
+
     @Field((type) => Int)
     totalItemCount = 0;
 

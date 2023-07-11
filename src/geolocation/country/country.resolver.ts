@@ -4,15 +4,12 @@ import { CountryService } from './country.service';
 import { Country, PaginatedCountry } from './entities/country.entity';
 import { CountryQueryArgs } from './dto/query-country.args';
 
-
 @Resolver(() => Country)
 export class CountryResolver {
   constructor(private readonly countryService: CountryService) {}
 
   @Query(() => Country)
-  async country(
-    @Args('id', { type: () => ID }) id: string,
-  ): Promise<Country> {
+  async country(@Args('id', { type: () => ID }) id: string): Promise<Country> {
     const country = await this.countryService.findOneCountry(id);
     if (!country) {
       throw new NotFoundException(id);
@@ -21,7 +18,7 @@ export class CountryResolver {
   }
 
   @Query(() => PaginatedCountry)
-  countries(@Args() args: CountryQueryArgs): Promise<PaginatedCountry> {
+  async countries(@Args() args: CountryQueryArgs): Promise<PaginatedCountry> {
     return this.countryService.findAllCountry(args);
   }
 }

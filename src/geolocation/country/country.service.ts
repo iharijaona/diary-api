@@ -7,31 +7,43 @@ import { CountryQueryArgs } from './dto/query-country.args';
 
 @Injectable()
 export class CountryService {
-
   constructor(private prisma: PrismaService) {}
 
   async findAllCountry(args: CountryQueryArgs): Promise<PaginatedCountry> {
     // Filter
-    const whereFilter: Prisma.CountryWhereInput  = args.filter
-    ? {
-      OR: [
-        { name: { contains: args.filter, mode: "insensitive" } },
-        { name_fr: { contains: args.filter, mode: "insensitive" } },
-        { name_en: { contains: args.filter, mode: "insensitive" } },
-        { nationality: { contains: args.filter, mode: "insensitive" } },
-        { nationality_en: { contains: args.filter, mode: "insensitive" } },
-      ],
-    }
-    : {}
+    const whereFilter: Prisma.CountryWhereInput = args.filter
+      ? {
+          OR: [
+            { name: { contains: args.filter, mode: 'insensitive' } },
+            { name_fr: { contains: args.filter, mode: 'insensitive' } },
+            { name_en: { contains: args.filter, mode: 'insensitive' } },
+            { nationality: { contains: args.filter, mode: 'insensitive' } },
+            { nationality_en: { contains: args.filter, mode: 'insensitive' } },
+          ],
+        }
+      : {};
 
     // Compute pagination metadata
-    const totalItemCount = await this.prisma.country.count({ where : whereFilter });
-    const totalPageCount = Math.ceil(totalItemCount / (args.take > 0 ? args.take : 1)) 
-    const currentPage = Math.floor(args.skip / (args.take > 0 ? args.take : 1)) + 1
+    const totalItemCount = await this.prisma.country.count({
+      where: whereFilter,
+    });
+    const totalPageCount = Math.ceil(
+      totalItemCount / (args.take > 0 ? args.take : 1),
+    );
+    const currentPage =
+      Math.floor(args.skip / (args.take > 0 ? args.take : 1)) + 1;
     const filteredCountries = await Promise.all(
-      (await this.prisma.country.findMany({ skip: args.skip, take: args.take, where : whereFilter, orderBy: args.orderBy  as Prisma.Enumerable<Prisma.CountryOrderByWithRelationInput> })).map((item) => ({
+      (
+        await this.prisma.country.findMany({
+          skip: args.skip,
+          take: args.take,
+          where: whereFilter,
+          orderBy:
+            args.orderBy as Prisma.Enumerable<Prisma.CountryOrderByWithRelationInput>,
+        })
+      ).map((item) => ({
         ...item,
-        id: encodeId(item.id)
+        id: encodeId(item.id),
       })),
     );
 
@@ -41,8 +53,8 @@ export class CountryService {
       pageSize: args.take,
       totalPageCount,
       totalItemCount,
-      currentPage
-    }
+      currentPage,
+    };
   }
 
   async findOneCountry(id: string): Promise<Country> {
@@ -55,7 +67,3 @@ export class CountryService {
     };
   }
 }
-
-
-
-

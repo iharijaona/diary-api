@@ -3,6 +3,6 @@ import { CountryModule } from './country/country.module';
 import { LocationModule } from './location/location.module';
 
 @Module({
-  imports: [CountryModule, LocationModule]
+  imports: [CountryModule, LocationModule],
 })
 export class GeoLocationModule {}
