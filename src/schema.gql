@@ -1,0 +1,104 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+"""A country of the world"""
+type Country {
+  """Two-letter codes (ISO alpha-2)"""
+  alpha2Code: String!
+
+  """Three-letter codes (ISO alpha-3) """
+  alpha3Code: String!
+
+  """Hashed unique ID of the country"""
+  id: ID!
+
+  """The original country name"""
+  name: String!
+
+  """Country name in english"""
+  name_en: String!
+
+  """Nom du pay en français"""
+  name_fr: String!
+
+  """Nationalité en français"""
+  nationality: String!
+
+  """Nationality in english"""
+  nationality_en: String!
+}
+
+input CountryOrderByInput {
+  alpha2Code: EnumSortOrder
+  alpha3Code: EnumSortOrder
+  name: EnumSortOrder
+  nationality: EnumSortOrder
+}
+
+"""Type of location."""
+enum EnumLocationType {
+  DISTRICT
+  MUNICIPALITY
+  NEIGHBORHOOD
+  PROVINCE
+  REGION
+}
+
+"""The sort order."""
+enum EnumSortOrder {
+  asc
+  desc
+}
+
+type Location {
+  """Code of the location"""
+  code: String
+
+  """ID of the country (for STATE/PROVINCE)"""
+  countryId: ID
+
+  """Hashed unique ID of the location"""
+  id: ID!
+
+  """Name of the location"""
+  name: String!
+
+  """Parent location ID"""
+  parentId: ID
+  subdivisions: [Location!]!
+
+  """Type of the location"""
+  type: EnumLocationType!
+}
+
+input LocationOrderByInput {
+  code: EnumSortOrder
+  id: EnumSortOrder
+  name: EnumSortOrder
+}
+
+"""Paginated country list"""
+type PaginatedCountry {
+  currentPage: Int!
+  nodes: [Country!]
+  pageSize: Int!
+  totalItemCount: Int!
+  totalPageCount: Int!
+}
+
+"""Paginated location list"""
+type PaginatedLocation {
+  currentPage: Int!
+  nodes: [Location!]
+  pageSize: Int!
+  totalItemCount: Int!
+  totalPageCount: Int!
+}
+
+type Query {
+  countries(filter: String, orderBy: CountryOrderByInput, skip: Int! = 0, take: Int! = 100): PaginatedCountry!
+  country(id: ID!): Country!
+  location(id: ID!): Location!
+  locations(countryId: ID, filter: String, orderBy: LocationOrderByInput, parentId: ID, skip: Int! = 0, take: Int! = 100, type: EnumLocationType): PaginatedLocation!
+}
