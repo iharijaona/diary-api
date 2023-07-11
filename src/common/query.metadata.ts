@@ -3,8 +3,8 @@ import { Type } from '@nestjs/common';
 import { Min } from 'class-validator';
 
 export enum EnumSortOrder {
-  asc,
-  desc
+  asc = "asc",
+  desc = "desc"
 }
 
 registerEnumType(EnumSortOrder, {
