@@ -5,22 +5,22 @@ import { EnumLocationType } from '../entities/location.entity';
 
 @InputType()
 export class LocationOrderByInput {
-  @Field((type) => EnumSortOrder, { nullable: true })
+  @Field(() => EnumSortOrder, { nullable: true })
   @IsOptional()
   id?: EnumSortOrder;
 
-  @Field((type) => EnumSortOrder, { nullable: true })
+  @Field(() => EnumSortOrder, { nullable: true })
   @IsOptional()
   name?: EnumSortOrder;
 
-  @Field((type) => EnumSortOrder, { nullable: true })
+  @Field(() => EnumSortOrder, { nullable: true })
   @IsOptional()
   code?: EnumSortOrder;
 }
 
 @ArgsType()
 export class LocationQueryArgs extends PageArgs {
-  @Field((type) => Int)
+  @Field(() => Int)
   @Min(1)
   @Max(2000)
   take = 100;
@@ -35,15 +35,15 @@ export class LocationQueryArgs extends PageArgs {
   @IsOptional()
   orderBy?: LocationOrderByInput;
 
-  @Field((type) => EnumLocationType, { nullable: true })
+  @Field(() => EnumLocationType, { nullable: true })
   @IsOptional()
   type?: EnumLocationType;
 
-  @Field((type) => ID, { nullable: true })
+  @Field(() => ID, { nullable: true })
   @IsOptional()
   parentId?: string;
 
-  @Field((type) => ID, { nullable: true })
+  @Field(() => ID, { nullable: true })
   @IsOptional()
   countryCode?: string;
 }

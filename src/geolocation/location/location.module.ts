@@ -5,5 +5,6 @@ import { LocationResolver } from './location.resolver';
 
 @Module({
   providers: [PrismaService, LocationResolver, LocationService],
+  exports: [LocationService]
 })
 export class LocationModule {}

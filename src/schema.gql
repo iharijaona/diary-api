@@ -39,6 +39,18 @@ input CountryOrderByInput {
   nationality: EnumSortOrder
 }
 
+"""Level of jurisdiction."""
+enum EnumJurisdictionLevel {
+  ADMINISTRATIVE_COURT
+  ADMINISTRATIVE_LAW_COURT
+  APPELLATE_COURT
+  AUDIT_COURT
+  CASSATION_COURT
+  FISCAL_COURT
+  SUPREME_COURT
+  TRIAL_COURT
+}
+
 """Type of location."""
 enum EnumLocationType {
   DISTRICT
@@ -52,6 +64,42 @@ enum EnumLocationType {
 enum EnumSortOrder {
   asc
   desc
+}
+
+type JurisdictionInstance {
+  """Hashed unique ID of the jurisdiction instance"""
+  id: ID!
+
+  """Jurisdiction level object"""
+  level: JurisdictionLevel
+
+  """Code of the jurisdiction level"""
+  levelCode: EnumJurisdictionLevel!
+
+  """Location object"""
+  location: Location
+
+  """Hashed unique ID of the location"""
+  locationId: ID!
+
+  """Name of the jurisdiction instance"""
+  name: String!
+}
+
+input JurisdictionInstanceOrderByInput {
+  levelCode: EnumSortOrder
+  name: EnumSortOrder
+}
+
+type JurisdictionLevel {
+  """Unique identifier of the jurisdiction level"""
+  code: EnumJurisdictionLevel!
+
+  """Name of the jurisdiction level"""
+  name: String!
+
+  """Short name of the jurisdiction level: TPI, CC..."""
+  shortName: String!
 }
 
 type Location {
@@ -90,6 +138,15 @@ type PaginatedCountry {
   totalPageCount: Int!
 }
 
+"""Paginated jurisdiction instance list"""
+type PaginatedJurisdictionInstance {
+  currentPage: Int!
+  nodes: [JurisdictionInstance!]
+  pageSize: Int!
+  totalItemCount: Int!
+  totalPageCount: Int!
+}
+
 """Paginated location list"""
 type PaginatedLocation {
   currentPage: Int!
@@ -102,6 +159,21 @@ type PaginatedLocation {
 type Query {
   countries(filter: String, orderBy: CountryOrderByInput, skip: Int! = 0, take: Int! = 100): PaginatedCountry!
   country(code: ID!): Country!
+  jurisdictionInstance(id: ID!): JurisdictionInstance!
+  jurisdictionInstances(
+    filter: String
+
+    """Code of the jurisdiction level"""
+    levelCode: EnumJurisdictionLevel
+
+    """Hashed unique ID of the location"""
+    locationId: ID
+    orderBy: JurisdictionInstanceOrderByInput
+    skip: Int! = 0
+    take: Int! = 100
+  ): PaginatedJurisdictionInstance!
+  jurisdictionLevel(code: EnumJurisdictionLevel!): JurisdictionLevel!
+  jurisdictionLevels: [JurisdictionLevel!]!
   location(id: ID!): Location!
   locations(countryCode: ID, filter: String, orderBy: LocationOrderByInput, parentId: ID, skip: Int! = 0, take: Int! = 100, type: EnumLocationType): PaginatedLocation!
 }

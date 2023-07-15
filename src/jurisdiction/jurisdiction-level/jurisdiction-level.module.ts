@@ -9,5 +9,6 @@ import { JurisdictionLevelResolver } from './jurisdiction-level.resolver';
     JurisdictionLevelResolver,
     JurisdictionLevelService,
   ],
+  exports: [JurisdictionLevelService]
 })
 export class JurisdictionLevelModule {}

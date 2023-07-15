@@ -19,20 +19,20 @@ registerEnumType(EnumLocationType, {
 
 @ObjectType()
 export class Location {
-  @Field((type) => ID, { description: 'Hashed unique ID of the location' })
+  @Field(() => ID, { description: 'Hashed unique ID of the location' })
   id: string;
 
   @Field((type) => String, { description: 'Name of the location' })
   name: string;
 
-  @Field((type) => String, {
+  @Field(() => String, {
     nullable: true,
     description: 'Code of the location',
   })
   @IsOptional()
   code?: string;
 
-  @Field((type) => EnumLocationType, { description: 'Type of the location' })
+  @Field(() => EnumLocationType, { description: 'Type of the location' })
   @IsEnum(EnumLocationType)
   type: EnumLocationType;
 
@@ -40,14 +40,14 @@ export class Location {
   @IsOptional()
   parentId: string;
 
-  @Field((type) => ID, {
+  @Field(() => ID, {
     nullable: true,
     description: 'ID of the country (for STATE/PROVINCE)',
   })
   @IsOptional()
   countryCode: string;
 
-  @Field((type) => [Location], { nullable: false })
+  @Field(() => [Location], { nullable: false })
   @IsArray()
   @IsOptional()
   subdivisions?: Location[];
