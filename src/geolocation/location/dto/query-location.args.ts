@@ -45,5 +45,5 @@ export class LocationQueryArgs extends PageArgs {
 
   @Field((type) => ID, { nullable: true })
   @IsOptional()
-  countryId?: string;
+  countryCode?: string;
 }

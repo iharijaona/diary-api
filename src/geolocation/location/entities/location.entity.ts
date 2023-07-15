@@ -45,7 +45,7 @@ export class Location {
     description: 'ID of the country (for STATE/PROVINCE)',
   })
   @IsOptional()
-  countryId: string;
+  countryCode: string;
 
   @Field((type) => [Location], { nullable: false })
   @IsArray()
@@ -56,7 +56,7 @@ export class Location {
     Object.assign(this, {
       ...payload,
       id: encodeId(payload.id),
-      countryId: payload.countryId && encodeId(payload.countryId),
+      countryCode: payload.countryCode,
       parentId: payload.parentId && encodeId(payload.parentId),
       type: EnumLocationType[payload.type],
     });

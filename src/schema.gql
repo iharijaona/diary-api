@@ -4,14 +4,14 @@
 
 """A country of the world"""
 type Country {
-  """Two-letter codes (ISO alpha-2)"""
-  alpha2Code: String!
-
   """Three-letter codes (ISO alpha-3) """
   alpha3Code: String!
 
-  """Hashed unique ID of the country"""
-  id: ID!
+  """Two-letter codes (ISO alpha-2)"""
+  code: ID!
+
+  """Currency code of the country"""
+  currencyCode: String
 
   """The original country name"""
   name: String!
@@ -27,6 +27,9 @@ type Country {
 
   """Nationality in english"""
   nationality_en: String!
+
+  """Phone prefix of the country"""
+  phonePrefix: String
 }
 
 input CountryOrderByInput {
@@ -56,7 +59,7 @@ type Location {
   code: String
 
   """ID of the country (for STATE/PROVINCE)"""
-  countryId: ID
+  countryCode: ID
 
   """Hashed unique ID of the location"""
   id: ID!
@@ -98,7 +101,7 @@ type PaginatedLocation {
 
 type Query {
   countries(filter: String, orderBy: CountryOrderByInput, skip: Int! = 0, take: Int! = 100): PaginatedCountry!
-  country(id: ID!): Country!
+  country(code: ID!): Country!
   location(id: ID!): Location!
-  locations(countryId: ID, filter: String, orderBy: LocationOrderByInput, parentId: ID, skip: Int! = 0, take: Int! = 100, type: EnumLocationType): PaginatedLocation!
+  locations(countryCode: ID, filter: String, orderBy: LocationOrderByInput, parentId: ID, skip: Int! = 0, take: Int! = 100, type: EnumLocationType): PaginatedLocation!
 }

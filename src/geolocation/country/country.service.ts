@@ -1,6 +1,5 @@
 import { Injectable } from '@nestjs/common';
 import { Prisma } from '@prisma/client';
-import { decodeId, encodeId } from 'src/common/hashids.helper';
 import { PrismaService } from 'src/prisma.service';
 import { Country, PaginatedCountry } from './entities/country.entity';
 import { CountryQueryArgs } from './dto/query-country.args';
@@ -41,10 +40,7 @@ export class CountryService {
           orderBy:
             args.orderBy as Prisma.Enumerable<Prisma.CountryOrderByWithRelationInput>,
         })
-      ).map((item) => ({
-        ...item,
-        id: encodeId(item.id),
-      })),
+      )
     );
 
     // Return the results
@@ -57,13 +53,10 @@ export class CountryService {
     };
   }
 
-  async findOneCountry(id: string): Promise<Country> {
+  async findOneCountry(code: string): Promise<Country> {
     const country = await this.prisma.country.findUnique({
-      where: { id: decodeId(id) },
+      where: { code },
     });
-    return {
-      ...country,
-      id: encodeId(country.id),
-    };
+    return country;
   }
 }

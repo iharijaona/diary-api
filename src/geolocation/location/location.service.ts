@@ -24,8 +24,8 @@ export class LocationService {
     whereFilter = args.type ? { ...whereFilter, type: args.type } : whereFilter;
 
     // Filter by country id
-    whereFilter = args.countryId
-      ? { ...whereFilter, countryId: decodeId(args.countryId) }
+    whereFilter = args.countryCode
+      ? { ...whereFilter, countryCode: args.countryCode }
       : whereFilter;
 
     // Filter by parent id
