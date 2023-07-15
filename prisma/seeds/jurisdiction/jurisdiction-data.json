@@ -1,0 +1,349 @@
+[
+  {
+    "level_code": "SUPREME_COURT",
+    "name": "République de Madagascar",
+    "location_id": 10000000
+  },
+  {
+    "level_code": "CASSATION_COURT",
+    "name": "Antananarivo",
+    "location_id": 10000000
+  },
+  {
+    "level_code": "ADMINISTRATIVE_LAW_COURT",
+    "name": "République de Madagascar",
+    "location_id": 10000000
+  },
+  {
+    "level_code": "AUDIT_COURT",
+    "name": "République de Madagascar",
+    "location_id": 10000000
+  },
+  {
+    "level_code": "APPELLATE_COURT",
+    "name": "Antananarivo",
+    "location_id": 10000000
+  },
+  {
+    "level_code": "APPELLATE_COURT",
+    "name": "Toamasina",
+    "location_id": 50000000
+  },
+  {
+    "level_code": "APPELLATE_COURT",
+    "name": "Fianarantsoa",
+    "location_id": 30000000
+  },
+  {
+    "level_code": "APPELLATE_COURT",
+    "name": "Toliara",
+    "location_id": 60000000
+  },
+  {
+    "level_code": "APPELLATE_COURT",
+    "name": "Mahajanga",
+    "location_id": 40000000
+  },
+  {
+    "level_code": "APPELLATE_COURT",
+    "name": "Antsiranana",
+    "location_id": 20000000
+  },
+  {
+    "level_code": "ADMINISTRATIVE_COURT",
+    "name": "Antananarivo",
+    "location_id": 10000000
+  },
+  {
+    "level_code": "ADMINISTRATIVE_COURT",
+    "name": "Toamasina",
+    "location_id": 50000000
+  },
+  {
+    "level_code": "ADMINISTRATIVE_COURT",
+    "name": "Fianarantsoa",
+    "location_id": 30000000
+  },
+  {
+    "level_code": "ADMINISTRATIVE_COURT",
+    "name": "Toliara",
+    "location_id": 60000000
+  },
+  {
+    "level_code": "ADMINISTRATIVE_COURT",
+    "name": "Mahajanga",
+    "location_id": 40000000
+  },
+  {
+    "level_code": "ADMINISTRATIVE_COURT",
+    "name": "Antsiranana",
+    "location_id": 20000000
+  },
+
+  {
+    "level_code": "FISCAL_COURT",
+    "name": "Antananarivo",
+    "location_id": 10000000
+  },
+  {
+    "level_code": "FISCAL_COURT",
+    "name": "Toamasina",
+    "location_id": 50000000
+  },
+  {
+    "level_code": "FISCAL_COURT",
+    "name": "Fianarantsoa",
+    "location_id": 30000000
+  },
+  {
+    "level_code": "FISCAL_COURT",
+    "name": "Toliara",
+    "location_id": 60000000
+  },
+  {
+    "level_code": "FISCAL_COURT",
+    "name": "Mahajanga",
+    "location_id": 40000000
+  },
+  {
+    "level_code": "FISCAL_COURT",
+    "name": "Antsiranana",
+    "location_id": 20000000
+  },
+
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Antananarivo",
+    "location_id": 11060000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Antsirabe",
+    "location_id": 14030000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Toamasina",
+    "location_id": 53050000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Ambatondrazaka",
+    "location_id": 51010000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Fianarantsoa",
+    "location_id": 34030000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Farafangana",
+    "location_id": 32020000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Ambositra",
+    "location_id": 31020000
+  },
+
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Manakara",
+    "location_id": 33020000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Mananjary",
+    "location_id": 36020000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Ikongo",
+    "location_id": 33010000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Vangaindrano",
+    "location_id": 32040000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Ihosy",
+    "location_id": 35020000
+  },
+
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Toliara",
+    "location_id": 63080000
+  },
+
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Taolagnaro",
+    "location_id": 62030000
+  },
+
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Morondava",
+    "location_id": 64050000
+  },
+
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Mahajanga",
+    "location_id": 42020000
+  },
+
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Maintirano",
+    "location_id": 43040000
+  },
+
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Arivonimamo",
+    "location_id": 13010000
+  },
+
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Ankazobe",
+    "location_id": 11040000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Miarinarivo",
+    "location_id": 13020000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Tsiroanomandidy",
+    "location_id": 12020000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Ambatolampy",
+    "location_id": 14010000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Maroantsetra",
+    "location_id": 52030000
+  },
+
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Vatomandry",
+    "location_id": 53070000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Moramanga",
+    "location_id": 51050000
+  },
+
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Analalava",
+    "location_id": 44010000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Antsohihy",
+    "location_id": 44020000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Antsiranana",
+    "location_id": 21030000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Antalaha",
+    "location_id": 22020000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Nosy-be",
+    "location_id": 21050000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Ambanja",
+    "location_id": 21010000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Ankazoabo",
+    "location_id": 63020000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Betroka",
+    "location_id": 62020000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Ampanihy",
+    "location_id": 63010000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Manja",
+    "location_id": 64030000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Mandritsara",
+    "location_id": 44060000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Maevatanana",
+    "location_id": 41020000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Mampikony",
+    "location_id": 44050000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Boriziny",
+    "location_id": 44070000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Besalampy",
+    "location_id": 43030000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Mitsinjo",
+    "location_id": 42050000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Tsaratanàna",
+    "location_id": 41030000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Ambovombe",
+    "location_id": 61010000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Miandrivazo",
+    "location_id": 64040000
+  },
+  {
+    "level_code": "TRIAL_COURT",
+    "name": "Morombe",
+    "location_id": 63060000
+  }
+]

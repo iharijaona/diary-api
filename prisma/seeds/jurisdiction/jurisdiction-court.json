@@ -1,0 +1,48 @@
+
+
+[
+  {
+    "code": "SUPREME_COURT",
+    "name": "Cour Suprême",
+    "short_name": "CS"
+  },
+  {
+    "code": "CASSATION_COURT",
+    "name": "Cour de Cassation",
+    "short_name": "CRCA"
+  },
+  {
+    "code": "AUDIT_COURT",
+    "name": "Cour des Comptes",
+    "short_name": "CRCT"
+  },
+  {
+    "code": "ADMINISTRATIVE_LAW_COURT",
+    "name": "Conseil d'Etat",
+    "short_name": "CSET"
+  },
+
+  {
+    "code": "APPELLATE_COURT",
+    "name": "Cour d'Appel",
+    "short_name": "CRAP"
+  },
+
+  {
+    "code": "ADMINISTRATIVE_COURT",
+    "name": "Tribunal Administratif",
+    "short_name": "TADM"
+  },
+
+  {
+    "code": "FISCAL_COURT",
+    "name": "Tribunal Financier",
+    "short_name": "TFIN"
+  },
+  {
+    "code": "TRIAL_COURT",
+    "name": "Tribunal de Première Instance",
+    "short_name": "TPI"
+  }
+]
+

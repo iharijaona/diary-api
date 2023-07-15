@@ -1,12 +1,16 @@
 import { PrismaClient } from '@prisma/client';
 import { locationSeed } from './location';
 import { authSeed } from './auth';
+import { jurisdictionSeed } from './jurisdiction'
+import { jobSeed } from './job'
 
 const prisma = new PrismaClient();
 
 async function main() {
-  locationSeed(prisma)
-  authSeed(prisma)
+  // await locationSeed(prisma)
+  // await authSeed(prisma)
+  await jurisdictionSeed(prisma)
+  await jobSeed(prisma)
 }
 
 main()
