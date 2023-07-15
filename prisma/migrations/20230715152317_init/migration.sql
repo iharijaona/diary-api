@@ -1,8 +1,11 @@
 -- CreateEnum
-CREATE TYPE "LocationType" AS ENUM ('PROVINCE', 'REGION', 'DISTRICT', 'MUNICIPALITY', 'NEIGHBORHOOD');
+CREATE TYPE "EnumLocationType" AS ENUM ('PROVINCE', 'REGION', 'DISTRICT', 'MUNICIPALITY', 'NEIGHBORHOOD');
 
 -- CreateEnum
-CREATE TYPE "RoleName" AS ENUM ('SUPERUSER', 'ADMINISTRATOR', 'SYSTEM_MANAGER', 'AGENCY_MANAGER', 'AGENCY_SECRETARY', 'LAWYER', 'USER');
+CREATE TYPE "EnumRoleName" AS ENUM ('SUPERUSER', 'ADMINISTRATOR', 'SYSTEM_MANAGER', 'AGENCY_MANAGER', 'AGENCY_SECRETARY', 'LAWYER', 'USER');
+
+-- CreateEnum
+CREATE TYPE "EnumJurisdictionLevel" AS ENUM ('SUPREME_COURT', 'CASSATION_COURT', 'AUDIT_COURT', 'ADMINISTRATIVE_LAW_COURT', 'APPELLATE_COURT', 'ADMINISTRATIVE_COURT', 'FISCAL_COURT', 'TRIAL_COURT');
 
 -- CreateTable
 CREATE TABLE "country" (
@@ -24,7 +27,7 @@ CREATE TABLE "location" (
     "id" BIGSERIAL NOT NULL,
     "name" VARCHAR(256) NOT NULL,
     "code" VARCHAR(8),
-    "type" "LocationType" NOT NULL,
+    "type" "EnumLocationType" NOT NULL,
     "parent_id" BIGINT,
     "country_code" VARCHAR(8),
 
@@ -52,7 +55,7 @@ CREATE TABLE "permission" (
 -- CreateTable
 CREATE TABLE "role" (
     "id" SMALLSERIAL NOT NULL,
-    "name" "RoleName" NOT NULL,
+    "name" "EnumRoleName" NOT NULL,
     "label" VARCHAR(128) NOT NULL,
 
     CONSTRAINT "role_pkey" PRIMARY KEY ("id")
@@ -99,6 +102,7 @@ CREATE TABLE "user_role" (
 CREATE TABLE "job" (
     "id" SERIAL NOT NULL,
     "name" VARCHAR(128) NOT NULL,
+    "name_feminine" VARCHAR(128) NOT NULL,
     "is_other" BOOLEAN DEFAULT false,
 
     CONSTRAINT "job_pkey" PRIMARY KEY ("id")
@@ -282,19 +286,18 @@ CREATE TABLE "person_picture" (
 
 -- CreateTable
 CREATE TABLE "jurisdiction_level" (
-    "id" SMALLSERIAL NOT NULL,
+    "code" "EnumJurisdictionLevel" NOT NULL,
     "name" VARCHAR(128) NOT NULL,
-    "code" VARCHAR(8) NOT NULL,
-    "description" VARCHAR(256),
+    "short_name" VARCHAR(8) NOT NULL,
 
-    CONSTRAINT "jurisdiction_level_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "jurisdiction_level_pkey" PRIMARY KEY ("code")
 );
 
 -- CreateTable
 CREATE TABLE "jurisdiction" (
     "id" SERIAL NOT NULL,
     "name" VARCHAR(128) NOT NULL,
-    "jurisdiction_level_id" SMALLINT NOT NULL,
+    "level_code" "EnumJurisdictionLevel" NOT NULL,
     "location_id" BIGINT NOT NULL,
 
     CONSTRAINT "jurisdiction_pkey" PRIMARY KEY ("id")
@@ -409,10 +412,13 @@ CREATE UNIQUE INDEX "user_username_key" ON "user"("username");
 CREATE UNIQUE INDEX "lawyer_person_id_key" ON "lawyer"("person_id");
 
 -- CreateIndex
-CREATE INDEX "jurisdiction_level_name_idx" ON "jurisdiction_level" USING SPGIST ("name");
+CREATE UNIQUE INDEX "jurisdiction_level_short_name_key" ON "jurisdiction_level"("short_name");
 
 -- CreateIndex
 CREATE INDEX "jurisdiction_name_idx" ON "jurisdiction" USING SPGIST ("name");
+
+-- CreateIndex
+CREATE UNIQUE INDEX "jurisdiction_name_level_code_location_id_key" ON "jurisdiction"("name", "level_code", "location_id");
 
 -- AddForeignKey
 ALTER TABLE "location" ADD CONSTRAINT "location_country_code_fkey" FOREIGN KEY ("country_code") REFERENCES "country"("code") ON DELETE SET NULL ON UPDATE CASCADE;
@@ -487,7 +493,7 @@ ALTER TABLE "person_picture" ADD CONSTRAINT "person_picture_media_id_fkey" FOREI
 ALTER TABLE "jurisdiction" ADD CONSTRAINT "jurisdiction_location_id_fkey" FOREIGN KEY ("location_id") REFERENCES "location"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "jurisdiction" ADD CONSTRAINT "jurisdiction_jurisdiction_level_id_fkey" FOREIGN KEY ("jurisdiction_level_id") REFERENCES "jurisdiction_level"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "jurisdiction" ADD CONSTRAINT "jurisdiction_level_code_fkey" FOREIGN KEY ("level_code") REFERENCES "jurisdiction_level"("code") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "deal" ADD CONSTRAINT "deal_agency_id_fkey" FOREIGN KEY ("agency_id") REFERENCES "agency"("id") ON DELETE RESTRICT ON UPDATE CASCADE;

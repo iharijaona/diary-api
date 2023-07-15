@@ -9,7 +9,7 @@ const prisma = new PrismaClient();
 async function main() {
   // await locationSeed(prisma)
   // await authSeed(prisma)
-  await jurisdictionSeed(prisma)
+  // await jurisdictionSeed(prisma)
   await jobSeed(prisma)
 }
 

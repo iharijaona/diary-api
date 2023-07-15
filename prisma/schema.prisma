@@ -27,7 +27,7 @@ model Country {
   @@map(name: "country")
 }
 
-enum LocationType {
+enum EnumLocationType {
   PROVINCE
   REGION
   DISTRICT
@@ -36,17 +36,17 @@ enum LocationType {
 }
 
 model Location {
-  id            BigInt         @id @default(autoincrement())
-  name          String         @db.VarChar(256)
-  code          String?        @db.VarChar(8)
-  type          LocationType
-  parentId      BigInt?        @map("parent_id")
-  countryCode   String?        @map("country_code") @db.VarChar(8)
-  country       Country?       @relation("CountryLocations", fields: [countryCode], references: [code])
-  parent        Location?      @relation("LocationParent", fields: [parentId], references: [id])
-  locations     Location[]     @relation("LocationParent")
-  jurisdictions Jurisdiction[] @relation("LocationJurisdictions")
-  addresses     Address[]      @relation("LocationAddresses")
+  id            BigInt                 @id @default(autoincrement())
+  name          String                 @db.VarChar(256)
+  code          String?                @db.VarChar(8)
+  type          EnumLocationType
+  parentId      BigInt?                @map("parent_id")
+  countryCode   String?                @map("country_code") @db.VarChar(8)
+  country       Country?               @relation("CountryLocations", fields: [countryCode], references: [code])
+  parent        Location?              @relation("LocationParent", fields: [parentId], references: [id])
+  locations     Location[]             @relation("LocationParent")
+  jurisdictions JurisdictionInstance[] @relation("LocationJurisdictions")
+  addresses     Address[]              @relation("LocationAddresses")
 
   @@map(name: "location")
 }
@@ -71,7 +71,7 @@ model Permission {
   @@map(name: "permission")
 }
 
-enum RoleName {
+enum EnumRoleName {
   SUPERUSER
   ADMINISTRATOR
   SYSTEM_MANAGER
@@ -83,7 +83,7 @@ enum RoleName {
 
 model Role {
   id              Int              @id @default(autoincrement()) @db.SmallInt
-  name            RoleName         @unique
+  name            EnumRoleName     @unique
   label           String           @db.VarChar(128)
   rolePermissions RolePermission[] @relation("PermissionRoles")
   userRoles       UserRole[]       @relation("UserRoles")
@@ -336,7 +336,7 @@ model PersonPicture {
   @@map(name: "person_picture")
 }
 
-enum JurisdictionLevelCode {
+enum EnumJurisdictionLevel {
   SUPREME_COURT
   CASSATION_COURT
   AUDIT_COURT
@@ -348,18 +348,18 @@ enum JurisdictionLevelCode {
 }
 
 model JurisdictionLevel {
-  code          JurisdictionLevelCode @id
-  name          String                @db.VarChar(128)
-  shortName     String                @unique @map("short_name") @db.VarChar(8)
-  jurisdictions Jurisdiction[]        @relation("LevelJurisdictions")
+  code          EnumJurisdictionLevel  @id
+  name          String                 @db.VarChar(128)
+  shortName     String                 @unique @map("short_name") @db.VarChar(8)
+  jurisdictions JurisdictionInstance[] @relation("LevelJurisdictions")
 
   @@map(name: "jurisdiction_level")
 }
 
-model Jurisdiction {
+model JurisdictionInstance {
   id         Int                   @id @default(autoincrement())
   name       String                @db.VarChar(128)
-  levelCode  JurisdictionLevelCode @map("level_code")
+  levelCode  EnumJurisdictionLevel @map("level_code")
   locationId BigInt                @map("location_id")
 
   location          Location           @relation("LocationJurisdictions", fields: [locationId], references: [id])
@@ -436,14 +436,14 @@ model DealAttachment {
 }
 
 model DealJurisdiction {
-  id             BigInt       @id @default(autoincrement())
-  dealId         BigInt       @map("deal_id")
-  jurisdictionId Int          @map("jurisdiction_id")
-  isCurrent      Boolean?     @default(false) @map("is_current")
-  deal           Deal         @relation("DealJurisdiction", fields: [dealId], references: [id])
-  jurisdiction   Jurisdiction @relation("JurisdictionDeal", fields: [jurisdictionId], references: [id])
-  createdById    BigInt?      @map("created_by")
-  createdOn      DateTime     @default(now()) @map("created_on")
+  id             BigInt               @id @default(autoincrement())
+  dealId         BigInt               @map("deal_id")
+  jurisdictionId Int                  @map("jurisdiction_id")
+  isCurrent      Boolean?             @default(false) @map("is_current")
+  deal           Deal                 @relation("DealJurisdiction", fields: [dealId], references: [id])
+  jurisdiction   JurisdictionInstance @relation("JurisdictionDeal", fields: [jurisdictionId], references: [id])
+  createdById    BigInt?              @map("created_by")
+  createdOn      DateTime             @default(now()) @map("created_on")
 
   @@map(name: "deal_jurisdiction")
 }
@@ -459,23 +459,23 @@ model EventType {
 }
 
 model DealEvent {
-  id             BigInt        @id @default(autoincrement())
-  name           String        @db.VarChar(128)
-  description    String?       @db.VarChar(256)
-  eventTypeId    Int           @map("event_type_id") @db.SmallInt
-  dealId         BigInt        @map("deal_id")
-  jurisdictionId Int?          @map("jurisdiction_id")
-  startDatetime  DateTime?     @map("start_date")
-  startDateTime  DateTime?     @map("end_date")
-  deal           Deal          @relation("EventDeal", fields: [dealId], references: [id])
-  eventType      EventType     @relation("DealEventType", fields: [eventTypeId], references: [id])
-  jurisdiction   Jurisdiction? @relation("DealEventJurisdiction", fields: [jurisdictionId], references: [id])
-  createdById    BigInt?       @map("created_by")
-  updatedById    BigInt?       @map("updated_by")
-  deletedById    BigInt?       @map("deleted_by")
-  createdOn      DateTime      @default(now()) @map("created_on")
-  updatedOn      DateTime?     @default(now()) @map("updated_on")
-  deletedOn      DateTime?     @map("deleted_on")
+  id             BigInt                @id @default(autoincrement())
+  name           String                @db.VarChar(128)
+  description    String?               @db.VarChar(256)
+  eventTypeId    Int                   @map("event_type_id") @db.SmallInt
+  dealId         BigInt                @map("deal_id")
+  jurisdictionId Int?                  @map("jurisdiction_id")
+  startDatetime  DateTime?             @map("start_date")
+  startDateTime  DateTime?             @map("end_date")
+  deal           Deal                  @relation("EventDeal", fields: [dealId], references: [id])
+  eventType      EventType             @relation("DealEventType", fields: [eventTypeId], references: [id])
+  jurisdiction   JurisdictionInstance? @relation("DealEventJurisdiction", fields: [jurisdictionId], references: [id])
+  createdById    BigInt?               @map("created_by")
+  updatedById    BigInt?               @map("updated_by")
+  deletedById    BigInt?               @map("deleted_by")
+  createdOn      DateTime              @default(now()) @map("created_on")
+  updatedOn      DateTime?             @default(now()) @map("updated_on")
+  deletedOn      DateTime?             @map("deleted_on")
 
   @@map(name: "deal_event")
 }

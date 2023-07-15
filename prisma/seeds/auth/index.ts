@@ -1,4 +1,4 @@
-import { PrismaClient, RoleName } from '@prisma/client';
+import { PrismaClient, EnumRoleName } from '@prisma/client';
 
  
 export const toProperCase = (charSequance: string, split=' '): string => {
@@ -9,12 +9,12 @@ export const toProperCase = (charSequance: string, split=' '): string => {
 
 async function roleSeed(prisma: PrismaClient) {
 
-  for (const roleName of Object.keys(RoleName)) {
+  for (const roleName of Object.keys(EnumRoleName)) {
     await prisma.role.upsert({
-      where: { name:  roleName as RoleName},
+      where: { name:  EnumRoleName[roleName]},
       update: {},
       create: {
-        name: roleName as RoleName,
+        name: EnumRoleName[roleName],
         label: toProperCase(roleName)
       },
     });
