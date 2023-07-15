@@ -5,10 +5,10 @@ import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { GeoLocationModule } from './geolocation/geolocation.module';
+import { JurisdictionModule } from './jurisdiction/jurisdiction.module';
 
 @Module({
   imports: [
-    GeoLocationModule,
     GraphQLModule.forRoot<ApolloDriverConfig>({
       driver: ApolloDriver,
       // autoSchemaFile: 'schema.gql',
@@ -20,6 +20,8 @@ import { GeoLocationModule } from './geolocation/geolocation.module';
         numberScalarMode: 'integer',
       },
     }),
+    GeoLocationModule,
+    JurisdictionModule,
   ],
   controllers: [AppController],
   providers: [AppService],
