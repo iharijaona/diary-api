@@ -1,52 +1,41 @@
--- CreateTable
-CREATE TABLE "province" (
-    "id" SMALLSERIAL NOT NULL,
-    "name" VARCHAR(64) NOT NULL,
+-- CreateEnum
+CREATE TYPE "LocationType" AS ENUM ('PROVINCE', 'REGION', 'DISTRICT', 'MUNICIPALITY', 'NEIGHBORHOOD');
 
-    CONSTRAINT "province_pkey" PRIMARY KEY ("id")
+-- CreateEnum
+CREATE TYPE "RoleName" AS ENUM ('SUPERUSER', 'ADMINISTRATOR', 'SYSTEM_MANAGER', 'AGENCY_MANAGER', 'AGENCY_SECRETARY', 'LAWYER', 'USER');
+
+-- CreateTable
+CREATE TABLE "country" (
+    "code" VARCHAR(8) NOT NULL,
+    "alpha_3_code" VARCHAR(8) NOT NULL,
+    "name_native" VARCHAR(128) NOT NULL,
+    "name_en" VARCHAR(128) NOT NULL,
+    "name_fr" VARCHAR(128) NOT NULL,
+    "nationality_fr" VARCHAR(128) NOT NULL,
+    "nationality_en" VARCHAR(128) NOT NULL,
+    "currency_code" VARCHAR(8),
+    "phone_prefix" VARCHAR(8),
+
+    CONSTRAINT "country_pkey" PRIMARY KEY ("code")
 );
 
 -- CreateTable
-CREATE TABLE "region" (
-    "id" SMALLSERIAL NOT NULL,
-    "name" VARCHAR(64) NOT NULL,
-    "province_id" SMALLINT NOT NULL,
-
-    CONSTRAINT "region_pkey" PRIMARY KEY ("id")
-);
-
--- CreateTable
-CREATE TABLE "district" (
-    "id" SMALLSERIAL NOT NULL,
-    "name" VARCHAR(128) NOT NULL,
-    "region_id" SMALLINT NOT NULL,
-
-    CONSTRAINT "district_pkey" PRIMARY KEY ("id")
-);
-
--- CreateTable
-CREATE TABLE "municipality" (
-    "id" SERIAL NOT NULL,
-    "name" VARCHAR(128) NOT NULL,
-    "district_id" SMALLINT NOT NULL,
-
-    CONSTRAINT "municipality_pkey" PRIMARY KEY ("id")
-);
-
--- CreateTable
-CREATE TABLE "fokontany" (
-    "id" SERIAL NOT NULL,
+CREATE TABLE "location" (
+    "id" BIGSERIAL NOT NULL,
     "name" VARCHAR(256) NOT NULL,
-    "municipality_id" INTEGER NOT NULL,
+    "code" VARCHAR(8),
+    "type" "LocationType" NOT NULL,
+    "parent_id" BIGINT,
+    "country_code" VARCHAR(8),
 
-    CONSTRAINT "fokontany_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "location_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
 CREATE TABLE "address" (
     "id" BIGSERIAL NOT NULL,
     "name" VARCHAR(128) NOT NULL,
-    "fokontany_id" INTEGER NOT NULL,
+    "location_id" BIGINT NOT NULL,
 
     CONSTRAINT "address_pkey" PRIMARY KEY ("id")
 );
@@ -63,7 +52,7 @@ CREATE TABLE "permission" (
 -- CreateTable
 CREATE TABLE "role" (
     "id" SMALLSERIAL NOT NULL,
-    "name" VARCHAR(32) NOT NULL,
+    "name" "RoleName" NOT NULL,
     "label" VARCHAR(128) NOT NULL,
 
     CONSTRAINT "role_pkey" PRIMARY KEY ("id")
@@ -116,23 +105,6 @@ CREATE TABLE "job" (
 );
 
 -- CreateTable
-CREATE TABLE "nationality" (
-    "id" SMALLSERIAL NOT NULL,
-    "name" VARCHAR(64) NOT NULL,
-
-    CONSTRAINT "nationality_pkey" PRIMARY KEY ("id")
-);
-
--- CreateTable
-CREATE TABLE "country" (
-    "id" SMALLSERIAL NOT NULL,
-    "name" VARCHAR(128) NOT NULL,
-    "nationality" VARCHAR(128) NOT NULL,
-
-    CONSTRAINT "country_pkey" PRIMARY KEY ("id")
-);
-
--- CreateTable
 CREATE TABLE "person" (
     "id" BIGSERIAL NOT NULL,
     "name" VARCHAR(128),
@@ -148,13 +120,13 @@ CREATE TABLE "person" (
     "created_on" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updated_on" TIMESTAMP(3) DEFAULT CURRENT_TIMESTAMP,
     "deleted_on" TIMESTAMP(3),
-    "nationality_id" SMALLINT,
+    "nationality_code" VARCHAR(8),
 
     CONSTRAINT "person_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
-CREATE TABLE "identity_proof" (
+CREATE TABLE "identity" (
     "id" BIGSERIAL NOT NULL,
     "person_id" BIGINT NOT NULL,
     "type" SMALLINT NOT NULL,
@@ -162,14 +134,14 @@ CREATE TABLE "identity_proof" (
     "delivery_place" VARCHAR(128),
     "delivery_date" DATE NOT NULL,
     "expiry_date" DATE,
-    "issuer_country_id" SMALLINT NOT NULL,
+    "country_code" VARCHAR(8) NOT NULL,
     "is_verified" BOOLEAN DEFAULT false,
     "created_by" BIGINT,
     "created_on" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "verified_by" BIGINT,
     "verified_on" TIMESTAMP(3) NOT NULL,
 
-    CONSTRAINT "identity_proof_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "identity_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
@@ -199,7 +171,7 @@ CREATE TABLE "person_address" (
 );
 
 -- CreateTable
-CREATE TABLE "person_contact" (
+CREATE TABLE "contact" (
     "id" BIGSERIAL NOT NULL,
     "person_id" BIGINT NOT NULL,
     "contact" VARCHAR(128) NOT NULL,
@@ -209,7 +181,7 @@ CREATE TABLE "person_contact" (
     "created_by" BIGINT,
     "created_on" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
 
-    CONSTRAINT "person_contact_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "contact_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
@@ -309,22 +281,23 @@ CREATE TABLE "person_picture" (
 );
 
 -- CreateTable
-CREATE TABLE "tribunal_categ" (
+CREATE TABLE "jurisdiction_level" (
     "id" SMALLSERIAL NOT NULL,
     "name" VARCHAR(128) NOT NULL,
+    "code" VARCHAR(8) NOT NULL,
     "description" VARCHAR(256),
 
-    CONSTRAINT "tribunal_categ_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "jurisdiction_level_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
-CREATE TABLE "tribunal" (
+CREATE TABLE "jurisdiction" (
     "id" SERIAL NOT NULL,
-    "tribunal_categ_id" SMALLINT NOT NULL,
-    "district_id" SMALLINT NOT NULL,
     "name" VARCHAR(128) NOT NULL,
+    "jurisdiction_level_id" SMALLINT NOT NULL,
+    "location_id" BIGINT NOT NULL,
 
-    CONSTRAINT "tribunal_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "jurisdiction_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
@@ -385,7 +358,7 @@ CREATE TABLE "deal_attachment" (
 CREATE TABLE "deal_jurisdiction" (
     "id" BIGSERIAL NOT NULL,
     "deal_id" BIGINT NOT NULL,
-    "tribunal_id" INTEGER NOT NULL,
+    "jurisdiction_id" INTEGER NOT NULL,
     "is_current" BOOLEAN DEFAULT false,
     "created_by" BIGINT,
     "created_on" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -410,7 +383,7 @@ CREATE TABLE "deal_event" (
     "description" VARCHAR(256),
     "event_type_id" SMALLINT NOT NULL,
     "deal_id" BIGINT NOT NULL,
-    "tribunal_id" INTEGER,
+    "jurisdiction_id" INTEGER,
     "start_date" TIMESTAMP(3),
     "end_date" TIMESTAMP(3),
     "created_by" BIGINT,
@@ -424,6 +397,9 @@ CREATE TABLE "deal_event" (
 );
 
 -- CreateIndex
+CREATE UNIQUE INDEX "role_name_key" ON "role"("name");
+
+-- CreateIndex
 CREATE UNIQUE INDEX "user_person_id_key" ON "user"("person_id");
 
 -- CreateIndex
@@ -432,20 +408,20 @@ CREATE UNIQUE INDEX "user_username_key" ON "user"("username");
 -- CreateIndex
 CREATE UNIQUE INDEX "lawyer_person_id_key" ON "lawyer"("person_id");
 
--- AddForeignKey
-ALTER TABLE "region" ADD CONSTRAINT "region_province_id_fkey" FOREIGN KEY ("province_id") REFERENCES "province"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+-- CreateIndex
+CREATE INDEX "jurisdiction_level_name_idx" ON "jurisdiction_level" USING SPGIST ("name");
+
+-- CreateIndex
+CREATE INDEX "jurisdiction_name_idx" ON "jurisdiction" USING SPGIST ("name");
 
 -- AddForeignKey
-ALTER TABLE "district" ADD CONSTRAINT "district_region_id_fkey" FOREIGN KEY ("region_id") REFERENCES "region"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "location" ADD CONSTRAINT "location_country_code_fkey" FOREIGN KEY ("country_code") REFERENCES "country"("code") ON DELETE SET NULL ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "municipality" ADD CONSTRAINT "municipality_district_id_fkey" FOREIGN KEY ("district_id") REFERENCES "district"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "location" ADD CONSTRAINT "location_parent_id_fkey" FOREIGN KEY ("parent_id") REFERENCES "location"("id") ON DELETE SET NULL ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "fokontany" ADD CONSTRAINT "fokontany_municipality_id_fkey" FOREIGN KEY ("municipality_id") REFERENCES "municipality"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
-
--- AddForeignKey
-ALTER TABLE "address" ADD CONSTRAINT "address_fokontany_id_fkey" FOREIGN KEY ("fokontany_id") REFERENCES "fokontany"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "address" ADD CONSTRAINT "address_location_id_fkey" FOREIGN KEY ("location_id") REFERENCES "location"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "role_permission" ADD CONSTRAINT "role_permission_role_id_fkey" FOREIGN KEY ("role_id") REFERENCES "role"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
@@ -463,10 +439,10 @@ ALTER TABLE "user_role" ADD CONSTRAINT "user_role_user_id_fkey" FOREIGN KEY ("us
 ALTER TABLE "user_role" ADD CONSTRAINT "user_role_role_id_fkey" FOREIGN KEY ("role_id") REFERENCES "role"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "person" ADD CONSTRAINT "person_nationality_id_fkey" FOREIGN KEY ("nationality_id") REFERENCES "nationality"("id") ON DELETE SET NULL ON UPDATE CASCADE;
+ALTER TABLE "person" ADD CONSTRAINT "person_nationality_code_fkey" FOREIGN KEY ("nationality_code") REFERENCES "country"("code") ON DELETE SET NULL ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "identity_proof" ADD CONSTRAINT "identity_proof_issuer_country_id_fkey" FOREIGN KEY ("issuer_country_id") REFERENCES "country"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "identity" ADD CONSTRAINT "identity_country_code_fkey" FOREIGN KEY ("country_code") REFERENCES "country"("code") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "person_job" ADD CONSTRAINT "person_job_person_id_fkey" FOREIGN KEY ("person_id") REFERENCES "person"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
@@ -481,7 +457,7 @@ ALTER TABLE "person_address" ADD CONSTRAINT "person_address_person_id_fkey" FORE
 ALTER TABLE "person_address" ADD CONSTRAINT "person_address_address_id_fkey" FOREIGN KEY ("address_id") REFERENCES "address"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "person_contact" ADD CONSTRAINT "person_contact_person_id_fkey" FOREIGN KEY ("person_id") REFERENCES "person"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "contact" ADD CONSTRAINT "contact_person_id_fkey" FOREIGN KEY ("person_id") REFERENCES "person"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "agency_address" ADD CONSTRAINT "agency_address_agency_id_fkey" FOREIGN KEY ("agency_id") REFERENCES "agency"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
@@ -508,10 +484,10 @@ ALTER TABLE "person_picture" ADD CONSTRAINT "person_picture_person_id_fkey" FORE
 ALTER TABLE "person_picture" ADD CONSTRAINT "person_picture_media_id_fkey" FOREIGN KEY ("media_id") REFERENCES "media"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "tribunal" ADD CONSTRAINT "tribunal_district_id_fkey" FOREIGN KEY ("district_id") REFERENCES "district"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "jurisdiction" ADD CONSTRAINT "jurisdiction_location_id_fkey" FOREIGN KEY ("location_id") REFERENCES "location"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "tribunal" ADD CONSTRAINT "tribunal_tribunal_categ_id_fkey" FOREIGN KEY ("tribunal_categ_id") REFERENCES "tribunal_categ"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "jurisdiction" ADD CONSTRAINT "jurisdiction_jurisdiction_level_id_fkey" FOREIGN KEY ("jurisdiction_level_id") REFERENCES "jurisdiction_level"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "deal" ADD CONSTRAINT "deal_agency_id_fkey" FOREIGN KEY ("agency_id") REFERENCES "agency"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
@@ -535,7 +511,7 @@ ALTER TABLE "deal_attachment" ADD CONSTRAINT "deal_attachment_media_id_fkey" FOR
 ALTER TABLE "deal_jurisdiction" ADD CONSTRAINT "deal_jurisdiction_deal_id_fkey" FOREIGN KEY ("deal_id") REFERENCES "deal"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "deal_jurisdiction" ADD CONSTRAINT "deal_jurisdiction_tribunal_id_fkey" FOREIGN KEY ("tribunal_id") REFERENCES "tribunal"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "deal_jurisdiction" ADD CONSTRAINT "deal_jurisdiction_jurisdiction_id_fkey" FOREIGN KEY ("jurisdiction_id") REFERENCES "jurisdiction"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "deal_event" ADD CONSTRAINT "deal_event_deal_id_fkey" FOREIGN KEY ("deal_id") REFERENCES "deal"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
@@ -544,4 +520,4 @@ ALTER TABLE "deal_event" ADD CONSTRAINT "deal_event_deal_id_fkey" FOREIGN KEY ("
 ALTER TABLE "deal_event" ADD CONSTRAINT "deal_event_event_type_id_fkey" FOREIGN KEY ("event_type_id") REFERENCES "event_type"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "deal_event" ADD CONSTRAINT "deal_event_tribunal_id_fkey" FOREIGN KEY ("tribunal_id") REFERENCES "tribunal"("id") ON DELETE SET NULL ON UPDATE CASCADE;
+ALTER TABLE "deal_event" ADD CONSTRAINT "deal_event_jurisdiction_id_fkey" FOREIGN KEY ("jurisdiction_id") REFERENCES "jurisdiction"("id") ON DELETE SET NULL ON UPDATE CASCADE;

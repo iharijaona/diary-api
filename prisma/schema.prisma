@@ -11,14 +11,15 @@ datasource db {
 }
 
 model Country {
-  id             Int        @id @default(autoincrement()) @db.SmallInt
-  alpha2Code     String     @map("alpha_2_code") @db.VarChar(8)
+  code           String     @id @db.VarChar(8)
   alpha3Code     String     @map("alpha_3_code") @db.VarChar(8)
   name           String     @map("name_native") @db.VarChar(128)
   name_en        String     @map("name_en") @db.VarChar(128)
   name_fr        String     @map("name_fr") @db.VarChar(128)
   nationality    String     @map("nationality_fr") @db.VarChar(128)
   nationality_en String     @map("nationality_en") @db.VarChar(128)
+  currencyCode   String?    @map("currency_code") @db.VarChar(8)
+  phonePrefix    String?    @map("phone_prefix") @db.VarChar(8)
   locations      Location[] @relation("CountryLocations")
   persons        Person[]   @relation("PersonNationality")
   identities     Identity[] @relation("IdentityProofIssuer")
@@ -40,8 +41,8 @@ model Location {
   code          String?        @db.VarChar(8)
   type          LocationType
   parentId      BigInt?        @map("parent_id")
-  countryId     Int?           @map("country_id") @db.SmallInt
-  country       Country?       @relation("CountryLocations", fields: [countryId], references: [id])
+  countryCode   String?        @map("country_code") @db.VarChar(8)
+  country       Country?       @relation("CountryLocations", fields: [countryCode], references: [code])
   parent        Location?      @relation("LocationParent", fields: [parentId], references: [id])
   locations     Location[]     @relation("LocationParent")
   jurisdictions Jurisdiction[] @relation("LocationJurisdictions")
@@ -133,10 +134,11 @@ model UserRole {
 }
 
 model Job {
-  id         Int         @id @default(autoincrement())
-  name       String      @db.VarChar(128)
-  isOther    Boolean?    @default(false) @map("is_other")
-  personJobs PersonJob[] @relation("PersonJob")
+  id           Int         @id @default(autoincrement())
+  name         String      @db.VarChar(128)
+  feminineName String      @map("name_feminine") @db.VarChar(128)
+  isOther      Boolean?    @default(false) @map("is_other")
+  personJobs   PersonJob[] @relation("PersonJob")
 
   @@map(name: "job")
 }
@@ -156,8 +158,8 @@ model Person {
   createdOn       DateTime        @default(now()) @map("created_on")
   updatedOn       DateTime?       @default(now()) @map("updated_on")
   deletedOn       DateTime?       @map("deleted_on")
-  nationalityId   Int?            @map("nationality_id") @db.SmallInt
-  nationality     Country?        @relation("PersonNationality", fields: [nationalityId], references: [id])
+  nationalityCode String?         @map("nationality_code") @db.VarChar(8)
+  nationality     Country?        @relation("PersonNationality", fields: [nationalityCode], references: [code])
   personJobs      PersonJob[]     @relation("JobPerson")
   personAddresses PersonAddress[] @relation("AddressPerson")
   contacts        Contact[]       @relation("PersonContact")
@@ -170,20 +172,20 @@ model Person {
 }
 
 model Identity {
-  id              BigInt    @id @default(autoincrement())
-  personId        BigInt    @map("person_id")
-  type            Int       @db.SmallInt
-  number          String    @map("number") @db.VarChar(16)
-  deliveryPlace   String?   @map("delivery_place") @db.VarChar(128)
-  deliveryDate    DateTime  @map("delivery_date") @db.Date
-  expiryDate      DateTime? @map("expiry_date") @db.Date
-  issuerCountryId Int       @map("country_id") @db.SmallInt
-  issuerCountry   Country   @relation("IdentityProofIssuer", fields: [issuerCountryId], references: [id])
-  isVerified      Boolean?  @default(false) @map("is_verified")
-  createdById     BigInt?   @map("created_by")
-  createdOn       DateTime  @default(now()) @map("created_on")
-  verifiedById    BigInt?   @map("verified_by")
-  verifiedOn      DateTime  @map("verified_on")
+  id                BigInt    @id @default(autoincrement())
+  personId          BigInt    @map("person_id")
+  type              Int       @db.SmallInt
+  number            String    @map("number") @db.VarChar(16)
+  deliveryPlace     String?   @map("delivery_place") @db.VarChar(128)
+  deliveryDate      DateTime  @map("delivery_date") @db.Date
+  expiryDate        DateTime? @map("expiry_date") @db.Date
+  issuerCountryCode String    @map("country_code") @db.VarChar(8)
+  issuerCountry     Country   @relation("IdentityProofIssuer", fields: [issuerCountryCode], references: [code])
+  isVerified        Boolean?  @default(false) @map("is_verified")
+  createdById       BigInt?   @map("created_by")
+  createdOn         DateTime  @default(now()) @map("created_on")
+  verifiedById      BigInt?   @map("verified_by")
+  verifiedOn        DateTime  @map("verified_on")
 
   @@map(name: "identity")
 }
@@ -334,28 +336,38 @@ model PersonPicture {
   @@map(name: "person_picture")
 }
 
-model JurisdictionLevel {
-  id           Int            @id @default(autoincrement()) @db.SmallInt
-  name         String         @db.VarChar(128)
-  code         String         @db.VarChar(8)
-  description  String?        @db.VarChar(256)
-  Jurisdiction Jurisdiction[] @relation("LevelJurisdictions")
+enum JurisdictionLevelCode {
+  SUPREME_COURT
+  CASSATION_COURT
+  AUDIT_COURT
+  ADMINISTRATIVE_LAW_COURT
+  APPELLATE_COURT
+  ADMINISTRATIVE_COURT
+  FISCAL_COURT
+  TRIAL_COURT
+}
 
-  @@index([name], type: SpGist)
+model JurisdictionLevel {
+  code          JurisdictionLevelCode @id
+  name          String                @db.VarChar(128)
+  shortName     String                @unique @map("short_name") @db.VarChar(8)
+  jurisdictions Jurisdiction[]        @relation("LevelJurisdictions")
+
   @@map(name: "jurisdiction_level")
 }
 
 model Jurisdiction {
-  id                  Int    @id @default(autoincrement())
-  name                String @db.VarChar(128)
-  jurisdictionLevelId Int    @map("jurisdiction_level_id") @db.SmallInt
-  locationId          BigInt @map("location_id")
+  id         Int                   @id @default(autoincrement())
+  name       String                @db.VarChar(128)
+  levelCode  JurisdictionLevelCode @map("level_code")
+  locationId BigInt                @map("location_id")
 
   location          Location           @relation("LocationJurisdictions", fields: [locationId], references: [id])
-  jurisdictionLevel JurisdictionLevel  @relation("LevelJurisdictions", fields: [jurisdictionLevelId], references: [id])
+  level             JurisdictionLevel  @relation("LevelJurisdictions", fields: [levelCode], references: [code])
   dealJurisdictions DealJurisdiction[] @relation("JurisdictionDeal")
   dealEvents        DealEvent[]        @relation("DealEventJurisdiction")
 
+  @@unique([name, levelCode, locationId])
   @@index([name], type: SpGist)
   @@map(name: "jurisdiction")
 }
