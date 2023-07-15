@@ -4,6 +4,7 @@ import { decodeId } from 'src/common/hashids.helper';
 import { PrismaService } from 'src/prisma.service';
 import { Location, PaginatedLocation } from './entities/location.entity';
 import { LocationQueryArgs } from './dto/query-location.args';
+import { LocationNotFoundError } from './location.error';
 
 @Injectable()
 export class LocationService {
@@ -65,10 +66,20 @@ export class LocationService {
   }
 
   async findOneLocation(id: string): Promise<Location> {
-    const locationRaw = await this.prisma.location.findUnique({
-      where: { id: decodeId(id) },
-    });
-    return new Location(locationRaw);
+
+    try {
+
+      const locationRaw = await this.prisma.location.findUnique({
+        where: { id: decodeId(id) },
+      });
+
+      // Throw error if not exists
+      // if (!locationRaw) throw new LocationNotFoundError(id);
+
+      return new Location(locationRaw);
+    } catch (error) {
+      throw new LocationNotFoundError(id, error);
+    }
   }
 
   async findLocationSubdivisions(parentId: string): Promise<Location[]> {
