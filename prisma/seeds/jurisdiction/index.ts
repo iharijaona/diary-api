@@ -38,7 +38,7 @@ export async function jurisdictionSeed(prisma: PrismaClient) {
       locationId: jurisdiction['location_id'],
     };
 
-    await prisma.jurisdiction.upsert({
+    await prisma.jurisdictionInstance.upsert({
       where: {
         name_levelCode_locationId: jurisdictionPayload,
       },
