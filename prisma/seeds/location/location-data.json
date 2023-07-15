@@ -3,7 +3,7 @@
     "id": 10000000,
     "name": "Antananarivo",
     "code": "MG-T",
-    "country_id": 450,
+    "country_code": "MG",
     "type": "PROVINCE"
   },
   {
@@ -1802,13 +1802,13 @@
   },
   {
     "id": 11012201,
-    "name": "Antanetibe Iii",
+    "name": "Antanetibe III",
     "parent_id": 11012200,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 11012202,
-    "name": "Antanetilava Ii",
+    "name": "Antanetilava II",
     "parent_id": 11012200,
     "type": "NEIGHBORHOOD"
   },
@@ -2894,7 +2894,7 @@
   },
   {
     "id": 11021402,
-    "name": "Ampangabe Ii",
+    "name": "Ampangabe II",
     "parent_id": 11021400,
     "type": "NEIGHBORHOOD"
   },
@@ -4304,13 +4304,13 @@
   },
   {
     "id": 11040407,
-    "name": "Ankazobe Ii",
+    "name": "Ankazobe II",
     "parent_id": 11040400,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 11040408,
-    "name": "Ankazobe Iii",
+    "name": "Ankazobe III",
     "parent_id": 11040400,
     "type": "NEIGHBORHOOD"
   },
@@ -4352,7 +4352,7 @@
   },
   {
     "id": 11040415,
-    "name": "Voninahitrinitany Ii",
+    "name": "Voninahitrinitany II",
     "parent_id": 11040400,
     "type": "NEIGHBORHOOD"
   },
@@ -5096,7 +5096,7 @@
   },
   {
     "id": 11050105,
-    "name": "Antanety Ii",
+    "name": "Antanety II",
     "parent_id": 11050100,
     "type": "NEIGHBORHOOD"
   },
@@ -7556,7 +7556,7 @@
   },
   {
     "id": 11061310,
-    "name": "Miadamanjaka Ii",
+    "name": "Miadamanjaka II",
     "parent_id": 11061300,
     "type": "NEIGHBORHOOD"
   },
@@ -9206,7 +9206,7 @@
   },
   {
     "id": 11071804,
-    "name": "Ambohitrinibe Ii",
+    "name": "Ambohitrinibe II",
     "parent_id": 11071800,
     "type": "NEIGHBORHOOD"
   },
@@ -9986,7 +9986,7 @@
   },
   {
     "id": 11080121,
-    "name": "Antetezana Afovoany Ii",
+    "name": "Antetezana Afovoany II",
     "parent_id": 11080100,
     "type": "NEIGHBORHOOD"
   },
@@ -10016,7 +10016,7 @@
   },
   {
     "id": 11080126,
-    "name": "Antohomadinika Iiig Hangar",
+    "name": "Antohomadinika IIIg Hangar",
     "parent_id": 11080100,
     "type": "NEIGHBORHOOD"
   },
@@ -10130,13 +10130,13 @@
   },
   {
     "id": 11090000,
-    "name": "Tana Ii",
+    "name": "Tana II",
     "parent_id": 11000000,
     "type": "DISTRICT"
   },
   {
     "id": 11090100,
-    "name": "C U Tana Ii",
+    "name": "C U Tana II",
     "parent_id": 11090000,
     "type": "MUNICIPALITY"
   },
@@ -10286,13 +10286,13 @@
   },
   {
     "id": 11100000,
-    "name": "Tana Iii",
+    "name": "Tana III",
     "parent_id": 11000000,
     "type": "DISTRICT"
   },
   {
     "id": 11100100,
-    "name": "C U Tana Iii",
+    "name": "C U Tana III",
     "parent_id": 11100000,
     "type": "MUNICIPALITY"
   },
@@ -10376,7 +10376,7 @@
   },
   {
     "id": 11100114,
-    "name": "Ankadivato Ii L",
+    "name": "Ankadivato II L",
     "parent_id": 11100100,
     "type": "NEIGHBORHOOD"
   },
@@ -10586,7 +10586,7 @@
   },
   {
     "id": 11110113,
-    "name": "Anosibe Andrefana Ii",
+    "name": "Anosibe Andrefana II",
     "parent_id": 11110100,
     "type": "NEIGHBORHOOD"
   },
@@ -10610,19 +10610,19 @@
   },
   {
     "id": 11110117,
-    "name": "Anosizato Est Ii",
+    "name": "Anosizato Est II",
     "parent_id": 11110100,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 11110118,
-    "name": "Fiadanana Iii L",
+    "name": "Fiadanana III L",
     "parent_id": 11110100,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 11110119,
-    "name": "Fiadanana Iii N",
+    "name": "Fiadanana III N",
     "parent_id": 11110100,
     "type": "NEIGHBORHOOD"
   },
@@ -10658,7 +10658,7 @@
   },
   {
     "id": 11110125,
-    "name": "Mandrangobato Ii",
+    "name": "Mandrangobato II",
     "parent_id": 11110100,
     "type": "NEIGHBORHOOD"
   },
@@ -10670,25 +10670,25 @@
   },
   {
     "id": 11110127,
-    "name": "Ouest Ambohijanahary Iii G, Iii M",
+    "name": "Ouest Ambohijanahary III G, III M",
     "parent_id": 11110100,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 11110128,
-    "name": "Ouest Ambohijanahary Iii H, Iii O",
+    "name": "Ouest Ambohijanahary III H, III O",
     "parent_id": 11110100,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 11110129,
-    "name": "Soanierana Iii  I",
+    "name": "Soanierana III  I",
     "parent_id": 11110100,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 11110130,
-    "name": "Soanierana Iii  J",
+    "name": "Soanierana III  J",
     "parent_id": 11110100,
     "type": "NEIGHBORHOOD"
   },
@@ -10802,25 +10802,25 @@
   },
   {
     "id": 11120115,
-    "name": "Anjanahary Ii A",
+    "name": "Anjanahary II A",
     "parent_id": 11120100,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 11120116,
-    "name": "Anjanahary Ii N",
+    "name": "Anjanahary II N",
     "parent_id": 11120100,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 11120117,
-    "name": "Anjanahary Ii O",
+    "name": "Anjanahary II O",
     "parent_id": 11120100,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 11120118,
-    "name": "Anjanahary Ii S",
+    "name": "Anjanahary II S",
     "parent_id": 11120100,
     "type": "NEIGHBORHOOD"
   },
@@ -10838,19 +10838,19 @@
   },
   {
     "id": 11120121,
-    "name": "Manjakaray Ii B",
+    "name": "Manjakaray II B",
     "parent_id": 11120100,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 11120122,
-    "name": "Manjakaray Ii C",
+    "name": "Manjakaray II C",
     "parent_id": 11120100,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 11120123,
-    "name": "Manjakaray Ii D",
+    "name": "Manjakaray II D",
     "parent_id": 11120100,
     "type": "NEIGHBORHOOD"
   },
@@ -11408,7 +11408,7 @@
   },
   {
     "id": 12010514,
-    "name": "Miandrarivo Ii",
+    "name": "Miandrarivo II",
     "parent_id": 12010500,
     "type": "NEIGHBORHOOD"
   },
@@ -11648,7 +11648,7 @@
   },
   {
     "id": 12010906,
-    "name": "Antanety Iii",
+    "name": "Antanety III",
     "parent_id": 12010900,
     "type": "NEIGHBORHOOD"
   },
@@ -11690,13 +11690,13 @@
   },
   {
     "id": 12010913,
-    "name": "Morafeno Ii",
+    "name": "Morafeno II",
     "parent_id": 12010900,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 12010914,
-    "name": "Morafeno Iii",
+    "name": "Morafeno III",
     "parent_id": 12010900,
     "type": "NEIGHBORHOOD"
   },
@@ -12002,7 +12002,7 @@
   },
   {
     "id": 12020407,
-    "name": "Ankadinondry Sakay Ii",
+    "name": "Ankadinondry Sakay II",
     "parent_id": 12020400,
     "type": "NEIGHBORHOOD"
   },
@@ -12350,7 +12350,7 @@
   },
   {
     "id": 12020906,
-    "name": "Bemahatazana Ii",
+    "name": "Bemahatazana II",
     "parent_id": 12020900,
     "type": "NEIGHBORHOOD"
   },
@@ -12782,7 +12782,7 @@
   },
   {
     "id": 12021605,
-    "name": "Miandrarivo Ii",
+    "name": "Miandrarivo II",
     "parent_id": 12021600,
     "type": "NEIGHBORHOOD"
   },
@@ -14199,7 +14199,7 @@
   },
   {
     "id": 13011400,
-    "name": "Arivonimamo Ii",
+    "name": "Arivonimamo II",
     "parent_id": 13010000,
     "type": "MUNICIPALITY"
   },
@@ -14361,7 +14361,7 @@
   },
   {
     "id": 13011505,
-    "name": "Ambohimiadana Ii",
+    "name": "Ambohimiadana II",
     "parent_id": 13011500,
     "type": "NEIGHBORHOOD"
   },
@@ -14403,7 +14403,7 @@
   },
   {
     "id": 13011512,
-    "name": "Antamboho Ii",
+    "name": "Antamboho II",
     "parent_id": 13011500,
     "type": "NEIGHBORHOOD"
   },
@@ -15717,7 +15717,7 @@
   },
   {
     "id": 13021000,
-    "name": "Miarinarivo Ii",
+    "name": "Miarinarivo II",
     "parent_id": 13020000,
     "type": "MUNICIPALITY"
   },
@@ -16269,7 +16269,7 @@
   },
   {
     "id": 13030604,
-    "name": "Ampary Ii",
+    "name": "Ampary II",
     "parent_id": 13030600,
     "type": "NEIGHBORHOOD"
   },
@@ -16977,7 +16977,7 @@
   },
   {
     "id": 14010102,
-    "name": "Ambanimaso Ii",
+    "name": "Ambanimaso II",
     "parent_id": 14010100,
     "type": "NEIGHBORHOOD"
   },
@@ -17007,7 +17007,7 @@
   },
   {
     "id": 14010107,
-    "name": "Ankodondona Ii",
+    "name": "Ankodondona II",
     "parent_id": 14010100,
     "type": "NEIGHBORHOOD"
   },
@@ -17061,7 +17061,7 @@
   },
   {
     "id": 14010206,
-    "name": "Vatovandana Ii",
+    "name": "Vatovandana II",
     "parent_id": 14010200,
     "type": "NEIGHBORHOOD"
   },
@@ -17577,7 +17577,7 @@
   },
   {
     "id": 14011304,
-    "name": "Amboanjobe Ii",
+    "name": "Amboanjobe II",
     "parent_id": 14011300,
     "type": "NEIGHBORHOOD"
   },
@@ -19017,7 +19017,7 @@
   },
   {
     "id": 14021014,
-    "name": "Andohavary Ii",
+    "name": "Andohavary II",
     "parent_id": 14021000,
     "type": "NEIGHBORHOOD"
   },
@@ -19173,7 +19173,7 @@
   },
   {
     "id": 14021040,
-    "name": "Morarano Iii",
+    "name": "Morarano III",
     "parent_id": 14021000,
     "type": "NEIGHBORHOOD"
   },
@@ -20013,7 +20013,7 @@
   },
   {
     "id": 14040000,
-    "name": "Antsirabe Ii",
+    "name": "Antsirabe II",
     "parent_id": 14000000,
     "type": "DISTRICT"
   },
@@ -20295,7 +20295,7 @@
   },
   {
     "id": 14040503,
-    "name": "Ambohimandroso Ii",
+    "name": "Ambohimandroso II",
     "parent_id": 14040500,
     "type": "NEIGHBORHOOD"
   },
@@ -20313,7 +20313,7 @@
   },
   {
     "id": 14040506,
-    "name": "Ankeniheny Iii",
+    "name": "Ankeniheny III",
     "parent_id": 14040500,
     "type": "NEIGHBORHOOD"
   },
@@ -20385,7 +20385,7 @@
   },
   {
     "id": 14040518,
-    "name": "Tsarafiraisana Morarano Iii",
+    "name": "Tsarafiraisana Morarano III",
     "parent_id": 14040500,
     "type": "NEIGHBORHOOD"
   },
@@ -20703,7 +20703,7 @@
   },
   {
     "id": 14041006,
-    "name": "Fenoarivo Ii",
+    "name": "Fenoarivo II",
     "parent_id": 14041000,
     "type": "NEIGHBORHOOD"
   },
@@ -21903,7 +21903,7 @@
   },
   {
     "id": 14051006,
-    "name": "Soavina Ii",
+    "name": "Soavina II",
     "parent_id": 14051000,
     "type": "NEIGHBORHOOD"
   },
@@ -21999,7 +21999,7 @@
   },
   {
     "id": 14051209,
-    "name": "A/Tsena Ii Atsimotsena",
+    "name": "A/Tsena II Atsimotsena",
     "parent_id": 14051200,
     "type": "NEIGHBORHOOD"
   },
@@ -22857,7 +22857,7 @@
   },
   {
     "id": 14060706,
-    "name": "Ankonabe Ii",
+    "name": "Ankonabe II",
     "parent_id": 14060700,
     "type": "NEIGHBORHOOD"
   },
@@ -22881,7 +22881,7 @@
   },
   {
     "id": 14060710,
-    "name": "Miarinkofeno Ii",
+    "name": "Miarinkofeno II",
     "parent_id": 14060700,
     "type": "NEIGHBORHOOD"
   },
@@ -22953,7 +22953,7 @@
   },
   {
     "id": 14060903,
-    "name": "Ambohimahasoa Ii",
+    "name": "Ambohimahasoa II",
     "parent_id": 14060900,
     "type": "NEIGHBORHOOD"
   },
@@ -23121,7 +23121,7 @@
   },
   {
     "id": 14070206,
-    "name": "Ankazomiriotra Ii",
+    "name": "Ankazomiriotra II",
     "parent_id": 14070200,
     "type": "NEIGHBORHOOD"
   },
@@ -23175,13 +23175,13 @@
   },
   {
     "id": 14070215,
-    "name": "Tatamolava Ii",
+    "name": "Tatamolava II",
     "parent_id": 14070200,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 14070216,
-    "name": "Vohitrarivo Ii",
+    "name": "Vohitrarivo II",
     "parent_id": 14070200,
     "type": "NEIGHBORHOOD"
   },
@@ -23397,7 +23397,7 @@
   },
   {
     "id": 14070608,
-    "name": "Mandoto Ii",
+    "name": "Mandoto II",
     "parent_id": 14070600,
     "type": "NEIGHBORHOOD"
   },
@@ -23555,7 +23555,7 @@
     "id": 20000000,
     "name": "Antsiranana",
     "code": "MG-D",
-    "country_id": 450,
+    "country_code": "MG",
     "type": "PROVINCE"
   },
   { "id": 21000000, "name": "Diana", "parent_id": 20000000, "type": "REGION" },
@@ -23717,7 +23717,7 @@
   },
   {
     "id": 21010311,
-    "name": "Begavo Ii",
+    "name": "Begavo II",
     "parent_id": 21010300,
     "type": "NEIGHBORHOOD"
   },
@@ -24359,7 +24359,7 @@
   },
   {
     "id": 21011609,
-    "name": "Antsirabe Ii",
+    "name": "Antsirabe II",
     "parent_id": 21011600,
     "type": "NEIGHBORHOOD"
   },
@@ -25349,7 +25349,7 @@
   },
   {
     "id": 21020807,
-    "name": "Tsaratanana Ii",
+    "name": "Tsaratanana II",
     "parent_id": 21020800,
     "type": "NEIGHBORHOOD"
   },
@@ -26141,7 +26141,7 @@
   },
   {
     "id": 21030121,
-    "name": "Quartier Tanambao Iii",
+    "name": "Quartier Tanambao III",
     "parent_id": 21030100,
     "type": "NEIGHBORHOOD"
   },
@@ -26171,7 +26171,7 @@
   },
   {
     "id": 21040000,
-    "name": "Antsiranana Ii",
+    "name": "Antsiranana II",
     "parent_id": 21000000,
     "type": "DISTRICT"
   },
@@ -26453,13 +26453,13 @@
   },
   {
     "id": 21040610,
-    "name": "Anivorano Nord Ii",
+    "name": "Anivorano Nord II",
     "parent_id": 21040600,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 21040611,
-    "name": "Anivorano Nord Iii",
+    "name": "Anivorano Nord III",
     "parent_id": 21040600,
     "type": "NEIGHBORHOOD"
   },
@@ -26663,7 +26663,7 @@
   },
   {
     "id": 21041005,
-    "name": "Anketrakabe Ii",
+    "name": "Anketrakabe II",
     "parent_id": 21041000,
     "type": "NEIGHBORHOOD"
   },
@@ -27522,19 +27522,19 @@
   },
   {
     "id": 22010100,
-    "name": "Ambalamanasy Ii",
+    "name": "Ambalamanasy II",
     "parent_id": 22010000,
     "type": "MUNICIPALITY"
   },
   {
     "id": 22010101,
-    "name": "Ambalamanasy Ii A",
+    "name": "Ambalamanasy II A",
     "parent_id": 22010100,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 22010102,
-    "name": "Ambalamanasy Ii B",
+    "name": "Ambalamanasy II B",
     "parent_id": 22010100,
     "type": "NEIGHBORHOOD"
   },
@@ -27552,7 +27552,7 @@
   },
   {
     "id": 22010105,
-    "name": "Ambodimanga Ii",
+    "name": "Ambodimanga II",
     "parent_id": 22010100,
     "type": "NEIGHBORHOOD"
   },
@@ -28662,7 +28662,7 @@
   },
   {
     "id": 22020113,
-    "name": "Tanandava Ii",
+    "name": "Tanandava II",
     "parent_id": 22020100,
     "type": "NEIGHBORHOOD"
   },
@@ -29364,7 +29364,7 @@
   },
   {
     "id": 22021101,
-    "name": "Ambohimarina Ii/Antsiranamatso/Antanteraka/Tsaraho",
+    "name": "Ambohimarina II/Antsiranamatso/Antanteraka/Tsaraho",
     "parent_id": 22021100,
     "type": "NEIGHBORHOOD"
   },
@@ -29682,7 +29682,7 @@
   },
   {
     "id": 22021605,
-    "name": "Ankiankately/Anjahamarina Ii/Tanambaon'I Jaony/Amb",
+    "name": "Ankiankately/Anjahamarina II/Tanambaon'I Jaony/Amb",
     "parent_id": 22021600,
     "type": "NEIGHBORHOOD"
   },
@@ -30066,7 +30066,7 @@
   },
   {
     "id": 22030407,
-    "name": "Ampampamena Ii",
+    "name": "Ampampamena II",
     "parent_id": 22030400,
     "type": "NEIGHBORHOOD"
   },
@@ -30252,7 +30252,7 @@
   },
   {
     "id": 22030703,
-    "name": "Andapa Ii",
+    "name": "Andapa II",
     "parent_id": 22030700,
     "type": "NEIGHBORHOOD"
   },
@@ -30378,7 +30378,7 @@
   },
   {
     "id": 22030907,
-    "name": "Antongondriha Ii",
+    "name": "Antongondriha II",
     "parent_id": 22030900,
     "type": "NEIGHBORHOOD"
   },
@@ -30390,7 +30390,7 @@
   },
   {
     "id": 22030909,
-    "name": "Soahitra Ii",
+    "name": "Soahitra II",
     "parent_id": 22030900,
     "type": "NEIGHBORHOOD"
   },
@@ -30696,7 +30696,7 @@
   },
   {
     "id": 22031305,
-    "name": "Antanambao Ii",
+    "name": "Antanambao II",
     "parent_id": 22031300,
     "type": "NEIGHBORHOOD"
   },
@@ -31110,7 +31110,7 @@
   },
   {
     "id": 22031809,
-    "name": "Bemanevika Ii",
+    "name": "Bemanevika II",
     "parent_id": 22031800,
     "type": "NEIGHBORHOOD"
   },
@@ -31428,7 +31428,7 @@
   },
   {
     "id": 22032106,
-    "name": "Antanambao Ii",
+    "name": "Antanambao II",
     "parent_id": 22032100,
     "type": "NEIGHBORHOOD"
   },
@@ -31524,7 +31524,7 @@
   },
   {
     "id": 22032208,
-    "name": "Maroambihy Ii: Antanambao V",
+    "name": "Maroambihy II: Antanambao V",
     "parent_id": 22032200,
     "type": "NEIGHBORHOOD"
   },
@@ -31566,7 +31566,7 @@
   },
   {
     "id": 22032306,
-    "name": "Antsahabe Ii",
+    "name": "Antsahabe II",
     "parent_id": 22032300,
     "type": "NEIGHBORHOOD"
   },
@@ -31836,7 +31836,7 @@
   },
   {
     "id": 22032704,
-    "name": "Ambodisatrana Ii",
+    "name": "Ambodisatrana II",
     "parent_id": 22032700,
     "type": "NEIGHBORHOOD"
   },
@@ -31878,7 +31878,7 @@
   },
   {
     "id": 22032711,
-    "name": "Antanifotsy Ii",
+    "name": "Antanifotsy II",
     "parent_id": 22032700,
     "type": "NEIGHBORHOOD"
   },
@@ -32550,7 +32550,7 @@
   },
   {
     "id": 22041013,
-    "name": "Antsirabe Nord Ii",
+    "name": "Antsirabe Nord II",
     "parent_id": 22041000,
     "type": "NEIGHBORHOOD"
   },
@@ -32820,7 +32820,7 @@
   },
   {
     "id": 22041601,
-    "name": "Ambodimanga Ii",
+    "name": "Ambodimanga II",
     "parent_id": 22041600,
     "type": "NEIGHBORHOOD"
   },
@@ -33030,7 +33030,7 @@
   },
   {
     "id": 22041903,
-    "name": "Andranomasibe Ii",
+    "name": "Andranomasibe II",
     "parent_id": 22041900,
     "type": "NEIGHBORHOOD"
   },
@@ -33042,7 +33042,7 @@
   },
   {
     "id": 22041905,
-    "name": "Andranomasikely Ii",
+    "name": "Andranomasikely II",
     "parent_id": 22041900,
     "type": "NEIGHBORHOOD"
   },
@@ -33062,7 +33062,7 @@
     "id": 30000000,
     "name": "Fianarantsoa",
     "code": "MG-F",
-    "country_id": 450,
+    "country_code": "MG",
     "type": "PROVINCE"
   },
   {
@@ -33871,7 +33871,7 @@
   },
   {
     "id": 31020406,
-    "name": "Ilempona Ii",
+    "name": "Ilempona II",
     "parent_id": 31020400,
     "type": "NEIGHBORHOOD"
   },
@@ -34009,7 +34009,7 @@
   },
   {
     "id": 31020600,
-    "name": "Ambohimitombo Ii",
+    "name": "Ambohimitombo II",
     "parent_id": 31020000,
     "type": "MUNICIPALITY"
   },
@@ -35053,7 +35053,7 @@
   },
   {
     "id": 31021905,
-    "name": "Ivony Firaisantsoa Ii",
+    "name": "Ivony Firaisantsoa II",
     "parent_id": 31021900,
     "type": "NEIGHBORHOOD"
   },
@@ -35671,7 +35671,7 @@
   },
   {
     "id": 31030114,
-    "name": "Zanambahona Ii",
+    "name": "Zanambahona II",
     "parent_id": 31030100,
     "type": "NEIGHBORHOOD"
   },
@@ -35833,7 +35833,7 @@
   },
   {
     "id": 31030405,
-    "name": "Ambohibary Ii",
+    "name": "Ambohibary II",
     "parent_id": 31030400,
     "type": "NEIGHBORHOOD"
   },
@@ -35983,7 +35983,7 @@
   },
   {
     "id": 31030430,
-    "name": "Malakialiana Ii",
+    "name": "Malakialiana II",
     "parent_id": 31030400,
     "type": "NEIGHBORHOOD"
   },
@@ -36031,7 +36031,7 @@
   },
   {
     "id": 31030438,
-    "name": "Tadio Ii",
+    "name": "Tadio II",
     "parent_id": 31030400,
     "type": "NEIGHBORHOOD"
   },
@@ -36133,7 +36133,7 @@
   },
   {
     "id": 31030514,
-    "name": "Andranolava Ii",
+    "name": "Andranolava II",
     "parent_id": 31030500,
     "type": "NEIGHBORHOOD"
   },
@@ -37087,7 +37087,7 @@
   },
   {
     "id": 31031221,
-    "name": "Efadray Ii",
+    "name": "Efadray II",
     "parent_id": 31031200,
     "type": "NEIGHBORHOOD"
   },
@@ -37189,7 +37189,7 @@
   },
   {
     "id": 31031238,
-    "name": "Zafindriatsambo Ii",
+    "name": "Zafindriatsambo II",
     "parent_id": 31031200,
     "type": "NEIGHBORHOOD"
   },
@@ -37807,7 +37807,7 @@
   },
   {
     "id": 31040511,
-    "name": "Sambohery-Mahasoa Ii",
+    "name": "Sambohery-Mahasoa II",
     "parent_id": 31040500,
     "type": "NEIGHBORHOOD"
   },
@@ -38713,7 +38713,7 @@
   },
   {
     "id": 32020203,
-    "name": "Beretra Ii",
+    "name": "Beretra II",
     "parent_id": 32020200,
     "type": "NEIGHBORHOOD"
   },
@@ -38959,7 +38959,7 @@
   },
   {
     "id": 32020705,
-    "name": "Eroka Ii",
+    "name": "Eroka II",
     "parent_id": 32020700,
     "type": "NEIGHBORHOOD"
   },
@@ -40729,7 +40729,7 @@
   },
   {
     "id": 32030303,
-    "name": "Beharena Ii",
+    "name": "Beharena II",
     "parent_id": 32030300,
     "type": "NEIGHBORHOOD"
   },
@@ -41215,7 +41215,7 @@
   },
   {
     "id": 32040503,
-    "name": "Mahela Ii",
+    "name": "Mahela II",
     "parent_id": 32040500,
     "type": "NEIGHBORHOOD"
   },
@@ -41227,7 +41227,7 @@
   },
   {
     "id": 32040505,
-    "name": "Tanambao Ii",
+    "name": "Tanambao II",
     "parent_id": 32040500,
     "type": "NEIGHBORHOOD"
   },
@@ -41263,7 +41263,7 @@
   },
   {
     "id": 32040604,
-    "name": "Morafeno Ii",
+    "name": "Morafeno II",
     "parent_id": 32040600,
     "type": "NEIGHBORHOOD"
   },
@@ -41329,7 +41329,7 @@
   },
   {
     "id": 32040804,
-    "name": "Anandrotry Ii",
+    "name": "Anandrotry II",
     "parent_id": 32040800,
     "type": "NEIGHBORHOOD"
   },
@@ -41521,7 +41521,7 @@
   },
   {
     "id": 32041206,
-    "name": "Fenoarivo Ii",
+    "name": "Fenoarivo II",
     "parent_id": 32041200,
     "type": "NEIGHBORHOOD"
   },
@@ -41767,7 +41767,7 @@
   },
   {
     "id": 32041608,
-    "name": "Mahavelo Ii",
+    "name": "Mahavelo II",
     "parent_id": 32041600,
     "type": "NEIGHBORHOOD"
   },
@@ -41941,7 +41941,7 @@
   },
   {
     "id": 32041905,
-    "name": "Vohimary Ii",
+    "name": "Vohimary II",
     "parent_id": 32041900,
     "type": "NEIGHBORHOOD"
   },
@@ -42175,13 +42175,13 @@
   },
   {
     "id": 32042205,
-    "name": "Lalangy Ii",
+    "name": "Lalangy II",
     "parent_id": 32042200,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 32042206,
-    "name": "Mahavelo Ii",
+    "name": "Mahavelo II",
     "parent_id": 32042200,
     "type": "NEIGHBORHOOD"
   },
@@ -42253,7 +42253,7 @@
   },
   {
     "id": 32042305,
-    "name": "Sandravinany Ii",
+    "name": "Sandravinany II",
     "parent_id": 32042300,
     "type": "NEIGHBORHOOD"
   },
@@ -42379,7 +42379,7 @@
   },
   {
     "id": 32042601,
-    "name": "Anambotaka Ii",
+    "name": "Anambotaka II",
     "parent_id": 32042600,
     "type": "NEIGHBORHOOD"
   },
@@ -42505,7 +42505,7 @@
   },
   {
     "id": 32042713,
-    "name": "Tsipanga Ii",
+    "name": "Tsipanga II",
     "parent_id": 32042700,
     "type": "NEIGHBORHOOD"
   },
@@ -42661,7 +42661,7 @@
   },
   {
     "id": 32043007,
-    "name": "Mahatsinjo Ii",
+    "name": "Mahatsinjo II",
     "parent_id": 32043000,
     "type": "NEIGHBORHOOD"
   },
@@ -42817,7 +42817,7 @@
   },
   {
     "id": 32050203,
-    "name": "Anivorano Ii",
+    "name": "Anivorano II",
     "parent_id": 32050200,
     "type": "NEIGHBORHOOD"
   },
@@ -42847,7 +42847,7 @@
   },
   {
     "id": 32050208,
-    "name": "Mazavalala Ii",
+    "name": "Mazavalala II",
     "parent_id": 32050200,
     "type": "NEIGHBORHOOD"
   },
@@ -42907,7 +42907,7 @@
   },
   {
     "id": 32050403,
-    "name": "Andemaka Ii",
+    "name": "Andemaka II",
     "parent_id": 32050400,
     "type": "NEIGHBORHOOD"
   },
@@ -42919,13 +42919,13 @@
   },
   {
     "id": 32050405,
-    "name": "Mahasoa Iii-Ambinaninony-Tanambao",
+    "name": "Mahasoa III-Ambinaninony-Tanambao",
     "parent_id": 32050400,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 32050406,
-    "name": "Mahatsara Ii",
+    "name": "Mahatsara II",
     "parent_id": 32050400,
     "type": "NEIGHBORHOOD"
   },
@@ -42985,7 +42985,7 @@
   },
   {
     "id": 32050601,
-    "name": "Ambatoharana Ii",
+    "name": "Ambatoharana II",
     "parent_id": 32050600,
     "type": "NEIGHBORHOOD"
   },
@@ -43045,7 +43045,7 @@
   },
   {
     "id": 32050703,
-    "name": "Mahasoa Ii",
+    "name": "Mahasoa II",
     "parent_id": 32050700,
     "type": "NEIGHBORHOOD"
   },
@@ -43057,7 +43057,7 @@
   },
   {
     "id": 32050705,
-    "name": "Vohibe Ii",
+    "name": "Vohibe II",
     "parent_id": 32050700,
     "type": "NEIGHBORHOOD"
   },
@@ -43111,7 +43111,7 @@
   },
   {
     "id": 32050807,
-    "name": "Mahasoa Ii",
+    "name": "Mahasoa II",
     "parent_id": 32050800,
     "type": "NEIGHBORHOOD"
   },
@@ -43255,7 +43255,7 @@
   },
   {
     "id": 32051105,
-    "name": "Ivato Ii",
+    "name": "Ivato II",
     "parent_id": 32051100,
     "type": "NEIGHBORHOOD"
   },
@@ -43375,7 +43375,7 @@
   },
   {
     "id": 32051305,
-    "name": "Antsoro Ii",
+    "name": "Antsoro II",
     "parent_id": 32051300,
     "type": "NEIGHBORHOOD"
   },
@@ -43411,7 +43411,7 @@
   },
   {
     "id": 32051311,
-    "name": "Tsararano Iii",
+    "name": "Tsararano III",
     "parent_id": 32051300,
     "type": "NEIGHBORHOOD"
   },
@@ -43483,7 +43483,7 @@
   },
   {
     "id": 32051408,
-    "name": "Vohimary Ii",
+    "name": "Vohimary II",
     "parent_id": 32051400,
     "type": "NEIGHBORHOOD"
   },
@@ -44461,7 +44461,7 @@
   },
   {
     "id": 33011109,
-    "name": "Tanambao Ii",
+    "name": "Tanambao II",
     "parent_id": 33011100,
     "type": "NEIGHBORHOOD"
   },
@@ -44629,7 +44629,7 @@
   },
   {
     "id": 33011405,
-    "name": "Anivorano Ii",
+    "name": "Anivorano II",
     "parent_id": 33011400,
     "type": "NEIGHBORHOOD"
   },
@@ -45547,7 +45547,7 @@
   },
   {
     "id": 33021605,
-    "name": "Mahavelo Ii",
+    "name": "Mahavelo II",
     "parent_id": 33021600,
     "type": "NEIGHBORHOOD"
   },
@@ -45643,7 +45643,7 @@
   },
   {
     "id": 33021713,
-    "name": "Vohilava Ii",
+    "name": "Vohilava II",
     "parent_id": 33021700,
     "type": "NEIGHBORHOOD"
   },
@@ -45781,13 +45781,13 @@
   },
   {
     "id": 33022007,
-    "name": "Tanambao Ii",
+    "name": "Tanambao II",
     "parent_id": 33022000,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 33022008,
-    "name": "Tanambao Iii",
+    "name": "Tanambao III",
     "parent_id": 33022000,
     "type": "NEIGHBORHOOD"
   },
@@ -46291,7 +46291,7 @@
   },
   {
     "id": 33023006,
-    "name": "Village Betampona Ii",
+    "name": "Village Betampona II",
     "parent_id": 33023000,
     "type": "NEIGHBORHOOD"
   },
@@ -46477,7 +46477,7 @@
   },
   {
     "id": 33023603,
-    "name": "Ambohitsara Ii",
+    "name": "Ambohitsara II",
     "parent_id": 33023600,
     "type": "NEIGHBORHOOD"
   },
@@ -46897,7 +46897,7 @@
   },
   {
     "id": 33024403,
-    "name": "Mahasoa Ii",
+    "name": "Mahasoa II",
     "parent_id": 33024400,
     "type": "NEIGHBORHOOD"
   },
@@ -47131,7 +47131,7 @@
   },
   {
     "id": 33030205,
-    "name": "Marohanka-Ii",
+    "name": "Marohanka-II",
     "parent_id": 33030200,
     "type": "NEIGHBORHOOD"
   },
@@ -47353,7 +47353,7 @@
   },
   {
     "id": 33030701,
-    "name": "Ambohitsara Iii",
+    "name": "Ambohitsara III",
     "parent_id": 33030700,
     "type": "NEIGHBORHOOD"
   },
@@ -47587,7 +47587,7 @@
   },
   {
     "id": 33031202,
-    "name": "Ambohitsara Ii",
+    "name": "Ambohitsara II",
     "parent_id": 33031200,
     "type": "NEIGHBORHOOD"
   },
@@ -47623,7 +47623,7 @@
   },
   {
     "id": 33031208,
-    "name": "Mahasoa Ii",
+    "name": "Mahasoa II",
     "parent_id": 33031200,
     "type": "NEIGHBORHOOD"
   },
@@ -47857,7 +47857,7 @@
   },
   {
     "id": 33031902,
-    "name": "Ambohitsara Ii",
+    "name": "Ambohitsara II",
     "parent_id": 33031900,
     "type": "NEIGHBORHOOD"
   },
@@ -48007,7 +48007,7 @@
   },
   {
     "id": 33032108,
-    "name": "Tanambao Ii",
+    "name": "Tanambao II",
     "parent_id": 33032100,
     "type": "NEIGHBORHOOD"
   },
@@ -48079,7 +48079,7 @@
   },
   {
     "id": 34010108,
-    "name": "Androka-Androka I-Androka Ii",
+    "name": "Androka-Androka I-Androka II",
     "parent_id": 34010100,
     "type": "NEIGHBORHOOD"
   },
@@ -48139,7 +48139,7 @@
   },
   {
     "id": 34010118,
-    "name": "Teloambinifolo-Ambalamahavelo I-Ambalamahavelo Ii",
+    "name": "Teloambinifolo-Ambalamahavelo I-Ambalamahavelo II",
     "parent_id": 34010100,
     "type": "NEIGHBORHOOD"
   },
@@ -48229,7 +48229,7 @@
   },
   {
     "id": 34010303,
-    "name": "Andonaka Ii : Tanambazaha-Ambalataretra- Tananivo-Androtsa-Soaniaria-Tsaramandroso- Antsenanomby",
+    "name": "Andonaka II : Tanambazaha-Ambalataretra- Tananivo-Androtsa-Soaniaria-Tsaramandroso- Antsenanomby",
     "parent_id": 34010300,
     "type": "NEIGHBORHOOD"
   },
@@ -48433,7 +48433,7 @@
   },
   {
     "id": 34010603,
-    "name": "Mahatsinjony-Ankazomanitra-Bedita-Andoharano-Andrea I-Fonenatsiandrama-Andrea Ii-Mahatsinjony-Miarintsoa-Soanirariny Est",
+    "name": "Mahatsinjony-Ankazomanitra-Bedita-Andoharano-Andrea I-Fonenatsiandrama-Andrea II-Mahatsinjony-Miarintsoa-Soanirariny Est",
     "parent_id": 34010600,
     "type": "NEIGHBORHOOD"
   },
@@ -48463,7 +48463,7 @@
   },
   {
     "id": 34010702,
-    "name": "Ambohimiadana-Anjoma I-Anjoma Ii-Mitsinjoarivo-Tsangapinga-",
+    "name": "Ambohimiadana-Anjoma I-Anjoma II-Mitsinjoarivo-Tsangapinga-",
     "parent_id": 34010700,
     "type": "NEIGHBORHOOD"
   },
@@ -48499,13 +48499,13 @@
   },
   {
     "id": 34010708,
-    "name": "Ifandana Est-Ambalamanandray-Iampody-Bengira-Ambaibo I-Ampiandraza-Ambalamarina-Bevoalavo-Ampefimanga-Ambaibo Ii-Inily",
+    "name": "Ifandana Est-Ambalamanandray-Iampody-Bengira-Ambaibo I-Ampiandraza-Ambalamarina-Bevoalavo-Ampefimanga-Ambaibo II-Inily",
     "parent_id": 34010700,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 34010709,
-    "name": "Samimasina-Ambalamanenjana-Soamananjara-Bemasoandro-Andravindahy Ii-Besoroba-Ambalatotongana",
+    "name": "Samimasina-Ambalamanenjana-Soamananjara-Bemasoandro-Andravindahy II-Besoroba-Ambalatotongana",
     "parent_id": 34010700,
     "type": "NEIGHBORHOOD"
   },
@@ -48571,7 +48571,7 @@
   },
   {
     "id": 34010807,
-    "name": "Morafeno Nord-Fotakiloha I-Fotakiloha Ii-Morafeno Nord",
+    "name": "Morafeno Nord-Fotakiloha I-Fotakiloha II-Morafeno Nord",
     "parent_id": 34010800,
     "type": "NEIGHBORHOOD"
   },
@@ -48673,7 +48673,7 @@
   },
   {
     "id": 34011006,
-    "name": "Sakafia : Sakafia I- Sakafia Ii- Soatanana",
+    "name": "Sakafia : Sakafia I- Sakafia II- Soatanana",
     "parent_id": 34011000,
     "type": "NEIGHBORHOOD"
   },
@@ -48709,19 +48709,19 @@
   },
   {
     "id": 34011105,
-    "name": "Lalangina-Antavy-Ampopoho-Betse-Amparihy-Ambondrona Ii-Amparihy Sud-Ambondrona I-Ambohobe Ii-Ambohobory",
+    "name": "Lalangina-Antavy-Ampopoho-Betse-Amparihy-Ambondrona II-Amparihy Sud-Ambondrona I-Ambohobe II-Ambohobory",
     "parent_id": 34011100,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 34011106,
-    "name": "Manampy-Ambalafananara-Anahimasy-Ianohy Nord-Inaohy Sud-Ambalaraketa-Masimbao-Anara Ii-Tambohobe I",
+    "name": "Manampy-Ambalafananara-Anahimasy-Ianohy Nord-Inaohy Sud-Ambalaraketa-Masimbao-Anara II-Tambohobe I",
     "parent_id": 34011100,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 34011107,
-    "name": "Manandrambato-Ambakoa-Ambatolahy-Ambalavao Isaka-Ambalamarina Ii-",
+    "name": "Manandrambato-Ambakoa-Ambatolahy-Ambalavao Isaka-Ambalamarina II-",
     "parent_id": 34011100,
     "type": "NEIGHBORHOOD"
   },
@@ -48823,7 +48823,7 @@
   },
   {
     "id": 34011306,
-    "name": "Ampangabe-Vohimarina I-Vohimarina Ii-Soanataondrainy-Ambalamahasoa",
+    "name": "Ampangabe-Vohimarina I-Vohimarina II-Soanataondrainy-Ambalamahasoa",
     "parent_id": 34011300,
     "type": "NEIGHBORHOOD"
   },
@@ -48871,13 +48871,13 @@
   },
   {
     "id": 34011401,
-    "name": "Fenoarivo Ii-Ambalalova Iii-Amboakitsy-Taniditra-Nasandratrony-Ambalamarina-Tamekoarivo-Manomboarivo-Soanamelana",
+    "name": "Fenoarivo II-Ambalalova III-Amboakitsy-Taniditra-Nasandratrony-Ambalamarina-Tamekoarivo-Manomboarivo-Soanamelana",
     "parent_id": 34011400,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 34011402,
-    "name": "Imbato-Ambatolahy-Vohiboay-Soafiarenana-Tolongoina-Ampatsakana-Ambalamarina Ii-Ifanda-Soamahatamana-Andranomangitsy-S V S",
+    "name": "Imbato-Ambatolahy-Vohiboay-Soafiarenana-Tolongoina-Ampatsakana-Ambalamarina II-Ifanda-Soamahatamana-Andranomangitsy-S V S",
     "parent_id": 34011400,
     "type": "NEIGHBORHOOD"
   },
@@ -49033,7 +49033,7 @@
   },
   {
     "id": 34011710,
-    "name": "Moronarivo-Vohimarina Ii-Manamisoa-Varivola-Ambondrona-Ambalatany-Ambalavao Nord-Ambalavao Sud",
+    "name": "Moronarivo-Vohimarina II-Manamisoa-Varivola-Ambondrona-Ambalatany-Ambalavao Nord-Ambalavao Sud",
     "parent_id": 34011700,
     "type": "NEIGHBORHOOD"
   },
@@ -49123,7 +49123,7 @@
   },
   {
     "id": 34011903,
-    "name": "Tamia-Famoria Ouest-Manomboarivo-Fihasina Ii-Kisopa-Ampanohodambo-Marovoro-Volafotsy-Miarintsoa-Ankanda",
+    "name": "Tamia-Famoria Ouest-Manomboarivo-Fihasina II-Kisopa-Ampanohodambo-Marovoro-Volafotsy-Miarintsoa-Ankanda",
     "parent_id": 34011900,
     "type": "NEIGHBORHOOD"
   },
@@ -49441,7 +49441,7 @@
   },
   {
     "id": 34020604,
-    "name": "Ambohimpiarenana Ii",
+    "name": "Ambohimpiarenana II",
     "parent_id": 34020600,
     "type": "NEIGHBORHOOD"
   },
@@ -49465,7 +49465,7 @@
   },
   {
     "id": 34020608,
-    "name": "Vatoavo Ii",
+    "name": "Vatoavo II",
     "parent_id": 34020600,
     "type": "NEIGHBORHOOD"
   },
@@ -49675,7 +49675,7 @@
   },
   {
     "id": 34021007,
-    "name": "Fiadanana Ii",
+    "name": "Fiadanana II",
     "parent_id": 34021000,
     "type": "NEIGHBORHOOD"
   },
@@ -49981,7 +49981,7 @@
   },
   {
     "id": 34021405,
-    "name": "Tsarafidifototra Ii",
+    "name": "Tsarafidifototra II",
     "parent_id": 34021400,
     "type": "NEIGHBORHOOD"
   },
@@ -50275,7 +50275,7 @@
   },
   {
     "id": 34030302,
-    "name": "Ambatolahy Ii",
+    "name": "Ambatolahy II",
     "parent_id": 34030300,
     "type": "NEIGHBORHOOD"
   },
@@ -51007,13 +51007,13 @@
   },
   {
     "id": 34050200,
-    "name": "Ambalamidera Ii",
+    "name": "Ambalamidera II",
     "parent_id": 34050000,
     "type": "MUNICIPALITY"
   },
   {
     "id": 34050201,
-    "name": "Ambalamidera Ii",
+    "name": "Ambalamidera II",
     "parent_id": 34050200,
     "type": "NEIGHBORHOOD"
   },
@@ -51721,7 +51721,7 @@
   },
   {
     "id": 34060105,
-    "name": "Itsagana Ii",
+    "name": "Itsagana II",
     "parent_id": 34060100,
     "type": "NEIGHBORHOOD"
   },
@@ -52285,7 +52285,7 @@
   },
   {
     "id": 34061206,
-    "name": "Andranolava Ii",
+    "name": "Andranolava II",
     "parent_id": 34061200,
     "type": "NEIGHBORHOOD"
   },
@@ -52591,7 +52591,7 @@
   },
   {
     "id": 34070206,
-    "name": "Manantenasoa Ii",
+    "name": "Manantenasoa II",
     "parent_id": 34070200,
     "type": "NEIGHBORHOOD"
   },
@@ -52657,7 +52657,7 @@
   },
   {
     "id": 34070303,
-    "name": "Ambatosoa Ii",
+    "name": "Ambatosoa II",
     "parent_id": 34070300,
     "type": "NEIGHBORHOOD"
   },
@@ -52723,7 +52723,7 @@
   },
   {
     "id": 34070314,
-    "name": "Somaina Ii ",
+    "name": "Somaina II ",
     "parent_id": 34070300,
     "type": "NEIGHBORHOOD"
   },
@@ -52903,7 +52903,7 @@
   },
   {
     "id": 34070704,
-    "name": "Mahasoa Ii",
+    "name": "Mahasoa II",
     "parent_id": 34070700,
     "type": "NEIGHBORHOOD"
   },
@@ -53005,7 +53005,7 @@
   },
   {
     "id": 34070905,
-    "name": "Ambohibarihena Ii",
+    "name": "Ambohibarihena II",
     "parent_id": 34070900,
     "type": "NEIGHBORHOOD"
   },
@@ -53473,7 +53473,7 @@
   },
   {
     "id": 35010104,
-    "name": "Morafeno Ii",
+    "name": "Morafeno II",
     "parent_id": 35010100,
     "type": "NEIGHBORHOOD"
   },
@@ -54403,7 +54403,7 @@
   },
   {
     "id": 35021010,
-    "name": "Saheny Ii",
+    "name": "Saheny II",
     "parent_id": 35021000,
     "type": "NEIGHBORHOOD"
   },
@@ -54463,7 +54463,7 @@
   },
   {
     "id": 35021104,
-    "name": "Ihivoka Ii",
+    "name": "Ihivoka II",
     "parent_id": 35021100,
     "type": "NEIGHBORHOOD"
   },
@@ -55309,7 +55309,7 @@
   },
   {
     "id": 35030503,
-    "name": "Vohimary Ii",
+    "name": "Vohimary II",
     "parent_id": 35030500,
     "type": "NEIGHBORHOOD"
   },
@@ -56161,7 +56161,7 @@
   },
   {
     "id": 36011002,
-    "name": "Ambodirafia Ii",
+    "name": "Ambodirafia II",
     "parent_id": 36011000,
     "type": "NEIGHBORHOOD"
   },
@@ -56779,7 +56779,7 @@
   },
   {
     "id": 36020300,
-    "name": "Ambohimiarina Ii",
+    "name": "Ambohimiarina II",
     "parent_id": 36020000,
     "type": "MUNICIPALITY"
   },
@@ -56791,7 +56791,7 @@
   },
   {
     "id": 36020302,
-    "name": "Ambohimiarina Ii",
+    "name": "Ambohimiarina II",
     "parent_id": 36020300,
     "type": "NEIGHBORHOOD"
   },
@@ -56995,7 +56995,7 @@
   },
   {
     "id": 36020607,
-    "name": "Mahatsara Ii",
+    "name": "Mahatsara II",
     "parent_id": 36020600,
     "type": "NEIGHBORHOOD"
   },
@@ -57163,7 +57163,7 @@
   },
   {
     "id": 36020907,
-    "name": "Marohita Ii",
+    "name": "Marohita II",
     "parent_id": 36020900,
     "type": "NEIGHBORHOOD"
   },
@@ -57601,7 +57601,7 @@
   },
   {
     "id": 36021703,
-    "name": "Ambodimanga Ii",
+    "name": "Ambodimanga II",
     "parent_id": 36021700,
     "type": "NEIGHBORHOOD"
   },
@@ -57805,7 +57805,7 @@
   },
   {
     "id": 36022102,
-    "name": "Ambohitsara Ii",
+    "name": "Ambohitsara II",
     "parent_id": 36022100,
     "type": "NEIGHBORHOOD"
   },
@@ -57961,7 +57961,7 @@
   },
   {
     "id": 36022401,
-    "name": "Ambodivandrika Ii",
+    "name": "Ambodivandrika II",
     "parent_id": 36022400,
     "type": "NEIGHBORHOOD"
   },
@@ -58057,13 +58057,13 @@
   },
   {
     "id": 36022509,
-    "name": "Namorona Ii-Valanady",
+    "name": "Namorona II-Valanady",
     "parent_id": 36022500,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 36022510,
-    "name": "Namorona Ii-Vorongera-Vohitrindry",
+    "name": "Namorona II-Vorongera-Vohitrindry",
     "parent_id": 36022500,
     "type": "NEIGHBORHOOD"
   },
@@ -58105,7 +58105,7 @@
   },
   {
     "id": 36022605,
-    "name": "Sahanavaka Ii",
+    "name": "Sahanavaka II",
     "parent_id": 36022600,
     "type": "NEIGHBORHOOD"
   },
@@ -58135,7 +58135,7 @@
   },
   {
     "id": 36022702,
-    "name": "Andranomavo Ii",
+    "name": "Andranomavo II",
     "parent_id": 36022700,
     "type": "NEIGHBORHOOD"
   },
@@ -58459,7 +58459,7 @@
   },
   {
     "id": 36030202,
-    "name": "Ambodimanga Iii",
+    "name": "Ambodimanga III",
     "parent_id": 36030200,
     "type": "NEIGHBORHOOD"
   },
@@ -58549,7 +58549,7 @@
   },
   {
     "id": 36030308,
-    "name": "Vohimasina Ii",
+    "name": "Vohimasina II",
     "parent_id": 36030300,
     "type": "NEIGHBORHOOD"
   },
@@ -58591,7 +58591,7 @@
   },
   {
     "id": 36030405,
-    "name": "Ambodimanga Ii",
+    "name": "Ambodimanga II",
     "parent_id": 36030400,
     "type": "NEIGHBORHOOD"
   },
@@ -58687,7 +58687,7 @@
   },
   {
     "id": 36030503,
-    "name": "Ambodiara Ii",
+    "name": "Ambodiara II",
     "parent_id": 36030500,
     "type": "NEIGHBORHOOD"
   },
@@ -58927,7 +58927,7 @@
   },
   {
     "id": 36030803,
-    "name": "Ambatomasina Ii",
+    "name": "Ambatomasina II",
     "parent_id": 36030800,
     "type": "NEIGHBORHOOD"
   },
@@ -58969,7 +58969,7 @@
   },
   {
     "id": 36030810,
-    "name": "Vohimasina Ii",
+    "name": "Vohimasina II",
     "parent_id": 36030800,
     "type": "NEIGHBORHOOD"
   },
@@ -58987,7 +58987,7 @@
   },
   {
     "id": 36030902,
-    "name": "Ambinanindrano Ii",
+    "name": "Ambinanindrano II",
     "parent_id": 36030900,
     "type": "NEIGHBORHOOD"
   },
@@ -59119,7 +59119,7 @@
   },
   {
     "id": 36031107,
-    "name": "Ampasimbola Ii",
+    "name": "Ampasimbola II",
     "parent_id": 36031100,
     "type": "NEIGHBORHOOD"
   },
@@ -59221,7 +59221,7 @@
   },
   {
     "id": 36031211,
-    "name": "Sarina Ii",
+    "name": "Sarina II",
     "parent_id": 36031200,
     "type": "NEIGHBORHOOD"
   },
@@ -59449,7 +59449,7 @@
   },
   {
     "id": 36031502,
-    "name": "Ambatobe Ii",
+    "name": "Ambatobe II",
     "parent_id": 36031500,
     "type": "NEIGHBORHOOD"
   },
@@ -59629,7 +59629,7 @@
   },
   {
     "id": 36031603,
-    "name": "Ambalavero Ii",
+    "name": "Ambalavero II",
     "parent_id": 36031600,
     "type": "NEIGHBORHOOD"
   },
@@ -59701,7 +59701,7 @@
   },
   {
     "id": 36031615,
-    "name": "Betampona Ii",
+    "name": "Betampona II",
     "parent_id": 36031600,
     "type": "NEIGHBORHOOD"
   },
@@ -59737,7 +59737,7 @@
   },
   {
     "id": 36031621,
-    "name": "Marovato Ii",
+    "name": "Marovato II",
     "parent_id": 36031600,
     "type": "NEIGHBORHOOD"
   },
@@ -59839,7 +59839,7 @@
   },
   {
     "id": 36031708,
-    "name": "Vohitsara Ii",
+    "name": "Vohitsara II",
     "parent_id": 36031700,
     "type": "NEIGHBORHOOD"
   },
@@ -59995,7 +59995,7 @@
   },
   {
     "id": 36031911,
-    "name": "Mandroromody Ii",
+    "name": "Mandroromody II",
     "parent_id": 36031900,
     "type": "NEIGHBORHOOD"
   },
@@ -60019,7 +60019,7 @@
   },
   {
     "id": 36031915,
-    "name": "Morarano Ii",
+    "name": "Morarano II",
     "parent_id": 36031900,
     "type": "NEIGHBORHOOD"
   },
@@ -60069,7 +60069,7 @@
     "id": 40000000,
     "name": "Mahajanga",
     "code": "MG-M",
-    "country_id": 450,
+    "country_code": "MG",
     "type": "PROVINCE"
   },
   {
@@ -60974,7 +60974,7 @@
   },
   {
     "id": 41021200,
-    "name": "Maevatanana Ii",
+    "name": "Maevatanana II",
     "parent_id": 41020000,
     "type": "MUNICIPALITY"
   },
@@ -61526,7 +61526,7 @@
   },
   {
     "id": 41030000,
-    "name": "Tsaratanana",
+    "name": "Tsaratanàna",
     "parent_id": 41000000,
     "type": "DISTRICT"
   },
@@ -61772,7 +61772,7 @@
   },
   {
     "id": 41030310,
-    "name": "Andriamena Ii",
+    "name": "Andriamena II",
     "parent_id": 41030300,
     "type": "NEIGHBORHOOD"
   },
@@ -61874,7 +61874,7 @@
   },
   {
     "id": 41030410,
-    "name": "Bekapaika Ii",
+    "name": "Bekapaika II",
     "parent_id": 41030400,
     "type": "NEIGHBORHOOD"
   },
@@ -62438,7 +62438,7 @@
   },
   {
     "id": 41031300,
-    "name": "Tsaratanana",
+    "name": "Tsaratanàna",
     "parent_id": 41030000,
     "type": "MUNICIPALITY"
   },
@@ -62516,7 +62516,7 @@
   },
   {
     "id": 41031313,
-    "name": "Mahatsinjo Iii",
+    "name": "Mahatsinjo III",
     "parent_id": 41031300,
     "type": "NEIGHBORHOOD"
   },
@@ -62552,7 +62552,7 @@
   },
   {
     "id": 41031319,
-    "name": "Tsaratanana Ii",
+    "name": "Tsaratanana II",
     "parent_id": 41031300,
     "type": "NEIGHBORHOOD"
   },
@@ -63261,7 +63261,7 @@
   },
   {
     "id": 42011011,
-    "name": "Tsinjorano Ii. Betaba . Bedoa",
+    "name": "Tsinjorano II. Betaba . Bedoa",
     "parent_id": 42011000,
     "type": "NEIGHBORHOOD"
   },
@@ -63633,7 +63633,7 @@
   },
   {
     "id": 42030000,
-    "name": "Mahajanga Ii",
+    "name": "Mahajanga II",
     "parent_id": 42000000,
     "type": "DISTRICT"
   },
@@ -65679,7 +65679,7 @@
   },
   {
     "id": 42060114,
-    "name": "Tsinjorano Ii",
+    "name": "Tsinjorano II",
     "parent_id": 42060100,
     "type": "NEIGHBORHOOD"
   },
@@ -66148,7 +66148,7 @@
   },
   {
     "id": 43010306,
-    "name": "Manambao Ii.Ambahavary.Fiadanamanga.Andohavala",
+    "name": "Manambao II.Ambahavary.Fiadanamanga.Andohavala",
     "parent_id": 43010300,
     "type": "NEIGHBORHOOD"
   },
@@ -68687,7 +68687,7 @@
   },
   {
     "id": 44010309,
-    "name": "Andaveno Ii",
+    "name": "Andaveno II",
     "parent_id": 44010300,
     "type": "NEIGHBORHOOD"
   },
@@ -68879,7 +68879,7 @@
   },
   {
     "id": 44010503,
-    "name": "Andrevorevo Ii",
+    "name": "Andrevorevo II",
     "parent_id": 44010500,
     "type": "NEIGHBORHOOD"
   },
@@ -69515,7 +69515,7 @@
   },
   {
     "id": 44011315,
-    "name": "Maromandia Ii",
+    "name": "Maromandia II",
     "parent_id": 44011300,
     "type": "NEIGHBORHOOD"
   },
@@ -69641,7 +69641,7 @@
   },
   {
     "id": 44011511,
-    "name": "Tsaratanana",
+    "name": "Tsaratanàna",
     "parent_id": 44011500,
     "type": "NEIGHBORHOOD"
   },
@@ -69665,7 +69665,7 @@
   },
   {
     "id": 44020102,
-    "name": "Ambalafaminty Ii",
+    "name": "Ambalafaminty II",
     "parent_id": 44020100,
     "type": "NEIGHBORHOOD"
   },
@@ -69851,7 +69851,7 @@
   },
   {
     "id": 44020314,
-    "name": "Antarameloka Ii",
+    "name": "Antarameloka II",
     "parent_id": 44020300,
     "type": "NEIGHBORHOOD"
   },
@@ -69875,7 +69875,7 @@
   },
   {
     "id": 44020318,
-    "name": "Solimpana Ii",
+    "name": "Solimpana II",
     "parent_id": 44020300,
     "type": "NEIGHBORHOOD"
   },
@@ -70115,7 +70115,7 @@
   },
   {
     "id": 44020607,
-    "name": "Antanambao Ii",
+    "name": "Antanambao II",
     "parent_id": 44020600,
     "type": "NEIGHBORHOOD"
   },
@@ -70289,7 +70289,7 @@
   },
   {
     "id": 44020812,
-    "name": "Antafiandakana Ii",
+    "name": "Antafiandakana II",
     "parent_id": 44020800,
     "type": "NEIGHBORHOOD"
   },
@@ -70367,13 +70367,13 @@
   },
   {
     "id": 44020910,
-    "name": "Anjiamangirana Ii",
+    "name": "Anjiamangirana II",
     "parent_id": 44020900,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 44020911,
-    "name": "Anjiamangirana Iii",
+    "name": "Anjiamangirana III",
     "parent_id": 44020900,
     "type": "NEIGHBORHOOD"
   },
@@ -70391,7 +70391,7 @@
   },
   {
     "id": 44020914,
-    "name": "Antanambao Ii",
+    "name": "Antanambao II",
     "parent_id": 44020900,
     "type": "NEIGHBORHOOD"
   },
@@ -70541,7 +70541,7 @@
   },
   {
     "id": 44021108,
-    "name": "Ambodimanga Ii",
+    "name": "Ambodimanga II",
     "parent_id": 44021100,
     "type": "NEIGHBORHOOD"
   },
@@ -70655,7 +70655,7 @@
   },
   {
     "id": 44021203,
-    "name": "Ambalabe/Ouest Ii",
+    "name": "Ambalabe/Ouest II",
     "parent_id": 44021200,
     "type": "NEIGHBORHOOD"
   },
@@ -70673,7 +70673,7 @@
   },
   {
     "id": 44021206,
-    "name": "Ankiririky/Nord Ii",
+    "name": "Ankiririky/Nord II",
     "parent_id": 44021200,
     "type": "NEIGHBORHOOD"
   },
@@ -70685,7 +70685,7 @@
   },
   {
     "id": 44021208,
-    "name": "Ankiririky/Sud Ii",
+    "name": "Ankiririky/Sud II",
     "parent_id": 44021200,
     "type": "NEIGHBORHOOD"
   },
@@ -71315,7 +71315,7 @@
   },
   {
     "id": 44031105,
-    "name": "Ankodohodo Ii",
+    "name": "Ankodohodo II",
     "parent_id": 44031100,
     "type": "NEIGHBORHOOD"
   },
@@ -71369,7 +71369,7 @@
   },
   {
     "id": 44031204,
-    "name": "Antsahonjo Ii",
+    "name": "Antsahonjo II",
     "parent_id": 44031200,
     "type": "NEIGHBORHOOD"
   },
@@ -71579,13 +71579,13 @@
   },
   {
     "id": 44031606,
-    "name": "Antsiradava Ii",
+    "name": "Antsiradava II",
     "parent_id": 44031600,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 44031607,
-    "name": "Antsiradava Iii",
+    "name": "Antsiradava III",
     "parent_id": 44031600,
     "type": "NEIGHBORHOOD"
   },
@@ -71699,13 +71699,13 @@
   },
   {
     "id": 44031717,
-    "name": "Bealanana Ii",
+    "name": "Bealanana II",
     "parent_id": 44031700,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 44031718,
-    "name": "Bealanana Iii",
+    "name": "Bealanana III",
     "parent_id": 44031700,
     "type": "NEIGHBORHOOD"
   },
@@ -71795,7 +71795,7 @@
   },
   {
     "id": 44031810,
-    "name": "Beandrarezona Ii",
+    "name": "Beandrarezona II",
     "parent_id": 44031800,
     "type": "NEIGHBORHOOD"
   },
@@ -72029,7 +72029,7 @@
   },
   {
     "id": 44040103,
-    "name": "Ambararata Ii",
+    "name": "Ambararata II",
     "parent_id": 44040100,
     "type": "NEIGHBORHOOD"
   },
@@ -72119,7 +72119,7 @@
   },
   {
     "id": 44040301,
-    "name": "Ambodimotso Sud, Antanambao I Et Ii",
+    "name": "Ambodimotso Sud, Antanambao I Et II",
     "parent_id": 44040300,
     "type": "NEIGHBORHOOD"
   },
@@ -72143,7 +72143,7 @@
   },
   {
     "id": 44040305,
-    "name": "Benara I Et Ii",
+    "name": "Benara I Et II",
     "parent_id": 44040300,
     "type": "NEIGHBORHOOD"
   },
@@ -72479,7 +72479,7 @@
   },
   {
     "id": 44040524,
-    "name": "Matahitiry I Et Ii",
+    "name": "Matahitiry I Et II",
     "parent_id": 44040500,
     "type": "NEIGHBORHOOD"
   },
@@ -72527,7 +72527,7 @@
   },
   {
     "id": 44040606,
-    "name": "Ambodisikidy Ii . Ambaladera . Mazava",
+    "name": "Ambodisikidy II . Ambaladera . Mazava",
     "parent_id": 44040600,
     "type": "NEIGHBORHOOD"
   },
@@ -72587,7 +72587,7 @@
   },
   {
     "id": 44040616,
-    "name": "Antsakabary Ii .Marosehana.Mandribe.Bemanevika",
+    "name": "Antsakabary II .Marosehana.Mandribe.Bemanevika",
     "parent_id": 44040600,
     "type": "NEIGHBORHOOD"
   },
@@ -72653,13 +72653,13 @@
   },
   {
     "id": 44040706,
-    "name": "Andohaniambala I Et Ii",
+    "name": "Andohaniambala I Et II",
     "parent_id": 44040700,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 44040707,
-    "name": "Anengitra I Et Ii . Betsatsika . Andratamarina",
+    "name": "Anengitra I Et II . Betsatsika . Andratamarina",
     "parent_id": 44040700,
     "type": "NEIGHBORHOOD"
   },
@@ -72683,7 +72683,7 @@
   },
   {
     "id": 44040711,
-    "name": "Mahalina .Antanamarina Nango,Ambohitsara Ii,Antsinjorano",
+    "name": "Mahalina .Antanamarina Nango,Ambohitsara II,Antsinjorano",
     "parent_id": 44040700,
     "type": "NEIGHBORHOOD"
   },
@@ -72749,7 +72749,7 @@
   },
   {
     "id": 44040809,
-    "name": " Tsararivotra Ii",
+    "name": " Tsararivotra II",
     "parent_id": 44040800,
     "type": "NEIGHBORHOOD"
   },
@@ -73067,7 +73067,7 @@
   },
   {
     "id": 44041216,
-    "name": "Antananambo Ii - Ambalakirajy",
+    "name": "Antananambo II - Ambalakirajy",
     "parent_id": 44041200,
     "type": "NEIGHBORHOOD"
   },
@@ -73187,13 +73187,13 @@
   },
   {
     "id": 44041312,
-    "name": "Ambohitsara Ii",
+    "name": "Ambohitsara II",
     "parent_id": 44041300,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 44041313,
-    "name": "Ambovombe .",
+    "name": "Ambovombe",
     "parent_id": 44041300,
     "type": "NEIGHBORHOOD"
   },
@@ -73469,7 +73469,7 @@
   },
   {
     "id": 44050102,
-    "name": "Ambodimanga Ii",
+    "name": "Ambodimanga II",
     "parent_id": 44050100,
     "type": "NEIGHBORHOOD"
   },
@@ -73565,7 +73565,7 @@
   },
   {
     "id": 44050209,
-    "name": "Antsirasira Ii",
+    "name": "Antsirasira II",
     "parent_id": 44050200,
     "type": "NEIGHBORHOOD"
   },
@@ -73619,7 +73619,7 @@
   },
   {
     "id": 44050302,
-    "name": "Ambodiriana Ii",
+    "name": "Ambodiriana II",
     "parent_id": 44050300,
     "type": "NEIGHBORHOOD"
   },
@@ -73643,7 +73643,7 @@
   },
   {
     "id": 44050306,
-    "name": "Ampanihy Ii",
+    "name": "Ampanihy II",
     "parent_id": 44050300,
     "type": "NEIGHBORHOOD"
   },
@@ -73655,7 +73655,7 @@
   },
   {
     "id": 44050308,
-    "name": "Ampasimatera Ii",
+    "name": "Ampasimatera II",
     "parent_id": 44050300,
     "type": "NEIGHBORHOOD"
   },
@@ -73805,7 +73805,7 @@
   },
   {
     "id": 44050504,
-    "name": "Andranofasika Ii",
+    "name": "Andranofasika II",
     "parent_id": 44050500,
     "type": "NEIGHBORHOOD"
   },
@@ -73847,7 +73847,7 @@
   },
   {
     "id": 44050601,
-    "name": "Ambodimadiro Ii",
+    "name": "Ambodimadiro II",
     "parent_id": 44050600,
     "type": "NEIGHBORHOOD"
   },
@@ -73871,7 +73871,7 @@
   },
   {
     "id": 44050605,
-    "name": "Ampombimanangy Ii",
+    "name": "Ampombimanangy II",
     "parent_id": 44050600,
     "type": "NEIGHBORHOOD"
   },
@@ -73961,7 +73961,7 @@
   },
   {
     "id": 44050620,
-    "name": "Marosakoana Ii",
+    "name": "Marosakoana II",
     "parent_id": 44050600,
     "type": "NEIGHBORHOOD"
   },
@@ -74027,7 +74027,7 @@
   },
   {
     "id": 44050706,
-    "name": "Antanambao Iii",
+    "name": "Antanambao III",
     "parent_id": 44050700,
     "type": "NEIGHBORHOOD"
   },
@@ -74099,7 +74099,7 @@
   },
   {
     "id": 44050808,
-    "name": "Andranomiditra Ii",
+    "name": "Andranomiditra II",
     "parent_id": 44050800,
     "type": "NEIGHBORHOOD"
   },
@@ -74141,7 +74141,7 @@
   },
   {
     "id": 44050901,
-    "name": "Ambodimadiro Iii",
+    "name": "Ambodimadiro III",
     "parent_id": 44050900,
     "type": "NEIGHBORHOOD"
   },
@@ -74201,7 +74201,7 @@
   },
   {
     "id": 44050911,
-    "name": "Mahiagogo Ii",
+    "name": "Mahiagogo II",
     "parent_id": 44050900,
     "type": "NEIGHBORHOOD"
   },
@@ -74279,13 +74279,13 @@
   },
   {
     "id": 44051005,
-    "name": "Tsaramandroso Ii",
+    "name": "Tsaramandroso II",
     "parent_id": 44051000,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 44051006,
-    "name": "Tsaramandroso Iii",
+    "name": "Tsaramandroso III",
     "parent_id": 44051000,
     "type": "NEIGHBORHOOD"
   },
@@ -74297,7 +74297,7 @@
   },
   {
     "id": 44051100,
-    "name": "Mampikony Ii",
+    "name": "Mampikony II",
     "parent_id": 44050000,
     "type": "MUNICIPALITY"
   },
@@ -74339,7 +74339,7 @@
   },
   {
     "id": 44051107,
-    "name": "Ambodisakoana Ii",
+    "name": "Ambodisakoana II",
     "parent_id": 44051100,
     "type": "NEIGHBORHOOD"
   },
@@ -74393,7 +74393,7 @@
   },
   {
     "id": 44051116,
-    "name": "Antanambao Ii",
+    "name": "Antanambao II",
     "parent_id": 44051100,
     "type": "NEIGHBORHOOD"
   },
@@ -74543,13 +74543,13 @@
   },
   {
     "id": 44060111,
-    "name": "Antsarika Ii",
+    "name": "Antsarika II",
     "parent_id": 44060100,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 44060112,
-    "name": "Antsomika Ii",
+    "name": "Antsomika II",
     "parent_id": 44060100,
     "type": "NEIGHBORHOOD"
   },
@@ -74663,7 +74663,7 @@
   },
   {
     "id": 44060405,
-    "name": "Andrankazo Ii",
+    "name": "Andrankazo II",
     "parent_id": 44060400,
     "type": "NEIGHBORHOOD"
   },
@@ -75155,7 +75155,7 @@
   },
   {
     "id": 44061408,
-    "name": "Mahialambo Ii",
+    "name": "Mahialambo II",
     "parent_id": 44061400,
     "type": "NEIGHBORHOOD"
   },
@@ -75533,7 +75533,7 @@
   },
   {
     "id": 44062104,
-    "name": "Ambodimandresy Ii",
+    "name": "Ambodimandresy II",
     "parent_id": 44062100,
     "type": "NEIGHBORHOOD"
   },
@@ -75581,7 +75581,7 @@
   },
   {
     "id": 44062203,
-    "name": "Andilana / Andilambola / Antsirabe Ii",
+    "name": "Andilana / Andilambola / Antsirabe II",
     "parent_id": 44062200,
     "type": "NEIGHBORHOOD"
   },
@@ -75737,7 +75737,7 @@
   },
   {
     "id": 44062405,
-    "name": "Antsirabe Ii",
+    "name": "Antsirabe II",
     "parent_id": 44062400,
     "type": "NEIGHBORHOOD"
   },
@@ -76079,7 +76079,7 @@
   },
   {
     "id": 44070000,
-    "name": "Port-Berge",
+    "name": "Boriziny (Port-Bergé)",
     "parent_id": 44000000,
     "type": "DISTRICT"
   },
@@ -76481,7 +76481,7 @@
   },
   {
     "id": 44070606,
-    "name": "Ambodimanga Ii",
+    "name": "Ambodimanga II",
     "parent_id": 44070600,
     "type": "NEIGHBORHOOD"
   },
@@ -76703,7 +76703,7 @@
   },
   {
     "id": 44070811,
-    "name": "Tsaratanana Ii,Tsararano",
+    "name": "Tsaratanana II,Tsararano",
     "parent_id": 44070800,
     "type": "NEIGHBORHOOD"
   },
@@ -76763,7 +76763,7 @@
   },
   {
     "id": 44070909,
-    "name": "Antsaloana Ii",
+    "name": "Antsaloana II",
     "parent_id": 44070900,
     "type": "NEIGHBORHOOD"
   },
@@ -76925,7 +76925,7 @@
   },
   {
     "id": 44071025,
-    "name": "Marosakoana Ii",
+    "name": "Marosakoana II",
     "parent_id": 44071000,
     "type": "NEIGHBORHOOD"
   },
@@ -76985,7 +76985,7 @@
   },
   {
     "id": 44071107,
-    "name": "Ankoby Ii",
+    "name": "Ankoby II",
     "parent_id": 44071100,
     "type": "NEIGHBORHOOD"
   },
@@ -77003,7 +77003,7 @@
   },
   {
     "id": 44071110,
-    "name": " Maevaranohely Ii",
+    "name": " Maevaranohely II",
     "parent_id": 44071100,
     "type": "NEIGHBORHOOD"
   },
@@ -77051,7 +77051,7 @@
   },
   {
     "id": 44071204,
-    "name": " Ampondravelona Ii",
+    "name": " Ampondravelona II",
     "parent_id": 44071200,
     "type": "NEIGHBORHOOD"
   },
@@ -77093,7 +77093,7 @@
   },
   {
     "id": 44071211,
-    "name": "Antsakay Ii",
+    "name": "Antsakay II",
     "parent_id": 44071200,
     "type": "NEIGHBORHOOD"
   },
@@ -77141,7 +77141,7 @@
   },
   {
     "id": 44071400,
-    "name": "Port Berge Ii",
+    "name": "Port Berge II",
     "parent_id": 44070000,
     "type": "MUNICIPALITY"
   },
@@ -77177,7 +77177,7 @@
   },
   {
     "id": 44071406,
-    "name": "Anahidrano Ii",
+    "name": "Anahidrano II",
     "parent_id": 44071400,
     "type": "NEIGHBORHOOD"
   },
@@ -77231,7 +77231,7 @@
   },
   {
     "id": 44071415,
-    "name": "Tsinjorano Ii",
+    "name": "Tsinjorano II",
     "parent_id": 44071400,
     "type": "NEIGHBORHOOD"
   },
@@ -77309,7 +77309,7 @@
   },
   {
     "id": 44071501,
-    "name": "Ambodimanga Ii,Antsangambato",
+    "name": "Ambodimanga II,Antsangambato",
     "parent_id": 44071500,
     "type": "NEIGHBORHOOD"
   },
@@ -77501,7 +77501,7 @@
   },
   {
     "id": 44071707,
-    "name": " Ampombibe Iii",
+    "name": " Ampombibe III",
     "parent_id": 44071700,
     "type": "NEIGHBORHOOD"
   },
@@ -77519,7 +77519,7 @@
   },
   {
     "id": 44071710,
-    "name": "Andranomena Ii",
+    "name": "Andranomena II",
     "parent_id": 44071700,
     "type": "NEIGHBORHOOD"
   },
@@ -77641,7 +77641,7 @@
     "id": 50000000,
     "name": "Toamasina",
     "code": "MG-A",
-    "country_id": 450,
+    "country_code": "MG",
     "type": "PROVINCE"
   },
   {
@@ -78306,7 +78306,7 @@
   },
   {
     "id": 51011404,
-    "name": "Bejofo I,Ii,Iii Et Iv",
+    "name": "Bejofo I,II,III Et Iv",
     "parent_id": 51011400,
     "type": "NEIGHBORHOOD"
   },
@@ -78846,7 +78846,7 @@
   },
   {
     "id": 51020101,
-    "name": "Ambatomainty I-Ambatomainty Ii-Ambatomainty Iii",
+    "name": "Ambatomainty I-Ambatomainty II-Ambatomainty III",
     "parent_id": 51020100,
     "type": "NEIGHBORHOOD"
   },
@@ -79236,7 +79236,7 @@
   },
   {
     "id": 51020801,
-    "name": "Ambalafarisoa I,Ii,Iii,Iv",
+    "name": "Ambalafarisoa I,II,III,Iv",
     "parent_id": 51020800,
     "type": "NEIGHBORHOOD"
   },
@@ -79254,13 +79254,13 @@
   },
   {
     "id": 51020804,
-    "name": "Ambodihasina I-Ii-Iii-Iv-V-Vohibe- Ambohimiharina",
+    "name": "Ambodihasina I-II-III-Iv-V-Vohibe- Ambohimiharina",
     "parent_id": 51020800,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 51020805,
-    "name": "Ambodimanga I -Ambodimanga Ii",
+    "name": "Ambodimanga I -Ambodimanga II",
     "parent_id": 51020800,
     "type": "NEIGHBORHOOD"
   },
@@ -79338,7 +79338,7 @@
   },
   {
     "id": 51020818,
-    "name": "Morarano Nord-Morarano I-Morarano Ii",
+    "name": "Morarano Nord-Morarano I-Morarano II",
     "parent_id": 51020800,
     "type": "NEIGHBORHOOD"
   },
@@ -79890,13 +79890,13 @@
   },
   {
     "id": 51021901,
-    "name": "Ambohivorikely I,Ii,Iii",
+    "name": "Ambohivorikely I,II,III",
     "parent_id": 51021900,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 51021902,
-    "name": "Ambondroala I-Ii-Iii-Ambodiakondro-Ankazovelona-Ambodimanga-Andasingisa-Marangotaolana-Ampasanida-Ambendrandava",
+    "name": "Ambondroala I-II-III-Ambodiakondro-Ankazovelona-Ambodimanga-Andasingisa-Marangotaolana-Ampasanida-Ambendrandava",
     "parent_id": 51021900,
     "type": "NEIGHBORHOOD"
   },
@@ -80082,13 +80082,13 @@
   },
   {
     "id": 51022203,
-    "name": "Ambohimanga I-Ambohimanga Ii",
+    "name": "Ambohimanga I-Ambohimanga II",
     "parent_id": 51022200,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 51022204,
-    "name": "Ambohimilamina I-Ambohimilamina Ii",
+    "name": "Ambohimilamina I-Ambohimilamina II",
     "parent_id": 51022200,
     "type": "NEIGHBORHOOD"
   },
@@ -80100,7 +80100,7 @@
   },
   {
     "id": 51022206,
-    "name": "Vohitsara Ville I-Vohitara Ville Ii",
+    "name": "Vohitsara Ville I-Vohitara Ville II",
     "parent_id": 51022200,
     "type": "NEIGHBORHOOD"
   },
@@ -80178,13 +80178,13 @@
   },
   {
     "id": 51030206,
-    "name": "Andilamena-Iii-Ambohimahasoa-Tsenanomby-Andriamenakely- Tsararano-Tanambetsileo-Andranolavaroy-Morafeno",
+    "name": "Andilamena-III-Ambohimahasoa-Tsenanomby-Andriamenakely- Tsararano-Tanambetsileo-Andranolavaroy-Morafeno",
     "parent_id": 51030200,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 51030207,
-    "name": "Andilamena Ii-Tanambaovao-Sahavinaky-Ambalavia-Mahatazana",
+    "name": "Andilamena II-Tanambaovao-Sahavinaky-Ambalavia-Mahatazana",
     "parent_id": 51030200,
     "type": "NEIGHBORHOOD"
   },
@@ -80214,7 +80214,7 @@
   },
   {
     "id": 51030212,
-    "name": "Sahavolo-Ambendrana-Mahiafatra I-Mahiafatra Ii-Ambilokely",
+    "name": "Sahavolo-Ambendrana-Mahiafatra I-Mahiafatra II-Ambilokely",
     "parent_id": 51030200,
     "type": "NEIGHBORHOOD"
   },
@@ -80370,7 +80370,7 @@
   },
   {
     "id": 51030504,
-    "name": "Makoeny I-Makoeny Ii-Malainady-Morafeno-Ambatolampy-Ambalakondro-Anjaribe-Antsohihikely-Antsohibe",
+    "name": "Makoeny I-Makoeny II-Malainady-Morafeno-Ambatolampy-Ambalakondro-Anjaribe-Antsohihikely-Antsohibe",
     "parent_id": 51030500,
     "type": "NEIGHBORHOOD"
   },
@@ -80388,7 +80388,7 @@
   },
   {
     "id": 51030602,
-    "name": "Ampondravelona-Tanambao Ii-Befanihy Ouest-Befanihy Est",
+    "name": "Ampondravelona-Tanambao II-Befanihy Ouest-Befanihy Est",
     "parent_id": 51030600,
     "type": "NEIGHBORHOOD"
   },
@@ -80424,7 +80424,7 @@
   },
   {
     "id": 51030701,
-    "name": "Ambodisatrana-Marojao -Analamanga I-Ii-Iii-Nosimiarina-Ambohimahavelona-Ambonanindrano",
+    "name": "Ambodisatrana-Marojao -Analamanga I-II-III-Nosimiarina-Ambohimahavelona-Ambonanindrano",
     "parent_id": 51030700,
     "type": "NEIGHBORHOOD"
   },
@@ -80544,7 +80544,7 @@
   },
   {
     "id": 51040103,
-    "name": "Ambatolampy I Et Ii-Fierenana-Sandranandra",
+    "name": "Ambatolampy I Et II-Fierenana-Sandranandra",
     "parent_id": 51040100,
     "type": "NEIGHBORHOOD"
   },
@@ -80568,13 +80568,13 @@
   },
   {
     "id": 51040107,
-    "name": "Sahatompo I ,Ii,Iii -Ambinanivonta",
+    "name": "Sahatompo I ,II,III -Ambinanivonta",
     "parent_id": 51040100,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 51040108,
-    "name": "Sahofika I Et Ii-Faravohitra-Ambinanindranosasa",
+    "name": "Sahofika I Et II-Faravohitra-Ambinanindranosasa",
     "parent_id": 51040100,
     "type": "NEIGHBORHOOD"
   },
@@ -80610,7 +80610,7 @@
   },
   {
     "id": 51040205,
-    "name": "Antsiraka Ii",
+    "name": "Antsiraka II",
     "parent_id": 51040200,
     "type": "NEIGHBORHOOD"
   },
@@ -80742,7 +80742,7 @@
   },
   {
     "id": 51040504,
-    "name": "Manarintsoa Ii-Morarano-Ambalakafe-Andakana",
+    "name": "Manarintsoa II-Morarano-Ambalakafe-Andakana",
     "parent_id": 51040500,
     "type": "NEIGHBORHOOD"
   },
@@ -80766,7 +80766,7 @@
   },
   {
     "id": 51040603,
-    "name": "Ampasimazava-Andobo-Ampasimadinika Ii-Tsaratanana",
+    "name": "Ampasimazava-Andobo-Ampasimadinika II-Tsaratanana",
     "parent_id": 51040600,
     "type": "NEIGHBORHOOD"
   },
@@ -80778,7 +80778,7 @@
   },
   {
     "id": 51040605,
-    "name": "Andranambolava I Et Ii",
+    "name": "Andranambolava I Et II",
     "parent_id": 51040600,
     "type": "NEIGHBORHOOD"
   },
@@ -80910,13 +80910,13 @@
   },
   {
     "id": 51040708,
-    "name": "Ankoraka I Et Ii",
+    "name": "Ankoraka I Et II",
     "parent_id": 51040700,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 51040709,
-    "name": "Antandrokomby-Antanambao Ii-Tsarafonenana",
+    "name": "Antandrokomby-Antanambao II-Tsarafonenana",
     "parent_id": 51040700,
     "type": "NEIGHBORHOOD"
   },
@@ -80934,7 +80934,7 @@
   },
   {
     "id": 51040712,
-    "name": "Morafeno Ii-Ambodivoara-Andapa",
+    "name": "Morafeno II-Ambodivoara-Andapa",
     "parent_id": 51040700,
     "type": "NEIGHBORHOOD"
   },
@@ -81018,7 +81018,7 @@
   },
   {
     "id": 51040809,
-    "name": "Andonaka-Ambodimanga Ii-Ambalaomby",
+    "name": "Andonaka-Ambodimanga II-Ambalaomby",
     "parent_id": 51040800,
     "type": "NEIGHBORHOOD"
   },
@@ -81402,7 +81402,7 @@
   },
   {
     "id": 51050406,
-    "name": "Ambohimiarina Ii",
+    "name": "Ambohimiarina II",
     "parent_id": 51050400,
     "type": "NEIGHBORHOOD"
   },
@@ -81576,7 +81576,7 @@
   },
   {
     "id": 51050808,
-    "name": "Andaingo Ii",
+    "name": "Andaingo II",
     "parent_id": 51050800,
     "type": "NEIGHBORHOOD"
   },
@@ -81816,7 +81816,7 @@
   },
   {
     "id": 51051308,
-    "name": "Antandrokomby Ii",
+    "name": "Antandrokomby II",
     "parent_id": 51051300,
     "type": "NEIGHBORHOOD"
   },
@@ -82548,7 +82548,7 @@
   },
   {
     "id": 52010207,
-    "name": "Ambodivohitra-Tsaratampona Ii-Andratambe-Vohitroro",
+    "name": "Ambodivohitra-Tsaratampona II-Andratambe-Vohitroro",
     "parent_id": 52010200,
     "type": "NEIGHBORHOOD"
   },
@@ -82560,7 +82560,7 @@
   },
   {
     "id": 52010209,
-    "name": "Ampiranambo Ii",
+    "name": "Ampiranambo II",
     "parent_id": 52010200,
     "type": "NEIGHBORHOOD"
   },
@@ -82620,7 +82620,7 @@
   },
   {
     "id": 52010300,
-    "name": "Ambodimanga Ii",
+    "name": "Ambodimanga II",
     "parent_id": 52010000,
     "type": "MUNICIPALITY"
   },
@@ -82644,7 +82644,7 @@
   },
   {
     "id": 52010304,
-    "name": "Ambodimanga Ii",
+    "name": "Ambodimanga II",
     "parent_id": 52010300,
     "type": "NEIGHBORHOOD"
   },
@@ -82662,7 +82662,7 @@
   },
   {
     "id": 52010307,
-    "name": "Andapa Ii-Ampasimazava",
+    "name": "Andapa II-Ampasimazava",
     "parent_id": 52010300,
     "type": "NEIGHBORHOOD"
   },
@@ -82788,13 +82788,13 @@
   },
   {
     "id": 52010407,
-    "name": "Anjahambe Ii-Andafaza-Mahasoa-Marofinaritra",
+    "name": "Anjahambe II-Andafaza-Mahasoa-Marofinaritra",
     "parent_id": 52010400,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 52010408,
-    "name": "Antsara Ii-Ambatolalaka-Maromandia-Morafeno",
+    "name": "Antsara II-Ambatolalaka-Maromandia-Morafeno",
     "parent_id": 52010400,
     "type": "NEIGHBORHOOD"
   },
@@ -82854,7 +82854,7 @@
   },
   {
     "id": 52010506,
-    "name": "Ambodimanga Ii",
+    "name": "Ambodimanga II",
     "parent_id": 52010500,
     "type": "NEIGHBORHOOD"
   },
@@ -82956,7 +82956,7 @@
   },
   {
     "id": 52010523,
-    "name": "Tanambao Ii-Anamborano-Antsiramanga",
+    "name": "Tanambao II-Anamborano-Antsiramanga",
     "parent_id": 52010500,
     "type": "NEIGHBORHOOD"
   },
@@ -82968,7 +82968,7 @@
   },
   {
     "id": 52010525,
-    "name": "Tanetilava Ii",
+    "name": "Tanetilava II",
     "parent_id": 52010500,
     "type": "NEIGHBORHOOD"
   },
@@ -83004,13 +83004,13 @@
   },
   {
     "id": 52010605,
-    "name": "Ambodihazinina-Ambodivoangy-Tanambao Iii-Andongoza",
+    "name": "Ambodihazinina-Ambodivoangy-Tanambao III-Andongoza",
     "parent_id": 52010600,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 52010606,
-    "name": "Ambodimanga Ii-Antsirabe-Ambodivoanio-Anjahamarina",
+    "name": "Ambodimanga II-Antsirabe-Ambodivoanio-Anjahamarina",
     "parent_id": 52010600,
     "type": "NEIGHBORHOOD"
   },
@@ -83034,7 +83034,7 @@
   },
   {
     "id": 52010610,
-    "name": "Andranomiditra-Ambodivoahangy-Tanambao Ii-Mizahala",
+    "name": "Andranomiditra-Ambodivoahangy-Tanambao II-Mizahala",
     "parent_id": 52010600,
     "type": "NEIGHBORHOOD"
   },
@@ -83058,7 +83058,7 @@
   },
   {
     "id": 52010614,
-    "name": "Manakambahiny Ii",
+    "name": "Manakambahiny II",
     "parent_id": 52010600,
     "type": "NEIGHBORHOOD"
   },
@@ -83112,7 +83112,7 @@
   },
   {
     "id": 52010703,
-    "name": "Ampasimpotsy  Ii",
+    "name": "Ampasimpotsy  II",
     "parent_id": 52010700,
     "type": "NEIGHBORHOOD"
   },
@@ -83124,7 +83124,7 @@
   },
   {
     "id": 52010705,
-    "name": "Antanetilava Ii",
+    "name": "Antanetilava II",
     "parent_id": 52010700,
     "type": "NEIGHBORHOOD"
   },
@@ -83136,7 +83136,7 @@
   },
   {
     "id": 52010707,
-    "name": "Marovato Iii",
+    "name": "Marovato III",
     "parent_id": 52010700,
     "type": "NEIGHBORHOOD"
   },
@@ -83178,7 +83178,7 @@
   },
   {
     "id": 52010804,
-    "name": "Ampasipotsy-Fenerive-Doany-Anjoba I Et  Ii",
+    "name": "Ampasipotsy-Fenerive-Doany-Anjoba I Et  II",
     "parent_id": 52010800,
     "type": "NEIGHBORHOOD"
   },
@@ -83316,7 +83316,7 @@
   },
   {
     "id": 52010914,
-    "name": "Antsiradava Ii",
+    "name": "Antsiradava II",
     "parent_id": 52010900,
     "type": "NEIGHBORHOOD"
   },
@@ -83352,7 +83352,7 @@
   },
   {
     "id": 52010920,
-    "name": "Marofinaritra Ii-Ambatonakoho-Ambatondrakikiky-Antsir",
+    "name": "Marofinaritra II-Ambatonakoho-Ambatondrakikiky-Antsir",
     "parent_id": 52010900,
     "type": "NEIGHBORHOOD"
   },
@@ -83400,7 +83400,7 @@
   },
   {
     "id": 52011001,
-    "name": "Ambalabe Ii-Antohidava-Vohilakatra",
+    "name": "Ambalabe II-Antohidava-Vohilakatra",
     "parent_id": 52011000,
     "type": "NEIGHBORHOOD"
   },
@@ -83478,7 +83478,7 @@
   },
   {
     "id": 52011107,
-    "name": "Antsirandava-Ambalambato-Marofolo-Ambodimanga Ii-M",
+    "name": "Antsirandava-Ambalambato-Marofolo-Ambodimanga II-M",
     "parent_id": 52011100,
     "type": "NEIGHBORHOOD"
   },
@@ -83544,7 +83544,7 @@
   },
   {
     "id": 52011208,
-    "name": "Ampangamena-Matrangibe-Anjiro-Ambodihasina Ii-Bizo",
+    "name": "Ampangamena-Matrangibe-Anjiro-Ambodihasina II-Bizo",
     "parent_id": 52011200,
     "type": "NEIGHBORHOOD"
   },
@@ -83718,7 +83718,7 @@
   },
   {
     "id": 52011402,
-    "name": "Ambatoharanana Iii-Vohitsara-Ambodivoangibe-Analam",
+    "name": "Ambatoharanana III-Vohitsara-Ambodivoangibe-Analam",
     "parent_id": 52011400,
     "type": "NEIGHBORHOOD"
   },
@@ -83736,7 +83736,7 @@
   },
   {
     "id": 52011405,
-    "name": "Ambodiara-Sahamalaza-Anjahamarina Iii-Vohitrasina",
+    "name": "Ambodiara-Sahamalaza-Anjahamarina III-Vohitrasina",
     "parent_id": 52011400,
     "type": "NEIGHBORHOOD"
   },
@@ -83760,7 +83760,7 @@
   },
   {
     "id": 52011409,
-    "name": "Ambohitsara-Marofinaritra-Ambodimanga Ii Ambany-Am",
+    "name": "Ambohitsara-Marofinaritra-Ambodimanga II Ambany-Am",
     "parent_id": 52011400,
     "type": "NEIGHBORHOOD"
   },
@@ -83772,13 +83772,13 @@
   },
   {
     "id": 52011411,
-    "name": "Ampasimbola Ii-Ambodinanto-Salalangy-Tanambao Iii-",
+    "name": "Ampasimbola II-Ambodinanto-Salalangy-Tanambao III-",
     "parent_id": 52011400,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 52011412,
-    "name": "Anamborano-Ambatoharanana Ii-Ambodihazoambo-Vatora",
+    "name": "Anamborano-Ambatoharanana II-Ambodihazoambo-Vatora",
     "parent_id": 52011400,
     "type": "NEIGHBORHOOD"
   },
@@ -83826,7 +83826,7 @@
   },
   {
     "id": 52011420,
-    "name": "Tanambao Vohiboangy-Tanetilava-Anjahamarina Ii-And",
+    "name": "Tanambao Vohiboangy-Tanetilava-Anjahamarina II-And",
     "parent_id": 52011400,
     "type": "NEIGHBORHOOD"
   },
@@ -83952,7 +83952,7 @@
   },
   {
     "id": 52020205,
-    "name": "Ambodisatrana Ii",
+    "name": "Ambodisatrana II",
     "parent_id": 52020200,
     "type": "NEIGHBORHOOD"
   },
@@ -84042,7 +84042,7 @@
   },
   {
     "id": 52020305,
-    "name": "Ambodisatrana Ii",
+    "name": "Ambodisatrana II",
     "parent_id": 52020300,
     "type": "NEIGHBORHOOD"
   },
@@ -84222,7 +84222,7 @@
   },
   {
     "id": 52020505,
-    "name": "Andasibe Ii",
+    "name": "Andasibe II",
     "parent_id": 52020500,
     "type": "NEIGHBORHOOD"
   },
@@ -84552,7 +84552,7 @@
   },
   {
     "id": 52020905,
-    "name": "Imorona Ii",
+    "name": "Imorona II",
     "parent_id": 52020900,
     "type": "NEIGHBORHOOD"
   },
@@ -84654,7 +84654,7 @@
   },
   {
     "id": 52021107,
-    "name": "Antanambao Ii",
+    "name": "Antanambao II",
     "parent_id": 52021100,
     "type": "NEIGHBORHOOD"
   },
@@ -84714,7 +84714,7 @@
   },
   {
     "id": 52021117,
-    "name": "Manambolosy Ii",
+    "name": "Manambolosy II",
     "parent_id": 52021100,
     "type": "NEIGHBORHOOD"
   },
@@ -85092,7 +85092,7 @@
   },
   {
     "id": 52021507,
-    "name": "Antanambao Ii",
+    "name": "Antanambao II",
     "parent_id": 52021500,
     "type": "NEIGHBORHOOD"
   },
@@ -85116,7 +85116,7 @@
   },
   {
     "id": 52021511,
-    "name": "Fahitrosy Ii",
+    "name": "Fahitrosy II",
     "parent_id": 52021500,
     "type": "NEIGHBORHOOD"
   },
@@ -85140,7 +85140,7 @@
   },
   {
     "id": 52021601,
-    "name": "Ambodimanga Ii",
+    "name": "Ambodimanga II",
     "parent_id": 52021600,
     "type": "NEIGHBORHOOD"
   },
@@ -85152,7 +85152,7 @@
   },
   {
     "id": 52021603,
-    "name": "Ankoba Ii",
+    "name": "Ankoba II",
     "parent_id": 52021600,
     "type": "NEIGHBORHOOD"
   },
@@ -85182,7 +85182,7 @@
   },
   {
     "id": 52021608,
-    "name": "Sahasoa Ii",
+    "name": "Sahasoa II",
     "parent_id": 52021600,
     "type": "NEIGHBORHOOD"
   },
@@ -85584,7 +85584,7 @@
   },
   {
     "id": 52030705,
-    "name": "Mahafidina Ii",
+    "name": "Mahafidina II",
     "parent_id": 52030700,
     "type": "NEIGHBORHOOD"
   },
@@ -86112,7 +86112,7 @@
   },
   {
     "id": 52031609,
-    "name": "Ankiakalava Ii",
+    "name": "Ankiakalava II",
     "parent_id": 52031600,
     "type": "NEIGHBORHOOD"
   },
@@ -86586,7 +86586,7 @@
   },
   {
     "id": 52050114,
-    "name": "Maromandia Ii",
+    "name": "Maromandia II",
     "parent_id": 52050100,
     "type": "NEIGHBORHOOD"
   },
@@ -86682,7 +86682,7 @@
   },
   {
     "id": 52050303,
-    "name": "Ambodiampana Ii",
+    "name": "Ambodiampana II",
     "parent_id": 52050300,
     "type": "NEIGHBORHOOD"
   },
@@ -86712,7 +86712,7 @@
   },
   {
     "id": 52050402,
-    "name": "Ambatobe Ii",
+    "name": "Ambatobe II",
     "parent_id": 52050400,
     "type": "NEIGHBORHOOD"
   },
@@ -87084,13 +87084,13 @@
   },
   {
     "id": 52050810,
-    "name": "Sahabevava-Ambohimarina Ii",
+    "name": "Sahabevava-Ambohimarina II",
     "parent_id": 52050800,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 52050811,
-    "name": "Tanambao-Andapa-Andangara-Antsahabe Ii",
+    "name": "Tanambao-Andapa-Andangara-Antsahabe II",
     "parent_id": 52050800,
     "type": "NEIGHBORHOOD"
   },
@@ -87234,7 +87234,7 @@
   },
   {
     "id": 52060103,
-    "name": "Ambodinonoka Ii",
+    "name": "Ambodinonoka II",
     "parent_id": 52060100,
     "type": "NEIGHBORHOOD"
   },
@@ -87498,7 +87498,7 @@
   },
   {
     "id": 52060507,
-    "name": "Antsirabe Ii",
+    "name": "Antsirabe II",
     "parent_id": 52060500,
     "type": "NEIGHBORHOOD"
   },
@@ -87792,7 +87792,7 @@
   },
   {
     "id": 52061002,
-    "name": "Ambodivato Ii",
+    "name": "Ambodivato II",
     "parent_id": 52061000,
     "type": "NEIGHBORHOOD"
   },
@@ -87942,7 +87942,7 @@
   },
   {
     "id": 53010101,
-    "name": "Ambinanindrano Ii",
+    "name": "Ambinanindrano II",
     "parent_id": 53010100,
     "type": "NEIGHBORHOOD"
   },
@@ -88026,7 +88026,7 @@
   },
   {
     "id": 53010204,
-    "name": "Beanana Ii",
+    "name": "Beanana II",
     "parent_id": 53010200,
     "type": "NEIGHBORHOOD"
   },
@@ -88080,7 +88080,7 @@
   },
   {
     "id": 53010304,
-    "name": "Betoko Ii",
+    "name": "Betoko II",
     "parent_id": 53010300,
     "type": "NEIGHBORHOOD"
   },
@@ -88110,7 +88110,7 @@
   },
   {
     "id": 53010402,
-    "name": "Ambodiara Ii",
+    "name": "Ambodiara II",
     "parent_id": 53010400,
     "type": "NEIGHBORHOOD"
   },
@@ -88122,7 +88122,7 @@
   },
   {
     "id": 53010404,
-    "name": "Ambohimiarina Ii",
+    "name": "Ambohimiarina II",
     "parent_id": 53010400,
     "type": "NEIGHBORHOOD"
   },
@@ -88140,7 +88140,7 @@
   },
   {
     "id": 53010407,
-    "name": "Ampitabe Ii",
+    "name": "Ampitabe II",
     "parent_id": 53010400,
     "type": "NEIGHBORHOOD"
   },
@@ -88218,7 +88218,7 @@
   },
   {
     "id": 53010601,
-    "name": "Ambatoharanana Ii",
+    "name": "Ambatoharanana II",
     "parent_id": 53010600,
     "type": "NEIGHBORHOOD"
   },
@@ -88254,7 +88254,7 @@
   },
   {
     "id": 53010607,
-    "name": "Ampitabe Ii",
+    "name": "Ampitabe II",
     "parent_id": 53010600,
     "type": "NEIGHBORHOOD"
   },
@@ -88590,7 +88590,7 @@
   },
   {
     "id": 53020406,
-    "name": "Ampitsahana Ii",
+    "name": "Ampitsahana II",
     "parent_id": 53020400,
     "type": "NEIGHBORHOOD"
   },
@@ -89352,7 +89352,7 @@
   },
   {
     "id": 53021601,
-    "name": "Ambodimanga Iii",
+    "name": "Ambodimanga III",
     "parent_id": 53021600,
     "type": "NEIGHBORHOOD"
   },
@@ -89706,7 +89706,7 @@
   },
   {
     "id": 53030212,
-    "name": "Ampasinambo Ii",
+    "name": "Ampasinambo II",
     "parent_id": 53030200,
     "type": "NEIGHBORHOOD"
   },
@@ -89742,7 +89742,7 @@
   },
   {
     "id": 53030218,
-    "name": "Manakana Iii",
+    "name": "Manakana III",
     "parent_id": 53030200,
     "type": "NEIGHBORHOOD"
   },
@@ -89874,13 +89874,13 @@
   },
   {
     "id": 53030315,
-    "name": "Tanambao Ii",
+    "name": "Tanambao II",
     "parent_id": 53030300,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 53030316,
-    "name": "Tratramarina Ii",
+    "name": "Tratramarina II",
     "parent_id": 53030300,
     "type": "NEIGHBORHOOD"
   },
@@ -89970,7 +89970,7 @@
   },
   {
     "id": 53030412,
-    "name": "Tanambao Iii",
+    "name": "Tanambao III",
     "parent_id": 53030400,
     "type": "NEIGHBORHOOD"
   },
@@ -90054,7 +90054,7 @@
   },
   {
     "id": 53030604,
-    "name": "Ampasimadinika Ii",
+    "name": "Ampasimadinika II",
     "parent_id": 53030600,
     "type": "NEIGHBORHOOD"
   },
@@ -90132,7 +90132,7 @@
   },
   {
     "id": 53030706,
-    "name": "Manakana Ii",
+    "name": "Manakana II",
     "parent_id": 53030700,
     "type": "NEIGHBORHOOD"
   },
@@ -90366,7 +90366,7 @@
   },
   {
     "id": 53030918,
-    "name": "Tanambao Ii",
+    "name": "Tanambao II",
     "parent_id": 53030900,
     "type": "NEIGHBORHOOD"
   },
@@ -90666,7 +90666,7 @@
   },
   {
     "id": 53031202,
-    "name": "Ambodimanga Ii",
+    "name": "Ambodimanga II",
     "parent_id": 53031200,
     "type": "NEIGHBORHOOD"
   },
@@ -90750,13 +90750,13 @@
   },
   {
     "id": 53040100,
-    "name": "Ambalapaiso Ii",
+    "name": "Ambalapaiso II",
     "parent_id": 53040000,
     "type": "MUNICIPALITY"
   },
   {
     "id": 53040101,
-    "name": "Ambalapaiso Ii-Andovokiberaka I Et Ii-Vohitsara",
+    "name": "Ambalapaiso II-Andovokiberaka I Et II-Vohitsara",
     "parent_id": 53040100,
     "type": "NEIGHBORHOOD"
   },
@@ -90786,7 +90786,7 @@
   },
   {
     "id": 53040200,
-    "name": "Ambatofisaka Ii",
+    "name": "Ambatofisaka II",
     "parent_id": 53040000,
     "type": "MUNICIPALITY"
   },
@@ -90798,7 +90798,7 @@
   },
   {
     "id": 53040202,
-    "name": "Ambalahoraka Ii- Tsararano-Ampitatelo",
+    "name": "Ambalahoraka II- Tsararano-Ampitatelo",
     "parent_id": 53040200,
     "type": "NEIGHBORHOOD"
   },
@@ -90810,7 +90810,7 @@
   },
   {
     "id": 53040204,
-    "name": "Ambatofisaka Ii",
+    "name": "Ambatofisaka II",
     "parent_id": 53040200,
     "type": "NEIGHBORHOOD"
   },
@@ -90828,13 +90828,13 @@
   },
   {
     "id": 53040207,
-    "name": "Ambodiramiavona Ii",
+    "name": "Ambodiramiavona II",
     "parent_id": 53040200,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 53040208,
-    "name": "Ambolomadinika-Antanjonambo Ii-Manakana",
+    "name": "Ambolomadinika-Antanjonambo II-Manakana",
     "parent_id": 53040200,
     "type": "NEIGHBORHOOD"
   },
@@ -90858,7 +90858,7 @@
   },
   {
     "id": 53040212,
-    "name": "Anosiato I Et Ii-Ambalahoraka",
+    "name": "Anosiato I Et II-Ambalahoraka",
     "parent_id": 53040200,
     "type": "NEIGHBORHOOD"
   },
@@ -90924,7 +90924,7 @@
   },
   {
     "id": 53040306,
-    "name": "Antanambao I Et Ii",
+    "name": "Antanambao I Et II",
     "parent_id": 53040300,
     "type": "NEIGHBORHOOD"
   },
@@ -90996,7 +90996,7 @@
   },
   {
     "id": 53040404,
-    "name": "Andranovory-Sahaomby I Et Ii-Sasahady",
+    "name": "Andranovory-Sahaomby I Et II-Sasahady",
     "parent_id": 53040400,
     "type": "NEIGHBORHOOD"
   },
@@ -91062,13 +91062,13 @@
   },
   {
     "id": 53040503,
-    "name": "Ambodinonoka-Vatoalatsaka Iet Ii",
+    "name": "Ambodinonoka-Vatoalatsaka Iet II",
     "parent_id": 53040500,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 53040504,
-    "name": "Ambodivoahangy-Andromba I Et Ii",
+    "name": "Ambodivoahangy-Andromba I Et II",
     "parent_id": 53040500,
     "type": "NEIGHBORHOOD"
   },
@@ -91140,7 +91140,7 @@
   },
   {
     "id": 53040608,
-    "name": "Fiadanana-Manakambahiny I Et Ii-Behetatra-Ampasimb",
+    "name": "Fiadanana-Manakambahiny I Et II-Behetatra-Ampasimb",
     "parent_id": 53040600,
     "type": "NEIGHBORHOOD"
   },
@@ -91158,19 +91158,19 @@
   },
   {
     "id": 53040611,
-    "name": "Maroariana I Et Ii-Amparafara",
+    "name": "Maroariana I Et II-Amparafara",
     "parent_id": 53040600,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 53040612,
-    "name": "Maroariana Iii-Miarinavaratra",
+    "name": "Maroariana III-Miarinavaratra",
     "parent_id": 53040600,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 53040613,
-    "name": "Sahanavo I Et Ii",
+    "name": "Sahanavo I Et II",
     "parent_id": 53040600,
     "type": "NEIGHBORHOOD"
   },
@@ -91230,7 +91230,7 @@
   },
   {
     "id": 53040709,
-    "name": "Andavaranga Ii",
+    "name": "Andavaranga II",
     "parent_id": 53040700,
     "type": "NEIGHBORHOOD"
   },
@@ -91314,13 +91314,13 @@
   },
   {
     "id": 53040806,
-    "name": "Maromitety Ii-Fiadanana",
+    "name": "Maromitety II-Fiadanana",
     "parent_id": 53040800,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 53040807,
-    "name": "Morafeno I Et Ii",
+    "name": "Morafeno I Et II",
     "parent_id": 53040800,
     "type": "NEIGHBORHOOD"
   },
@@ -91392,7 +91392,7 @@
   },
   {
     "id": 53041002,
-    "name": "Ambalatenina I Et Ii-Antanambao-Vohitsara",
+    "name": "Ambalatenina I Et II-Antanambao-Vohitsara",
     "parent_id": 53041000,
     "type": "NEIGHBORHOOD"
   },
@@ -91410,7 +91410,7 @@
   },
   {
     "id": 53041005,
-    "name": "Ampasinambo Ii",
+    "name": "Ampasinambo II",
     "parent_id": 53041000,
     "type": "NEIGHBORHOOD"
   },
@@ -91590,7 +91590,7 @@
   },
   {
     "id": 53041211,
-    "name": "Analamanga-Andalambaovao-Vohitromby Ii",
+    "name": "Analamanga-Andalambaovao-Vohitromby II",
     "parent_id": 53041200,
     "type": "NEIGHBORHOOD"
   },
@@ -91656,7 +91656,7 @@
   },
   {
     "id": 53041222,
-    "name": "Mahalanga I Et Ii",
+    "name": "Mahalanga I Et II",
     "parent_id": 53041200,
     "type": "NEIGHBORHOOD"
   },
@@ -91776,7 +91776,7 @@
   },
   {
     "id": 53041311,
-    "name": "Maromitety Ii",
+    "name": "Maromitety II",
     "parent_id": 53041300,
     "type": "NEIGHBORHOOD"
   },
@@ -91818,7 +91818,7 @@
   },
   {
     "id": 53041404,
-    "name": "Ampasimbola I Et  Ii-Mahavelona-Sahatsiko-Tsaratan",
+    "name": "Ampasimbola I Et  II-Mahavelona-Sahatsiko-Tsaratan",
     "parent_id": 53041400,
     "type": "NEIGHBORHOOD"
   },
@@ -91830,7 +91830,7 @@
   },
   {
     "id": 53041406,
-    "name": "Manakana Ii",
+    "name": "Manakana II",
     "parent_id": 53041400,
     "type": "NEIGHBORHOOD"
   },
@@ -92004,25 +92004,25 @@
   },
   {
     "id": 53050115,
-    "name": "Tanambao Ii  P/Lle 31/11",
+    "name": "Tanambao II  P/Lle 31/11",
     "parent_id": 53050100,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 53050116,
-    "name": "Tanambao Ii P/Lle 31/12",
+    "name": "Tanambao II P/Lle 31/12",
     "parent_id": 53050100,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 53050117,
-    "name": "Tanambao Ii P/Lle 31/13",
+    "name": "Tanambao II P/Lle 31/13",
     "parent_id": 53050100,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 53050118,
-    "name": "Tanambao Ii P/Lle 31/14",
+    "name": "Tanambao II P/Lle 31/14",
     "parent_id": 53050100,
     "type": "NEIGHBORHOOD"
   },
@@ -92034,7 +92034,7 @@
   },
   {
     "id": 53050200,
-    "name": "Cu Toamasina Arr. Anjoma",
+    "name": "CU Toamasina Arr. Anjoma",
     "parent_id": 53050000,
     "type": "MUNICIPALITY"
   },
@@ -92166,7 +92166,7 @@
   },
   {
     "id": 53050300,
-    "name": "Cu Toamasina Arr. Ankirihiry",
+    "name": "CU Toamasina Arr. Ankirihiry",
     "parent_id": 53050000,
     "type": "MUNICIPALITY"
   },
@@ -92346,7 +92346,7 @@
   },
   {
     "id": 53050330,
-    "name": "Mangarano Ii Plle 11/47",
+    "name": "Mangarano II Plle 11/47",
     "parent_id": 53050300,
     "type": "NEIGHBORHOOD"
   },
@@ -92400,7 +92400,7 @@
   },
   {
     "id": 53050400,
-    "name": "Cu Toamasina Arr. Morarano",
+    "name": "CU Toamasina Arr. Morarano",
     "parent_id": 53050000,
     "type": "MUNICIPALITY"
   },
@@ -92424,19 +92424,19 @@
   },
   {
     "id": 53050404,
-    "name": "Ambolomadinika Iii - Plle 21/31",
+    "name": "Ambolomadinika III - Plle 21/31",
     "parent_id": 53050400,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 53050405,
-    "name": "Ambolomadinika Ii - P/Lle 21/23",
+    "name": "Ambolomadinika II - P/Lle 21/23",
     "parent_id": 53050400,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 53050406,
-    "name": "Ambolomadinika Ii Plle 21/24",
+    "name": "Ambolomadinika II Plle 21/24",
     "parent_id": 53050400,
     "type": "NEIGHBORHOOD"
   },
@@ -92490,7 +92490,7 @@
   },
   {
     "id": 53050415,
-    "name": "Mangarivotra Sud Ii Plle 21/53",
+    "name": "Mangarivotra Sud II Plle 21/53",
     "parent_id": 53050400,
     "type": "NEIGHBORHOOD"
   },
@@ -92514,13 +92514,13 @@
   },
   {
     "id": 53050419,
-    "name": "Morarano Iii P/Lle 21/13",
+    "name": "Morarano III P/Lle 21/13",
     "parent_id": 53050400,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 53050420,
-    "name": "Morarano Ii Plle 21/12",
+    "name": "Morarano II Plle 21/12",
     "parent_id": 53050400,
     "type": "NEIGHBORHOOD"
   },
@@ -92538,7 +92538,7 @@
   },
   {
     "id": 53050423,
-    "name": "Tanambao Verrerie Ii Plle 21/74",
+    "name": "Tanambao Verrerie II Plle 21/74",
     "parent_id": 53050400,
     "type": "NEIGHBORHOOD"
   },
@@ -92562,7 +92562,7 @@
   },
   {
     "id": 53050500,
-    "name": "Cu Toamasina Arr. Tanambao V",
+    "name": "CU Toamasina Arr. Tanambao V",
     "parent_id": 53050000,
     "type": "MUNICIPALITY"
   },
@@ -92772,7 +92772,7 @@
   },
   {
     "id": 53060000,
-    "name": "Toamasina Ii",
+    "name": "Toamasina II",
     "parent_id": 53000000,
     "type": "DISTRICT"
   },
@@ -93006,7 +93006,7 @@
   },
   {
     "id": 53060404,
-    "name": "Mahatsara Ii",
+    "name": "Mahatsara II",
     "parent_id": 53060400,
     "type": "NEIGHBORHOOD"
   },
@@ -93066,7 +93066,7 @@
   },
   {
     "id": 53060507,
-    "name": "Mahatsara Ii",
+    "name": "Mahatsara II",
     "parent_id": 53060500,
     "type": "NEIGHBORHOOD"
   },
@@ -93888,7 +93888,7 @@
   },
   {
     "id": 53070102,
-    "name": "Ambinanindrano Ii-Ambinanindrano-Antohobe-Marotoho",
+    "name": "Ambinanindrano II-Ambinanindrano-Antohobe-Marotoho",
     "parent_id": 53070100,
     "type": "NEIGHBORHOOD"
   },
@@ -93978,7 +93978,7 @@
   },
   {
     "id": 53070211,
-    "name": "Marovato-Ambohibe-Antanandava Ii-Ranomahitsy",
+    "name": "Marovato-Ambohibe-Antanandava II-Ranomahitsy",
     "parent_id": 53070200,
     "type": "NEIGHBORHOOD"
   },
@@ -94242,7 +94242,7 @@
   },
   {
     "id": 53070804,
-    "name": "Ambodisaina-Ambodimanga Ii-Ambodivololomborona-Amb",
+    "name": "Ambodisaina-Ambodimanga II-Ambodivololomborona-Amb",
     "parent_id": 53070800,
     "type": "NEIGHBORHOOD"
   },
@@ -94284,7 +94284,7 @@
   },
   {
     "id": 53070811,
-    "name": "Beangivy-Ambodivoangy-Ambodisovoka Ii-Ambalavoangy",
+    "name": "Beangivy-Ambodivoangy-Ambodisovoka II-Ambalavoangy",
     "parent_id": 53070800,
     "type": "NEIGHBORHOOD"
   },
@@ -94302,7 +94302,7 @@
   },
   {
     "id": 53070814,
-    "name": "Sahamoranandro I Et Ii-Vohidiavolana-Andranorefona",
+    "name": "Sahamoranandro I Et II-Vohidiavolana-Andranorefona",
     "parent_id": 53070800,
     "type": "NEIGHBORHOOD"
   },
@@ -94326,7 +94326,7 @@
   },
   {
     "id": 53070903,
-    "name": "Betainomby Ambohimiarina Ii-Ambatohila",
+    "name": "Betainomby Ambohimiarina II-Ambatohila",
     "parent_id": 53070900,
     "type": "NEIGHBORHOOD"
   },
@@ -94446,7 +94446,7 @@
   },
   {
     "id": 53071100,
-    "name": "Ifasina Ii",
+    "name": "Ifasina II",
     "parent_id": 53070000,
     "type": "MUNICIPALITY"
   },
@@ -94458,7 +94458,7 @@
   },
   {
     "id": 53071102,
-    "name": "Ambodivoangy Ii",
+    "name": "Ambodivoangy II",
     "parent_id": 53071100,
     "type": "NEIGHBORHOOD"
   },
@@ -94476,7 +94476,7 @@
   },
   {
     "id": 53071105,
-    "name": "Ifasina Ii-Sahinana-Nosimbato-Manampandrana-Ambodi",
+    "name": "Ifasina II-Sahinana-Nosimbato-Manampandrana-Ambodi",
     "parent_id": 53071100,
     "type": "NEIGHBORHOOD"
   },
@@ -94488,7 +94488,7 @@
   },
   {
     "id": 53071200,
-    "name": "Ifasina Iii",
+    "name": "Ifasina III",
     "parent_id": 53070000,
     "type": "MUNICIPALITY"
   },
@@ -94542,7 +94542,7 @@
   },
   {
     "id": 53071303,
-    "name": "Ambodilahoaty-Anjiro-Ambohimanarina I Et Ii-Ankazo",
+    "name": "Ambodilahoaty-Anjiro-Ambohimanarina I Et II-Ankazo",
     "parent_id": 53071300,
     "type": "NEIGHBORHOOD"
   },
@@ -94614,7 +94614,7 @@
   },
   {
     "id": 53071401,
-    "name": "Ambodisakoana-Ambalabe-Ambarimalemy-Vohitromby Ii",
+    "name": "Ambodisakoana-Ambalabe-Ambarimalemy-Vohitromby II",
     "parent_id": 53071400,
     "type": "NEIGHBORHOOD"
   },
@@ -94800,7 +94800,7 @@
   },
   {
     "id": 53071711,
-    "name": "Niarovana Ii-Mahambo-Antokotelo",
+    "name": "Niarovana II-Mahambo-Antokotelo",
     "parent_id": 53071700,
     "type": "NEIGHBORHOOD"
   },
@@ -94866,7 +94866,7 @@
   },
   {
     "id": 53071902,
-    "name": "Ampaho-Ambohimiadana-Marofody-Vohitromby Ii",
+    "name": "Ampaho-Ambohimiadana-Marofody-Vohitromby II",
     "parent_id": 53071900,
     "type": "NEIGHBORHOOD"
   },
@@ -94914,7 +94914,7 @@
   },
   {
     "id": 53072002,
-    "name": "Ambodiaramy I , Ii Et Iii-Ambohitsara-Niarovana-An",
+    "name": "Ambodiaramy I , II Et III-Ambohitsara-Niarovana-An",
     "parent_id": 53072000,
     "type": "NEIGHBORHOOD"
   },
@@ -94950,7 +94950,7 @@
   },
   {
     "id": 53072008,
-    "name": "Marofody-Marofody Ii-Ambodivaro-Vohiboasary",
+    "name": "Marofody-Marofody II-Ambodivaro-Vohiboasary",
     "parent_id": 53072000,
     "type": "NEIGHBORHOOD"
   },
@@ -95054,7 +95054,7 @@
     "id": 60000000,
     "name": "Toliara",
     "code": "MG-U",
-    "country_id": 450,
+    "country_code": "MG",
     "type": "PROVINCE"
   },
   { "id": 61000000, "name": "Androy", "parent_id": 60000000, "type": "REGION" },
@@ -95084,7 +95084,7 @@
   },
   {
     "id": 61010103,
-    "name": "Androhondroho Ii",
+    "name": "Androhondroho II",
     "parent_id": 61010100,
     "type": "NEIGHBORHOOD"
   },
@@ -95180,7 +95180,7 @@
   },
   {
     "id": 61010204,
-    "name": "Ambazoa Iii",
+    "name": "Ambazoa III",
     "parent_id": 61010200,
     "type": "NEIGHBORHOOD"
   },
@@ -95222,7 +95222,7 @@
   },
   {
     "id": 61010211,
-    "name": "Antanimihery Ii",
+    "name": "Antanimihery II",
     "parent_id": 61010200,
     "type": "NEIGHBORHOOD"
   },
@@ -95240,7 +95240,7 @@
   },
   {
     "id": 61010214,
-    "name": "Beraketa Ii",
+    "name": "Beraketa II",
     "parent_id": 61010200,
     "type": "NEIGHBORHOOD"
   },
@@ -95468,7 +95468,7 @@
   },
   {
     "id": 61010408,
-    "name": "Beratro Ii",
+    "name": "Beratro II",
     "parent_id": 61010400,
     "type": "NEIGHBORHOOD"
   },
@@ -95522,7 +95522,7 @@
   },
   {
     "id": 61010503,
-    "name": "Ambondro Marosy Ii",
+    "name": "Ambondro Marosy II",
     "parent_id": 61010500,
     "type": "NEIGHBORHOOD"
   },
@@ -95546,7 +95546,7 @@
   },
   {
     "id": 61010507,
-    "name": "Ankazoabo Ii",
+    "name": "Ankazoabo II",
     "parent_id": 61010500,
     "type": "NEIGHBORHOOD"
   },
@@ -95690,7 +95690,7 @@
   },
   {
     "id": 61010605,
-    "name": "Amboasary Ii",
+    "name": "Amboasary II",
     "parent_id": 61010600,
     "type": "NEIGHBORHOOD"
   },
@@ -95816,7 +95816,7 @@
   },
   {
     "id": 61010626,
-    "name": "Beanike Ii Andova",
+    "name": "Beanike II Andova",
     "parent_id": 61010600,
     "type": "NEIGHBORHOOD"
   },
@@ -95888,7 +95888,7 @@
   },
   {
     "id": 61010638,
-    "name": "Lavandrandra Ii",
+    "name": "Lavandrandra II",
     "parent_id": 61010600,
     "type": "NEIGHBORHOOD"
   },
@@ -95972,7 +95972,7 @@
   },
   {
     "id": 61010652,
-    "name": "Tanambao Ii",
+    "name": "Tanambao II",
     "parent_id": 61010600,
     "type": "NEIGHBORHOOD"
   },
@@ -96038,7 +96038,7 @@
   },
   {
     "id": 61010705,
-    "name": "Ampanamperandrotse Ii",
+    "name": "Ampanamperandrotse II",
     "parent_id": 61010700,
     "type": "NEIGHBORHOOD"
   },
@@ -96074,13 +96074,13 @@
   },
   {
     "id": 61010711,
-    "name": "Antafianampela Ii",
+    "name": "Antafianampela II",
     "parent_id": 61010700,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61010712,
-    "name": "Antanimavo Ii",
+    "name": "Antanimavo II",
     "parent_id": 61010700,
     "type": "NEIGHBORHOOD"
   },
@@ -96116,7 +96116,7 @@
   },
   {
     "id": 61010718,
-    "name": "Mafilefo Ii",
+    "name": "Mafilefo II",
     "parent_id": 61010700,
     "type": "NEIGHBORHOOD"
   },
@@ -96752,7 +96752,7 @@
   },
   {
     "id": 61011210,
-    "name": "Ankilikira Ii",
+    "name": "Ankilikira II",
     "parent_id": 61011200,
     "type": "NEIGHBORHOOD"
   },
@@ -96806,7 +96806,7 @@
   },
   {
     "id": 61011219,
-    "name": "Marolava Ii",
+    "name": "Marolava II",
     "parent_id": 61011200,
     "type": "NEIGHBORHOOD"
   },
@@ -96854,7 +96854,7 @@
   },
   {
     "id": 61011304,
-    "name": "Analavey Mainte Iii",
+    "name": "Analavey Mainte III",
     "parent_id": 61011300,
     "type": "NEIGHBORHOOD"
   },
@@ -96866,7 +96866,7 @@
   },
   {
     "id": 61011306,
-    "name": "Analavey Mainty Ii",
+    "name": "Analavey Mainty II",
     "parent_id": 61011300,
     "type": "NEIGHBORHOOD"
   },
@@ -97052,7 +97052,7 @@
   },
   {
     "id": 61011405,
-    "name": "Ambory Ii",
+    "name": "Ambory II",
     "parent_id": 61011400,
     "type": "NEIGHBORHOOD"
   },
@@ -97094,13 +97094,13 @@
   },
   {
     "id": 61011412,
-    "name": "Erada Ii",
+    "name": "Erada II",
     "parent_id": 61011400,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61011413,
-    "name": "Erada Iii",
+    "name": "Erada III",
     "parent_id": 61011400,
     "type": "NEIGHBORHOOD"
   },
@@ -97142,7 +97142,7 @@
   },
   {
     "id": 61011502,
-    "name": "Ambaninato Ii",
+    "name": "Ambaninato II",
     "parent_id": 61011500,
     "type": "NEIGHBORHOOD"
   },
@@ -97262,13 +97262,13 @@
   },
   {
     "id": 61011608,
-    "name": "Ankabo Ii Anivorano",
+    "name": "Ankabo II Anivorano",
     "parent_id": 61011600,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61011609,
-    "name": "Ankarananivo Ii",
+    "name": "Ankarananivo II",
     "parent_id": 61011600,
     "type": "NEIGHBORHOOD"
   },
@@ -97280,7 +97280,7 @@
   },
   {
     "id": 61011611,
-    "name": "Ankobo Ii Andranosoa",
+    "name": "Ankobo II Andranosoa",
     "parent_id": 61011600,
     "type": "NEIGHBORHOOD"
   },
@@ -97376,7 +97376,7 @@
   },
   {
     "id": 61011627,
-    "name": "Zazafotsy Ii",
+    "name": "Zazafotsy II",
     "parent_id": 61011600,
     "type": "NEIGHBORHOOD"
   },
@@ -97436,7 +97436,7 @@
   },
   {
     "id": 61011709,
-    "name": "Ankilemanintsy Iii",
+    "name": "Ankilemanintsy III",
     "parent_id": 61011700,
     "type": "NEIGHBORHOOD"
   },
@@ -97454,7 +97454,7 @@
   },
   {
     "id": 61011712,
-    "name": "Ankilimanintsy Ii",
+    "name": "Ankilimanintsy II",
     "parent_id": 61011700,
     "type": "NEIGHBORHOOD"
   },
@@ -97544,7 +97544,7 @@
   },
   {
     "id": 61011727,
-    "name": "Marolava Ii",
+    "name": "Marolava II",
     "parent_id": 61011700,
     "type": "NEIGHBORHOOD"
   },
@@ -97610,7 +97610,7 @@
   },
   {
     "id": 61011803,
-    "name": "Ambaro Iii",
+    "name": "Ambaro III",
     "parent_id": 61011800,
     "type": "NEIGHBORHOOD"
   },
@@ -97730,13 +97730,13 @@
   },
   {
     "id": 61011823,
-    "name": "Maroalopoty Ii",
+    "name": "Maroalopoty II",
     "parent_id": 61011800,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61011824,
-    "name": "Maroalopoty Iii",
+    "name": "Maroalopoty III",
     "parent_id": 61011800,
     "type": "NEIGHBORHOOD"
   },
@@ -97898,7 +97898,7 @@
   },
   {
     "id": 61011905,
-    "name": "Marovato Ii",
+    "name": "Marovato II",
     "parent_id": 61011900,
     "type": "NEIGHBORHOOD"
   },
@@ -97928,7 +97928,7 @@
   },
   {
     "id": 61011910,
-    "name": "Namalaza Ii",
+    "name": "Namalaza II",
     "parent_id": 61011900,
     "type": "NEIGHBORHOOD"
   },
@@ -98000,7 +98000,7 @@
   },
   {
     "id": 61012009,
-    "name": "Belindo Ii",
+    "name": "Belindo II",
     "parent_id": 61012000,
     "type": "NEIGHBORHOOD"
   },
@@ -98174,7 +98174,7 @@
   },
   {
     "id": 61012114,
-    "name": "Mokofo Ii",
+    "name": "Mokofo II",
     "parent_id": 61012100,
     "type": "NEIGHBORHOOD"
   },
@@ -98186,7 +98186,7 @@
   },
   {
     "id": 61012116,
-    "name": "Tsimananada Ii",
+    "name": "Tsimananada II",
     "parent_id": 61012100,
     "type": "NEIGHBORHOOD"
   },
@@ -98210,7 +98210,7 @@
   },
   {
     "id": 61020101,
-    "name": "Ambahita I,Ii,Iii Et Iv,Analaroa",
+    "name": "Ambahita I,II,III Et Iv,Analaroa",
     "parent_id": 61020100,
     "type": "NEIGHBORHOOD"
   },
@@ -98234,13 +98234,13 @@
   },
   {
     "id": 61020105,
-    "name": "Anaviavy I Et Ii,Antaly I Et Ii,Ampisopiso,Andohar",
+    "name": "Anaviavy I Et II,Antaly I Et II,Ampisopiso,Andohar",
     "parent_id": 61020100,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61020106,
-    "name": "Andakato I,Ii Et Iii,Analabiry,Andakato Vohimary",
+    "name": "Andakato I,II Et III,Analabiry,Andakato Vohimary",
     "parent_id": 61020100,
     "type": "NEIGHBORHOOD"
   },
@@ -98270,13 +98270,13 @@
   },
   {
     "id": 61020111,
-    "name": "Beamalo  Centre,Beamalo Anivorano,Bealamo Ii",
+    "name": "Beamalo  Centre,Beamalo Anivorano,Bealamo II",
     "parent_id": 61020100,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61020112,
-    "name": "Bevaho I Et Ii,Androtsy,Ankily",
+    "name": "Bevaho I Et II,Androtsy,Ankily",
     "parent_id": 61020100,
     "type": "NEIGHBORHOOD"
   },
@@ -98294,7 +98294,7 @@
   },
   {
     "id": 61020115,
-    "name": "Fangoala Centre,Andranokoaky I Et Ii,Andropolo",
+    "name": "Fangoala Centre,Andranokoaky I Et II,Andropolo",
     "parent_id": 61020100,
     "type": "NEIGHBORHOOD"
   },
@@ -98306,19 +98306,19 @@
   },
   {
     "id": 61020117,
-    "name": "Sakoampolo I Et Ii,Ankazomiheva,Amindrandraka",
+    "name": "Sakoampolo I Et II,Ankazomiheva,Amindrandraka",
     "parent_id": 61020100,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61020118,
-    "name": "Soakibany I Et Ii,Ianakary,Antsomotsmoy I Et Ii",
+    "name": "Soakibany I Et II,Ianakary,Antsomotsmoy I Et II",
     "parent_id": 61020100,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61020119,
-    "name": "Vohipeno I Et Ii,Ankazota,Vohipeno,Fenoambany",
+    "name": "Vohipeno I Et II,Ankazota,Vohipeno,Fenoambany",
     "parent_id": 61020100,
     "type": "NEIGHBORHOOD"
   },
@@ -98336,7 +98336,7 @@
   },
   {
     "id": 61020202,
-    "name": "Ambatosola,Mahasoa I Et Ii,Esaka,Ankily,Tanambao",
+    "name": "Ambatosola,Mahasoa I Et II,Esaka,Ankily,Tanambao",
     "parent_id": 61020200,
     "type": "NEIGHBORHOOD"
   },
@@ -98378,7 +98378,7 @@
   },
   {
     "id": 61020209,
-    "name": "Nagnarena I Et Ii,Sakoatelo",
+    "name": "Nagnarena I Et II,Sakoatelo",
     "parent_id": 61020200,
     "type": "NEIGHBORHOOD"
   },
@@ -98396,7 +98396,7 @@
   },
   {
     "id": 61020301,
-    "name": "Androtsabo,Antondritsy,Analalava Ii,Ankazoabo",
+    "name": "Androtsabo,Antondritsy,Analalava II,Ankazoabo",
     "parent_id": 61020300,
     "type": "NEIGHBORHOOD"
   },
@@ -98408,13 +98408,13 @@
   },
   {
     "id": 61020303,
-    "name": "Ankilimivory,Ankilimalangy,Sahambitro Ii",
+    "name": "Ankilimivory,Ankilimalangy,Sahambitro II",
     "parent_id": 61020300,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61020304,
-    "name": "Lapeloha,Amboasary,Antanimenai Et Ii,Antsakoamalan",
+    "name": "Lapeloha,Amboasary,Antanimenai Et II,Antsakoamalan",
     "parent_id": 61020300,
     "type": "NEIGHBORHOOD"
   },
@@ -98456,13 +98456,13 @@
   },
   {
     "id": 61020402,
-    "name": "Anja Nord I,Ii Et Iii",
+    "name": "Anja Nord I,II Et III",
     "parent_id": 61020400,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61020403,
-    "name": "Ankatsankatsa I,Ii Et Iii",
+    "name": "Ankatsankatsa I,II Et III",
     "parent_id": 61020400,
     "type": "NEIGHBORHOOD"
   },
@@ -98474,7 +98474,7 @@
   },
   {
     "id": 61020405,
-    "name": "Mikaikarivo I,Ii,Iii Et Iv",
+    "name": "Mikaikarivo I,II,III Et Iv",
     "parent_id": 61020400,
     "type": "NEIGHBORHOOD"
   },
@@ -98492,7 +98492,7 @@
   },
   {
     "id": 61020502,
-    "name": "Anarabe I Et Ii,Mikaikarivo,Besohihy Iii,Soaserana",
+    "name": "Anarabe I Et II,Mikaikarivo,Besohihy III,Soaserana",
     "parent_id": 61020500,
     "type": "NEIGHBORHOOD"
   },
@@ -98510,13 +98510,13 @@
   },
   {
     "id": 61020505,
-    "name": "Bevoa ,Mitsinjo Ii ,Betioky Ii",
+    "name": "Bevoa ,Mitsinjo II ,Betioky II",
     "parent_id": 61020500,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61020506,
-    "name": "Vohimary Ii Et Haut ,Ankilibe ,Analamara",
+    "name": "Vohimary II Et Haut ,Ankilibe ,Analamara",
     "parent_id": 61020500,
     "type": "NEIGHBORHOOD"
   },
@@ -98534,13 +98534,13 @@
   },
   {
     "id": 61020601,
-    "name": "Ankatoza,Antsakoandroa  I Et Ii,Ampamatasoa",
+    "name": "Ankatoza,Antsakoandroa  I Et II,Ampamatasoa",
     "parent_id": 61020600,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61020602,
-    "name": "Ankilimalangy I Et Ii,Ambatofotsy,Anivorano",
+    "name": "Ankilimalangy I Et II,Ambatofotsy,Anivorano",
     "parent_id": 61020600,
     "type": "NEIGHBORHOOD"
   },
@@ -98564,7 +98564,7 @@
   },
   {
     "id": 61020606,
-    "name": "Antsakoamaro I Et Ii,Andranofotsy,Antamboarahai",
+    "name": "Antsakoamaro I Et II,Andranofotsy,Antamboarahai",
     "parent_id": 61020600,
     "type": "NEIGHBORHOOD"
   },
@@ -98576,7 +98576,7 @@
   },
   {
     "id": 61020608,
-    "name": "Bevala I Et Ii,Anarabe,Analapototsy,Beziziky",
+    "name": "Bevala I Et II,Anarabe,Analapototsy,Beziziky",
     "parent_id": 61020600,
     "type": "NEIGHBORHOOD"
   },
@@ -98618,7 +98618,7 @@
   },
   {
     "id": 61020706,
-    "name": "Mitsinjo,Ampandrambe,Ambalanosy Ii,Mahazoarivo Sud",
+    "name": "Mitsinjo,Ampandrambe,Ambalanosy II,Mahazoarivo Sud",
     "parent_id": 61020700,
     "type": "NEIGHBORHOOD"
   },
@@ -98660,7 +98660,7 @@
   },
   {
     "id": 61020802,
-    "name": "Ambatomainty Anivorano,Ankisatry,Ankorake Ii",
+    "name": "Ambatomainty Anivorano,Ankisatry,Ankorake II",
     "parent_id": 61020800,
     "type": "NEIGHBORHOOD"
   },
@@ -98678,7 +98678,7 @@
   },
   {
     "id": 61020805,
-    "name": "Andolobory Ii,Ankazota,Ambohimanoy,Sanapoty",
+    "name": "Andolobory II,Ankazota,Ambohimanoy,Sanapoty",
     "parent_id": 61020800,
     "type": "NEIGHBORHOOD"
   },
@@ -98690,13 +98690,13 @@
   },
   {
     "id": 61020807,
-    "name": "Ankiliarivo,Anjamongotroy I Et Ii,Ambatofotsy",
+    "name": "Ankiliarivo,Anjamongotroy I Et II,Ambatofotsy",
     "parent_id": 61020800,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61020808,
-    "name": "Ankilimanitsy I,Ii Et Iii,Antsakoambola,Andranolav",
+    "name": "Ankilimanitsy I,II Et III,Antsakoambola,Andranolav",
     "parent_id": 61020800,
     "type": "NEIGHBORHOOD"
   },
@@ -98708,7 +98708,7 @@
   },
   {
     "id": 61020810,
-    "name": "Antsaha I Et Ii,Ankiny Sud,Antaly,Antsaha Nord",
+    "name": "Antsaha I Et II,Ankiny Sud,Antaly,Antsaha Nord",
     "parent_id": 61020800,
     "type": "NEIGHBORHOOD"
   },
@@ -98762,7 +98762,7 @@
   },
   {
     "id": 61020819,
-    "name": "Manambahy I Et Ii,Analamary,Marofany,",
+    "name": "Manambahy I Et II,Analamary,Marofany,",
     "parent_id": 61020800,
     "type": "NEIGHBORHOOD"
   },
@@ -98780,7 +98780,7 @@
   },
   {
     "id": 61020822,
-    "name": "Marosakoa I Et Ii,Mandrosarivo,Maroasaraka",
+    "name": "Marosakoa I Et II,Mandrosarivo,Maroasaraka",
     "parent_id": 61020800,
     "type": "NEIGHBORHOOD"
   },
@@ -98792,7 +98792,7 @@
   },
   {
     "id": 61020824,
-    "name": "Miary Toby,Miary Marofany,Miary Toby Ii,Antsakoama",
+    "name": "Miary Toby,Miary Marofany,Miary Toby II,Antsakoama",
     "parent_id": 61020800,
     "type": "NEIGHBORHOOD"
   },
@@ -98804,13 +98804,13 @@
   },
   {
     "id": 61020826,
-    "name": "Sakoantsoa,Ankerakeraky,Antsaha,Kiliarivo I Et Ii",
+    "name": "Sakoantsoa,Ankerakeraky,Antsaha,Kiliarivo I Et II",
     "parent_id": 61020800,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61020827,
-    "name": "Sarosandro I Et Ii,Antanimay,Antskoamitondra",
+    "name": "Sarosandro I Et II,Antanimay,Antskoamitondra",
     "parent_id": 61020800,
     "type": "NEIGHBORHOOD"
   },
@@ -98828,7 +98828,7 @@
   },
   {
     "id": 61020830,
-    "name": "Voravy,Benonoka,Anarabe,Ankilibe,Ampandra I Et Ii",
+    "name": "Voravy,Benonoka,Anarabe,Ankilibe,Ampandra I Et II",
     "parent_id": 61020800,
     "type": "NEIGHBORHOOD"
   },
@@ -98840,37 +98840,37 @@
   },
   {
     "id": 61020901,
-    "name": "Ambasy I Et Ii,Berohondroho I Et Ii,Aninaky",
+    "name": "Ambasy I Et II,Berohondroho I Et II,Aninaky",
     "parent_id": 61020900,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61020902,
-    "name": "Ambatomanana I,Ii Et Ouest,Antsakoantano Nord",
+    "name": "Ambatomanana I,II Et Ouest,Antsakoantano Nord",
     "parent_id": 61020900,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61020903,
-    "name": "Ambonaivo,Antsakoandroa,Ampatiolotsy Ii",
+    "name": "Ambonaivo,Antsakoandroa,Ampatiolotsy II",
     "parent_id": 61020900,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61020904,
-    "name": "Ampanamerandrotsy Sud  I Et Ii,Ampirifiry,Ankilima",
+    "name": "Ampanamerandrotsy Sud  I Et II,Ampirifiry,Ankilima",
     "parent_id": 61020900,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61020905,
-    "name": "Ampanamperandrotsy Nord I Et Ii,Centre,Anandava",
+    "name": "Ampanamperandrotsy Nord I Et II,Centre,Anandava",
     "parent_id": 61020900,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61020906,
-    "name": "Andranofoty I Et Ii,Bemoita,Bemoita Anaviavy",
+    "name": "Andranofoty I Et II,Bemoita,Bemoita Anaviavy",
     "parent_id": 61020900,
     "type": "NEIGHBORHOOD"
   },
@@ -98894,19 +98894,19 @@
   },
   {
     "id": 61020910,
-    "name": "Anjatogne,Remonongo Ii,Anivorano,Analasoa I Et Ii",
+    "name": "Anjatogne,Remonongo II,Anivorano,Analasoa I Et II",
     "parent_id": 61020900,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61020911,
-    "name": "Ankily ,Fenoarivo I Et Ii,Betsiketsy Anjamary",
+    "name": "Ankily ,Fenoarivo I Et II,Betsiketsy Anjamary",
     "parent_id": 61020900,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61020912,
-    "name": "Antsakoandahy I Et Ii,Ampihamy,Ankaboa Ambatoma",
+    "name": "Antsakoandahy I Et II,Ampihamy,Ankaboa Ambatoma",
     "parent_id": 61020900,
     "type": "NEIGHBORHOOD"
   },
@@ -98918,13 +98918,13 @@
   },
   {
     "id": 61020914,
-    "name": "Mahasoa Ii,Mahasoa Ambohimandroso,Mahabo",
+    "name": "Mahasoa II,Mahasoa Ambohimandroso,Mahabo",
     "parent_id": 61020900,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61020915,
-    "name": "Marosaraka Centre,Ii Et Iii,Morafeno Ii,Besandraha",
+    "name": "Marosaraka Centre,II Et III,Morafeno II,Besandraha",
     "parent_id": 61020900,
     "type": "NEIGHBORHOOD"
   },
@@ -98936,13 +98936,13 @@
   },
   {
     "id": 61020917,
-    "name": "Remanongo I Et Iii,Liolamba Iii,Besakoa I,Fanoariv",
+    "name": "Remanongo I Et III,Liolamba III,Besakoa I,Fanoariv",
     "parent_id": 61020900,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61020918,
-    "name": "Tanantsoa I,Ii Et Iii,Liolamba I Et Ii,Liolambo To",
+    "name": "Tanantsoa I,II Et III,Liolamba I Et II,Liolambo To",
     "parent_id": 61020900,
     "type": "NEIGHBORHOOD"
   },
@@ -98972,7 +98972,7 @@
   },
   {
     "id": 61021003,
-    "name": "Amboasary I,Eromo,Benato,Amboasary Ii,Ampisopiso",
+    "name": "Amboasary I,Eromo,Benato,Amboasary II,Ampisopiso",
     "parent_id": 61021000,
     "type": "NEIGHBORHOOD"
   },
@@ -99056,7 +99056,7 @@
   },
   {
     "id": 61021017,
-    "name": "Latsahambola I Et Ii,Ankily,Belamoty,Anivorano",
+    "name": "Latsahambola I Et II,Ankily,Belamoty,Anivorano",
     "parent_id": 61021000,
     "type": "NEIGHBORHOOD"
   },
@@ -99080,7 +99080,7 @@
   },
   {
     "id": 61021021,
-    "name": "Tomboarivo I Et Ii,Bevinda,Benato,Antatatsy",
+    "name": "Tomboarivo I Et II,Bevinda,Benato,Antatatsy",
     "parent_id": 61021000,
     "type": "NEIGHBORHOOD"
   },
@@ -99110,7 +99110,7 @@
   },
   {
     "id": 61021104,
-    "name": "Mahasoa Vohitany,Mahasoa,Andranomasy,Besohi Ii",
+    "name": "Mahasoa Vohitany,Mahasoa,Andranomasy,Besohi II",
     "parent_id": 61021100,
     "type": "NEIGHBORHOOD"
   },
@@ -99134,13 +99134,13 @@
   },
   {
     "id": 61021202,
-    "name": "Androidroy I Et Ii,Ananaboro Ii,Antanatsoa,Anarama",
+    "name": "Androidroy I Et II,Ananaboro II,Antanatsoa,Anarama",
     "parent_id": 61021200,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61021203,
-    "name": "Anjamivony I Et Ii,Milomboky,Ankilimalaza I Et Ii",
+    "name": "Anjamivony I Et II,Milomboky,Ankilimalaza I Et II",
     "parent_id": 61021200,
     "type": "NEIGHBORHOOD"
   },
@@ -99158,13 +99158,13 @@
   },
   {
     "id": 61021206,
-    "name": "Antsakoapolo I Et Ii,Beromotsy Bas ,Bevaho Bas Ii",
+    "name": "Antsakoapolo I Et II,Beromotsy Bas ,Bevaho Bas II",
     "parent_id": 61021200,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61021207,
-    "name": "Antsosa I Et Ii,Andranonjirioky,Andranolava",
+    "name": "Antsosa I Et II,Andranonjirioky,Andranolava",
     "parent_id": 61021200,
     "type": "NEIGHBORHOOD"
   },
@@ -99176,13 +99176,13 @@
   },
   {
     "id": 61021209,
-    "name": "Marofototsy I Et Ii,Anaratoka,Antsakoamilahatsy",
+    "name": "Marofototsy I Et II,Anaratoka,Antsakoamilahatsy",
     "parent_id": 61021200,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61021210,
-    "name": "Sakaraty I Et Ii,Ankalomboro,Pelaraiky,Belamoty",
+    "name": "Sakaraty I Et II,Ankalomboro,Pelaraiky,Belamoty",
     "parent_id": 61021200,
     "type": "NEIGHBORHOOD"
   },
@@ -99194,7 +99194,7 @@
   },
   {
     "id": 61021301,
-    "name": "Anaviavy I Et Ii,Amboropotsy,Ankilivory",
+    "name": "Anaviavy I Et II,Amboropotsy,Ankilivory",
     "parent_id": 61021300,
     "type": "NEIGHBORHOOD"
   },
@@ -99218,7 +99218,7 @@
   },
   {
     "id": 61021305,
-    "name": "Befamonty,Tsilany Haut Et Bas,Anivorano I Et Ii",
+    "name": "Befamonty,Tsilany Haut Et Bas,Anivorano I Et II",
     "parent_id": 61021300,
     "type": "NEIGHBORHOOD"
   },
@@ -99242,7 +99242,7 @@
   },
   {
     "id": 61021309,
-    "name": "Vatoarivo I Et Ii ,Antaratsy I Et Ii,Anaborano,Voh",
+    "name": "Vatoarivo I Et II ,Antaratsy I Et II,Anaborano,Voh",
     "parent_id": 61021300,
     "type": "NEIGHBORHOOD"
   },
@@ -99302,7 +99302,7 @@
   },
   {
     "id": 61021409,
-    "name": "Befangitsy I Et Ii,Antanantsoa,Maromiandra",
+    "name": "Befangitsy I Et II,Antanantsoa,Maromiandra",
     "parent_id": 61021400,
     "type": "NEIGHBORHOOD"
   },
@@ -99326,13 +99326,13 @@
   },
   {
     "id": 61021413,
-    "name": "Miria Ii,Anivorano,Andarosiky,Miria",
+    "name": "Miria II,Anivorano,Andarosiky,Miria",
     "parent_id": 61021400,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61021414,
-    "name": "Tambahy_ Bedona I Et Ii,Ambatobe Fenoarivo,Besandraha",
+    "name": "Tambahy_ Bedona I Et II,Ambatobe Fenoarivo,Besandraha",
     "parent_id": 61021400,
     "type": "NEIGHBORHOOD"
   },
@@ -99344,7 +99344,7 @@
   },
   {
     "id": 61021501,
-    "name": "Analamary I Et Ii,Beboria,Bemelo Nord",
+    "name": "Analamary I Et II,Beboria,Bemelo Nord",
     "parent_id": 61021500,
     "type": "NEIGHBORHOOD"
   },
@@ -99362,13 +99362,13 @@
   },
   {
     "id": 61021504,
-    "name": "Ankonatsy I,Ii Et Iii ,Maroaly,Antanisoa",
+    "name": "Ankonatsy I,II Et III ,Maroaly,Antanisoa",
     "parent_id": 61021500,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61021505,
-    "name": "Belenalena Ii Et Iii,Besaroa I,Andromivonga Ii",
+    "name": "Belenalena II Et III,Besaroa I,Andromivonga II",
     "parent_id": 61021500,
     "type": "NEIGHBORHOOD"
   },
@@ -99380,7 +99380,7 @@
   },
   {
     "id": 61021507,
-    "name": "Bevinda I Et Ii,Soaserana,Bevinda Soaserana",
+    "name": "Bevinda I Et II,Soaserana,Bevinda Soaserana",
     "parent_id": 61021500,
     "type": "NEIGHBORHOOD"
   },
@@ -99410,7 +99410,7 @@
   },
   {
     "id": 61021512,
-    "name": "Tsianerena I Et Ii,Tanambao ,Tsianerena Centre",
+    "name": "Tsianerena I Et II,Tanambao ,Tsianerena Centre",
     "parent_id": 61021500,
     "type": "NEIGHBORHOOD"
   },
@@ -99428,7 +99428,7 @@
   },
   {
     "id": 61021602,
-    "name": "Anarabe Ii",
+    "name": "Anarabe II",
     "parent_id": 61021600,
     "type": "NEIGHBORHOOD"
   },
@@ -99470,7 +99470,7 @@
   },
   {
     "id": 61021609,
-    "name": "Mikaikarivo, Ambatomainty, Mikaikarivo Ii, Ambalasoa, Mahabo",
+    "name": "Mikaikarivo, Ambatomainty, Mikaikarivo II, Ambalasoa, Mahabo",
     "parent_id": 61021600,
     "type": "NEIGHBORHOOD"
   },
@@ -99488,7 +99488,7 @@
   },
   {
     "id": 61021702,
-    "name": "Ambararata Toby Ii, Soarano",
+    "name": "Ambararata Toby II, Soarano",
     "parent_id": 61021700,
     "type": "NEIGHBORHOOD"
   },
@@ -99512,7 +99512,7 @@
   },
   {
     "id": 61021706,
-    "name": "Analamary Ii,Ambararata Anivorano,Erombo",
+    "name": "Analamary II,Ambararata Anivorano,Erombo",
     "parent_id": 61021700,
     "type": "NEIGHBORHOOD"
   },
@@ -99530,7 +99530,7 @@
   },
   {
     "id": 61021709,
-    "name": "Andromasy I Et Ii",
+    "name": "Andromasy I Et II",
     "parent_id": 61021700,
     "type": "NEIGHBORHOOD"
   },
@@ -99560,19 +99560,19 @@
   },
   {
     "id": 61021714,
-    "name": "Besakoa Soaravy Ii,Antsohihy,Antsakoamalangy",
+    "name": "Besakoa Soaravy II,Antsohihy,Antsakoamalangy",
     "parent_id": 61021700,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61021715,
-    "name": "Iabomary I Et Ii,Mitsinjo Ambotaky,Sakara Haut",
+    "name": "Iabomary I Et II,Mitsinjo Ambotaky,Sakara Haut",
     "parent_id": 61021700,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61021716,
-    "name": "Mahasoa Bas,Haut Et Ii",
+    "name": "Mahasoa Bas,Haut Et II",
     "parent_id": 61021700,
     "type": "NEIGHBORHOOD"
   },
@@ -99590,7 +99590,7 @@
   },
   {
     "id": 61021719,
-    "name": "Sarisambo I Et Ii,Mahanoro,Tanandava",
+    "name": "Sarisambo I Et II,Mahanoro,Tanandava",
     "parent_id": 61021700,
     "type": "NEIGHBORHOOD"
   },
@@ -99632,25 +99632,25 @@
   },
   {
     "id": 61021804,
-    "name": "Antsakoamalangy I,Ii Et Iii,Ankilimahavelo,Besenga",
+    "name": "Antsakoamalangy I,II Et III,Ankilimahavelo,Besenga",
     "parent_id": 61021800,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61021805,
-    "name": "Antsakoamiary I Et Ii,Andommbiry,Antsakoamaro Ii",
+    "name": "Antsakoamiary I Et II,Andommbiry,Antsakoamaro II",
     "parent_id": 61021800,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61021806,
-    "name": "Mahabo I Et Ii,Antsakoamamolavola,Soaloky,Andamila",
+    "name": "Mahabo I Et II,Antsakoamamolavola,Soaloky,Andamila",
     "parent_id": 61021800,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61021807,
-    "name": "Tsiakolaka I ,Ii ,Iii ,Iv",
+    "name": "Tsiakolaka I ,II ,III ,Iv",
     "parent_id": 61021800,
     "type": "NEIGHBORHOOD"
   },
@@ -99662,7 +99662,7 @@
   },
   {
     "id": 61021901,
-    "name": "Mahatsinjo I Et Ii,Mahatalaky",
+    "name": "Mahatsinjo I Et II,Mahatalaky",
     "parent_id": 61021900,
     "type": "NEIGHBORHOOD"
   },
@@ -99680,7 +99680,7 @@
   },
   {
     "id": 61021904,
-    "name": "Tanambao I Et Ii,Ambinanay,Tanambao Antsakoamasy",
+    "name": "Tanambao I Et II,Ambinanay,Tanambao Antsakoamasy",
     "parent_id": 61021900,
     "type": "NEIGHBORHOOD"
   },
@@ -99746,7 +99746,7 @@
   },
   {
     "id": 61022009,
-    "name": "Vohimanga Ii,Soamanonga,Ambatomainty,Ampamotilava",
+    "name": "Vohimanga II,Soamanonga,Ambatomainty,Ampamotilava",
     "parent_id": 61022000,
     "type": "NEIGHBORHOOD"
   },
@@ -100022,7 +100022,7 @@
   },
   {
     "id": 61030313,
-    "name": "Andriamameriarivo Ii",
+    "name": "Andriamameriarivo II",
     "parent_id": 61030300,
     "type": "NEIGHBORHOOD"
   },
@@ -100376,7 +100376,7 @@
   },
   {
     "id": 61030426,
-    "name": "Tamonto Ii",
+    "name": "Tamonto II",
     "parent_id": 61030400,
     "type": "NEIGHBORHOOD"
   },
@@ -100472,7 +100472,7 @@
   },
   {
     "id": 61030504,
-    "name": "Andrambaly Ii",
+    "name": "Andrambaly II",
     "parent_id": 61030500,
     "type": "NEIGHBORHOOD"
   },
@@ -100538,7 +100538,7 @@
   },
   {
     "id": 61030515,
-    "name": "Vazoa Antaly Ii",
+    "name": "Vazoa Antaly II",
     "parent_id": 61030500,
     "type": "NEIGHBORHOOD"
   },
@@ -101150,7 +101150,7 @@
   },
   {
     "id": 61030832,
-    "name": "Soamanitra Ii",
+    "name": "Soamanitra II",
     "parent_id": 61030800,
     "type": "NEIGHBORHOOD"
   },
@@ -101204,7 +101204,7 @@
   },
   {
     "id": 61040102,
-    "name": "Ambavatany I Et Ii, Tanantsoa, Antanimora, Antanamalangy, Analasoa, Analakely",
+    "name": "Ambavatany I Et II, Tanantsoa, Antanimora, Antanamalangy, Analasoa, Analakely",
     "parent_id": 61040100,
     "type": "NEIGHBORHOOD"
   },
@@ -101258,13 +101258,13 @@
   },
   {
     "id": 61040111,
-    "name": "Ankatamboalavo I Et Ii, Ambaro Ii Et Antanagnela, Ankororoke,  ",
+    "name": "Ankatamboalavo I Et II, Ambaro II Et Antanagnela, Ankororoke,  ",
     "parent_id": 61040100,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61040112,
-    "name": "Antanamanjary I Et Ii, Ambaro, Animosoa, Tsimena, Antsakoamanintsy ",
+    "name": "Antanamanjary I Et II, Ambaro, Animosoa, Tsimena, Antsakoamanintsy ",
     "parent_id": 61040100,
     "type": "NEIGHBORHOOD"
   },
@@ -101282,7 +101282,7 @@
   },
   {
     "id": 61040115,
-    "name": "Marosaragna I, Ii, Tsaramandroso, Tsakoamalangy, Ampasimbe I, Ii, Maromainty, Ambolonaondry  ",
+    "name": "Marosaragna I, II, Tsaramandroso, Tsakoamalangy, Ampasimbe I, II, Maromainty, Ambolonaondry  ",
     "parent_id": 61040100,
     "type": "NEIGHBORHOOD"
   },
@@ -101396,7 +101396,7 @@
   },
   {
     "id": 61040304,
-    "name": "Ambaromanoy Ii",
+    "name": "Ambaromanoy II",
     "parent_id": 61040300,
     "type": "NEIGHBORHOOD"
   },
@@ -101414,7 +101414,7 @@
   },
   {
     "id": 61040307,
-    "name": "Ambohitse Ii Et Mahasoa",
+    "name": "Ambohitse II Et Mahasoa",
     "parent_id": 61040300,
     "type": "NEIGHBORHOOD"
   },
@@ -101510,7 +101510,7 @@
   },
   {
     "id": 61040323,
-    "name": "Antaritarika Ii",
+    "name": "Antaritarika II",
     "parent_id": 61040300,
     "type": "NEIGHBORHOOD"
   },
@@ -101522,7 +101522,7 @@
   },
   {
     "id": 61040325,
-    "name": "Antaritarike Centre, Ambaro I, Ii Et Iii, Ambaro, Maha",
+    "name": "Antaritarike Centre, Ambaro I, II Et III, Ambaro, Maha",
     "parent_id": 61040300,
     "type": "NEIGHBORHOOD"
   },
@@ -101546,7 +101546,7 @@
   },
   {
     "id": 61040329,
-    "name": "Fanarano I Et Ii, Fotaka I Et Ii, Androvamaro I Et I",
+    "name": "Fanarano I Et II, Fotaka I Et II, Androvamaro I Et I",
     "parent_id": 61040300,
     "type": "NEIGHBORHOOD"
   },
@@ -101558,7 +101558,7 @@
   },
   {
     "id": 61040331,
-    "name": "Ihodo I Et Ii, Tsianoha I, Ii, Iii Et Iv",
+    "name": "Ihodo I Et II, Tsianoha I, II, III Et Iv",
     "parent_id": 61040300,
     "type": "NEIGHBORHOOD"
   },
@@ -101570,13 +101570,13 @@
   },
   {
     "id": 61040333,
-    "name": "Marofoty Sud, Etsila Soanafindra, Tanambao, Mokabe Ii",
+    "name": "Marofoty Sud, Etsila Soanafindra, Tanambao, Mokabe II",
     "parent_id": 61040300,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61040334,
-    "name": "Mokabe I Et Ii, Antaninarenina, Ankaranabo",
+    "name": "Mokabe I Et II, Antaninarenina, Ankaranabo",
     "parent_id": 61040300,
     "type": "NEIGHBORHOOD"
   },
@@ -101672,7 +101672,7 @@
   },
   {
     "id": 61040413,
-    "name": "Bevaro Ii",
+    "name": "Bevaro II",
     "parent_id": 61040400,
     "type": "NEIGHBORHOOD"
   },
@@ -101720,7 +101720,7 @@
   },
   {
     "id": 61040501,
-    "name": "Amanda I Et Ii, Behana, Ankolokolo",
+    "name": "Amanda I Et II, Behana, Ankolokolo",
     "parent_id": 61040500,
     "type": "NEIGHBORHOOD"
   },
@@ -101738,7 +101738,7 @@
   },
   {
     "id": 61040504,
-    "name": "Anja Haut, Tanambao, Amboanio, Maromena, Anja Bas I Et Ii, Beievetse, Anja Mahasoa, Anjamasy, Anja Marolava",
+    "name": "Anja Haut, Tanambao, Amboanio, Maromena, Anja Bas I Et II, Beievetse, Anja Mahasoa, Anjamasy, Anja Marolava",
     "parent_id": 61040500,
     "type": "NEIGHBORHOOD"
   },
@@ -101834,13 +101834,13 @@
   },
   {
     "id": 61040601,
-    "name": "Ambaromanintsy Centre, I Et Iiankilimamy I, Ii Et Iii, Antsakoantsoa I Et Ii ",
+    "name": "Ambaromanintsy Centre, I Et IIankilimamy I, II Et III, Antsakoantsoa I Et II ",
     "parent_id": 61040600,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61040602,
-    "name": "Ambatovao Ii, Et  I, Ii Et Iii, Antakoko",
+    "name": "Ambatovao II, Et  I, II Et III, Antakoko",
     "parent_id": 61040600,
     "type": "NEIGHBORHOOD"
   },
@@ -101858,7 +101858,7 @@
   },
   {
     "id": 61040605,
-    "name": "Andamoty I,Ii Et Iii",
+    "name": "Andamoty I,II Et III",
     "parent_id": 61040600,
     "type": "NEIGHBORHOOD"
   },
@@ -101870,13 +101870,13 @@
   },
   {
     "id": 61040607,
-    "name": "Andramirava Ii",
+    "name": "Andramirava II",
     "parent_id": 61040600,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61040608,
-    "name": "Andratino I,Ii,Iii,Antanemary",
+    "name": "Andratino I,II,III,Antanemary",
     "parent_id": 61040600,
     "type": "NEIGHBORHOOD"
   },
@@ -101912,13 +101912,13 @@
   },
   {
     "id": 61040614,
-    "name": "Fekony - I, Ii Et Iii , Pelatelo , Ankilimiaro I Et Ii",
+    "name": "Fekony - I, II Et III , Pelatelo , Ankilimiaro I Et II",
     "parent_id": 61040600,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61040615,
-    "name": "Imongy Centre,I Et Ii Et Iii,Ankilimiary/Nord",
+    "name": "Imongy Centre,I Et II Et III,Ankilimiary/Nord",
     "parent_id": 61040600,
     "type": "NEIGHBORHOOD"
   },
@@ -101930,7 +101930,7 @@
   },
   {
     "id": 61040617,
-    "name": "Marobe, Ambaro Ii Et Iii, Andrampananike Ii",
+    "name": "Marobe, Ambaro II Et III, Andrampananike II",
     "parent_id": 61040600,
     "type": "NEIGHBORHOOD"
   },
@@ -101948,7 +101948,7 @@
   },
   {
     "id": 61040620,
-    "name": "Tsianoha Iii",
+    "name": "Tsianoha III",
     "parent_id": 61040600,
     "type": "NEIGHBORHOOD"
   },
@@ -102002,7 +102002,7 @@
   },
   {
     "id": 61040708,
-    "name": "Andrarake Et  Centre Et Ii Antanambao, Tanambao Beanaanteza Et Fatsinalio, Beavoha Et Ii, Ankilimasy, Sakoamasy, Katravitra   ",
+    "name": "Andrarake Et  Centre Et II Antanambao, Tanambao Beanaanteza Et Fatsinalio, Beavoha Et II, Ankilimasy, Sakoamasy, Katravitra   ",
     "parent_id": 61040700,
     "type": "NEIGHBORHOOD"
   },
@@ -102194,7 +102194,7 @@
   },
   {
     "id": 61040807,
-    "name": "Behasy I Et Ii, Ankatobe, Morafeno, Ankilitelo I Et Ii",
+    "name": "Behasy I Et II, Ankatobe, Morafeno, Ankilitelo I Et II",
     "parent_id": 61040800,
     "type": "NEIGHBORHOOD"
   },
@@ -102224,7 +102224,7 @@
   },
   {
     "id": 61040812,
-    "name": "Maroakalo Sihanadampy I Et Ii, Tanambao Andranomanintsy ",
+    "name": "Maroakalo Sihanadampy I Et II, Tanambao Andranomanintsy ",
     "parent_id": 61040800,
     "type": "NEIGHBORHOOD"
   },
@@ -102248,7 +102248,7 @@
   },
   {
     "id": 61040816,
-    "name": "Nikoly I, Ii, Maromainte, Tehodo",
+    "name": "Nikoly I, II, Maromainte, Tehodo",
     "parent_id": 61040800,
     "type": "NEIGHBORHOOD"
   },
@@ -102266,7 +102266,7 @@
   },
   {
     "id": 61040819,
-    "name": "Tamonto Nord, Analapamata, Andranoagnala, Katapoly, Ankororoka, Tsivokony Et Ouest, Andengo Ambarobe, Katsakala I, Et Ii, Antanima",
+    "name": "Tamonto Nord, Analapamata, Andranoagnala, Katapoly, Ankororoka, Tsivokony Et Ouest, Andengo Ambarobe, Katsakala I, Et II, Antanima",
     "parent_id": 61040800,
     "type": "NEIGHBORHOOD"
   },
@@ -102284,7 +102284,7 @@
   },
   {
     "id": 61040822,
-    "name": "Tampototse Antanamiary, Antanimary I Et Ii",
+    "name": "Tampototse Antanamiary, Antanimary I Et II",
     "parent_id": 61040800,
     "type": "NEIGHBORHOOD"
   },
@@ -102308,7 +102308,7 @@
   },
   {
     "id": 61040826,
-    "name": "Tampototse Maromainte Ii, Ambaromidada",
+    "name": "Tampototse Maromainte II, Ambaromidada",
     "parent_id": 61040800,
     "type": "NEIGHBORHOOD"
   },
@@ -102326,7 +102326,7 @@
   },
   {
     "id": 61040829,
-    "name": "Tampototse Sud, Ankilitoka I Et Ii, Betamboha, Benivo, Antanamiary, Betamboho Ii, Benivo ",
+    "name": "Tampototse Sud, Ankilitoka I Et II, Betamboha, Benivo, Antanamiary, Betamboho II, Benivo ",
     "parent_id": 61040800,
     "type": "NEIGHBORHOOD"
   },
@@ -102386,7 +102386,7 @@
   },
   {
     "id": 61040909,
-    "name": "Anja, Tsihombe Ii",
+    "name": "Anja, Tsihombe II",
     "parent_id": 61040900,
     "type": "NEIGHBORHOOD"
   },
@@ -102404,13 +102404,13 @@
   },
   {
     "id": 61040912,
-    "name": "Ankililiry I Et Ii,Aninake, Sahanome, Saliromo",
+    "name": "Ankililiry I Et II,Aninake, Sahanome, Saliromo",
     "parent_id": 61040900,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 61040913,
-    "name": "Ankorakosy I, Ii, Iii, Ambohitany",
+    "name": "Ankorakosy I, II, III, Ambohitany",
     "parent_id": 61040900,
     "type": "NEIGHBORHOOD"
   },
@@ -102440,7 +102440,7 @@
   },
   {
     "id": 61040918,
-    "name": "Belemboka Centre, Tsivainanake Ii",
+    "name": "Belemboka Centre, Tsivainanake II",
     "parent_id": 61040900,
     "type": "NEIGHBORHOOD"
   },
@@ -102470,7 +102470,7 @@
   },
   {
     "id": 61040923,
-    "name": "Marotana I Et Ii, Anja, Marohery, Maromainty",
+    "name": "Marotana I Et II, Anja, Marohery, Maromainty",
     "parent_id": 61040900,
     "type": "NEIGHBORHOOD"
   },
@@ -102494,7 +102494,7 @@
   },
   {
     "id": 61040927,
-    "name": "Sihanamena Marolava Est, Ankiliefatra I, Ii Et Iii, Anafaly I, Ii Et Iii, Mahaendrake Marolava Sud",
+    "name": "Sihanamena Marolava Est, Ankiliefatra I, II Et III, Anafaly I, II Et III, Mahaendrake Marolava Sud",
     "parent_id": 61040900,
     "type": "NEIGHBORHOOD"
   },
@@ -102530,7 +102530,7 @@
   },
   {
     "id": 61040933,
-    "name": "Tesingo Analamisandratse,Centre,  Ii,  Antanamalangy, Antaranta, Antanambao,  ",
+    "name": "Tesingo Analamisandratse,Centre,  II,  Antanamalangy, Antaranta, Antanambao,  ",
     "parent_id": 61040900,
     "type": "NEIGHBORHOOD"
   },
@@ -102548,7 +102548,7 @@
   },
   {
     "id": 61040936,
-    "name": "Tesingo Sud, Ankarampaly, Belay Ankitsy, Analamisandratse Iii, Tsinjovinarivo, ",
+    "name": "Tesingo Sud, Ankarampaly, Belay Ankitsy, Analamisandratse III, Tsinjovinarivo, ",
     "parent_id": 61040900,
     "type": "NEIGHBORHOOD"
   },
@@ -102843,7 +102843,7 @@
   },
   {
     "id": 62010213,
-    "name": "Behara Bas Ii",
+    "name": "Behara Bas II",
     "parent_id": 62010200,
     "type": "NEIGHBORHOOD"
   },
@@ -102861,7 +102861,7 @@
   },
   {
     "id": 62010216,
-    "name": "Behara Poste Ii",
+    "name": "Behara Poste II",
     "parent_id": 62010200,
     "type": "NEIGHBORHOOD"
   },
@@ -102909,7 +102909,7 @@
   },
   {
     "id": 62010224,
-    "name": "Maromena Ii",
+    "name": "Maromena II",
     "parent_id": 62010200,
     "type": "NEIGHBORHOOD"
   },
@@ -103317,7 +103317,7 @@
   },
   {
     "id": 62010709,
-    "name": "Bekiria Ii",
+    "name": "Bekiria II",
     "parent_id": 62010700,
     "type": "NEIGHBORHOOD"
   },
@@ -103365,7 +103365,7 @@
   },
   {
     "id": 62010717,
-    "name": "Tsileha Ii",
+    "name": "Tsileha II",
     "parent_id": 62010700,
     "type": "NEIGHBORHOOD"
   },
@@ -103809,7 +103809,7 @@
   },
   {
     "id": 62011305,
-    "name": "Behalimboro Ii",
+    "name": "Behalimboro II",
     "parent_id": 62011300,
     "type": "NEIGHBORHOOD"
   },
@@ -103869,7 +103869,7 @@
   },
   {
     "id": 62011406,
-    "name": "Ankilimalaindio Ii",
+    "name": "Ankilimalaindio II",
     "parent_id": 62011400,
     "type": "NEIGHBORHOOD"
   },
@@ -103989,7 +103989,7 @@
   },
   {
     "id": 62011502,
-    "name": "Antsovela Sama Ii",
+    "name": "Antsovela Sama II",
     "parent_id": 62011500,
     "type": "NEIGHBORHOOD"
   },
@@ -104025,7 +104025,7 @@
   },
   {
     "id": 62011508,
-    "name": "Maroaky Ii",
+    "name": "Maroaky II",
     "parent_id": 62011500,
     "type": "NEIGHBORHOOD"
   },
@@ -104211,7 +104211,7 @@
   },
   {
     "id": 62011718,
-    "name": "Tranomaro Ii",
+    "name": "Tranomaro II",
     "parent_id": 62011700,
     "type": "NEIGHBORHOOD"
   },
@@ -104223,7 +104223,7 @@
   },
   {
     "id": 62011720,
-    "name": "Tsilamaha Ii",
+    "name": "Tsilamaha II",
     "parent_id": 62011700,
     "type": "NEIGHBORHOOD"
   },
@@ -104403,7 +104403,7 @@
   },
   {
     "id": 62020205,
-    "name": "Antanimary Toby,Manda,Antanimary Toby Ii",
+    "name": "Antanimary Toby,Manda,Antanimary Toby II",
     "parent_id": 62020200,
     "type": "NEIGHBORHOOD"
   },
@@ -104595,7 +104595,7 @@
   },
   {
     "id": 62020600,
-    "name": "Beampombo Ii",
+    "name": "Beampombo II",
     "parent_id": 62020000,
     "type": "MUNICIPALITY"
   },
@@ -104607,7 +104607,7 @@
   },
   {
     "id": 62020602,
-    "name": "Beampombo Ii,Ambararata Ouest,Ambinda,Ampihamy",
+    "name": "Beampombo II,Ambararata Ouest,Ambinda,Ampihamy",
     "parent_id": 62020600,
     "type": "NEIGHBORHOOD"
   },
@@ -105195,7 +105195,7 @@
   },
   {
     "id": 62021404,
-    "name": "Benonoka Ii,Amparihy,Androtsy,Tsitavoho,Belenalena",
+    "name": "Benonoka II,Amparihy,Androtsy,Tsitavoho,Belenalena",
     "parent_id": 62021400,
     "type": "NEIGHBORHOOD"
   },
@@ -105321,7 +105321,7 @@
   },
   {
     "id": 62021702,
-    "name": "Andranomena,Benonoka Ii,Andranomena Ouest,Ambinany",
+    "name": "Andranomena,Benonoka II,Andranomena Ouest,Ambinany",
     "parent_id": 62021700,
     "type": "NEIGHBORHOOD"
   },
@@ -105585,7 +105585,7 @@
   },
   {
     "id": 62022201,
-    "name": "Ambalavato,Ambinanitelo,Ambondro Ii,Bekinany,Manon",
+    "name": "Ambalavato,Ambinanitelo,Ambondro II,Bekinany,Manon",
     "parent_id": 62022200,
     "type": "NEIGHBORHOOD"
   },
@@ -105615,7 +105615,7 @@
   },
   {
     "id": 62030000,
-    "name": "Taolanaro",
+    "name": "Taolagnaro",
     "parent_id": 62000000,
     "type": "DISTRICT"
   },
@@ -105807,7 +105807,7 @@
   },
   {
     "id": 62030503,
-    "name": "Analapatsy I Et Ii",
+    "name": "Analapatsy I Et II",
     "parent_id": 62030500,
     "type": "NEIGHBORHOOD"
   },
@@ -106497,7 +106497,7 @@
   },
   {
     "id": 62031810,
-    "name": "Mananara Ii",
+    "name": "Mananara II",
     "parent_id": 62031800,
     "type": "NEIGHBORHOOD"
   },
@@ -106575,7 +106575,7 @@
   },
   {
     "id": 62031906,
-    "name": "Manambaro Ii",
+    "name": "Manambaro II",
     "parent_id": 62031900,
     "type": "NEIGHBORHOOD"
   },
@@ -106815,7 +106815,7 @@
   },
   {
     "id": 62032311,
-    "name": "Ranomafana Sud Ii",
+    "name": "Ranomafana Sud II",
     "parent_id": 62032300,
     "type": "NEIGHBORHOOD"
   },
@@ -106851,7 +106851,7 @@
   },
   {
     "id": 62032404,
-    "name": "Ankazofotsy I Et Ii",
+    "name": "Ankazofotsy I Et II",
     "parent_id": 62032400,
     "type": "NEIGHBORHOOD"
   },
@@ -107091,7 +107091,7 @@
   },
   {
     "id": 62032900,
-    "name": "Tolagnaro",
+    "name": "Taolagnaro",
     "parent_id": 62030000,
     "type": "MUNICIPALITY"
   },
@@ -107133,13 +107133,13 @@
   },
   {
     "id": 62032907,
-    "name": "Amparihy Ii",
+    "name": "Amparihy II",
     "parent_id": 62032900,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 62032908,
-    "name": "Amparihy Iii",
+    "name": "Amparihy III",
     "parent_id": 62032900,
     "type": "NEIGHBORHOOD"
   },
@@ -107181,13 +107181,13 @@
   },
   {
     "id": 62032915,
-    "name": "Tanambao Ii (Quartiers Iii Et Iv)",
+    "name": "Tanambao II (Quartiers III Et Iv)",
     "parent_id": 62032900,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 62032916,
-    "name": "Tanambao I (Quartiers I Et Ii)",
+    "name": "Tanambao I (Quartiers I Et II)",
     "parent_id": 62032900,
     "type": "NEIGHBORHOOD"
   },
@@ -107307,7 +107307,7 @@
   },
   {
     "id": 63010206,
-    "name": "Amboropotsy Ii",
+    "name": "Amboropotsy II",
     "parent_id": 63010200,
     "type": "NEIGHBORHOOD"
   },
@@ -107379,7 +107379,7 @@
   },
   {
     "id": 63010218,
-    "name": "Behalango Ii",
+    "name": "Behalango II",
     "parent_id": 63010200,
     "type": "NEIGHBORHOOD"
   },
@@ -107469,7 +107469,7 @@
   },
   {
     "id": 63010305,
-    "name": "Ampanihy Centre,Tanambao I Et Ii",
+    "name": "Ampanihy Centre,Tanambao I Et II",
     "parent_id": 63010300,
     "type": "NEIGHBORHOOD"
   },
@@ -107577,7 +107577,7 @@
   },
   {
     "id": 63010323,
-    "name": "Lafibato I Et Ii",
+    "name": "Lafibato I Et II",
     "parent_id": 63010300,
     "type": "NEIGHBORHOOD"
   },
@@ -107673,7 +107673,7 @@
   },
   {
     "id": 63010408,
-    "name": "Ankamena Ii",
+    "name": "Ankamena II",
     "parent_id": 63010400,
     "type": "NEIGHBORHOOD"
   },
@@ -107691,7 +107691,7 @@
   },
   {
     "id": 63010411,
-    "name": "Ankiliambane Ii",
+    "name": "Ankiliambane II",
     "parent_id": 63010400,
     "type": "NEIGHBORHOOD"
   },
@@ -107829,7 +107829,7 @@
   },
   {
     "id": 63010514,
-    "name": "Beharahake Bas,Beavoha Ii",
+    "name": "Beharahake Bas,Beavoha II",
     "parent_id": 63010500,
     "type": "NEIGHBORHOOD"
   },
@@ -107877,7 +107877,7 @@
   },
   {
     "id": 63010522,
-    "name": "Kilibory Ii,Beavoha Centre ,Antsanike,Ampangomena",
+    "name": "Kilibory II,Beavoha Centre ,Antsanike,Ampangomena",
     "parent_id": 63010500,
     "type": "NEIGHBORHOOD"
   },
@@ -107991,7 +107991,7 @@
   },
   {
     "id": 63010608,
-    "name": "Behavandra Iii,Andranohazo",
+    "name": "Behavandra III,Andranohazo",
     "parent_id": 63010600,
     "type": "NEIGHBORHOOD"
   },
@@ -108057,7 +108057,7 @@
   },
   {
     "id": 63010701,
-    "name": "Amboaido I Et Ii",
+    "name": "Amboaido I Et II",
     "parent_id": 63010700,
     "type": "NEIGHBORHOOD"
   },
@@ -108153,7 +108153,7 @@
   },
   {
     "id": 63010802,
-    "name": "Analamatezabey I Et Ii",
+    "name": "Analamatezabey I Et II",
     "parent_id": 63010800,
     "type": "NEIGHBORHOOD"
   },
@@ -108165,13 +108165,13 @@
   },
   {
     "id": 63010804,
-    "name": "Anjidava,Manoro,Ambatorohava I Et Ii",
+    "name": "Anjidava,Manoro,Ambatorohava I Et II",
     "parent_id": 63010800,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 63010805,
-    "name": "Ankilizato I Et Ii,Mikaikarivo",
+    "name": "Ankilizato I Et II,Mikaikarivo",
     "parent_id": 63010800,
     "type": "NEIGHBORHOOD"
   },
@@ -108201,7 +108201,7 @@
   },
   {
     "id": 63010810,
-    "name": "Manory,Anjidava Ii,Marovaho,Ankobe",
+    "name": "Manory,Anjidava II,Marovaho,Ankobe",
     "parent_id": 63010800,
     "type": "NEIGHBORHOOD"
   },
@@ -108231,13 +108231,13 @@
   },
   {
     "id": 63010903,
-    "name": "Antaly,Ankilifihamy I Et Ii",
+    "name": "Antaly,Ankilifihamy I Et II",
     "parent_id": 63010900,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 63010904,
-    "name": "Bedeboka I Et Ii,Besatra,Antanimena,Satrapotsy",
+    "name": "Bedeboka I Et II,Besatra,Antanimena,Satrapotsy",
     "parent_id": 63010900,
     "type": "NEIGHBORHOOD"
   },
@@ -108261,7 +108261,7 @@
   },
   {
     "id": 63010908,
-    "name": "Marovahatse,Bekipay I Et Ii,Tanantsoa",
+    "name": "Marovahatse,Bekipay I Et II,Tanantsoa",
     "parent_id": 63010900,
     "type": "NEIGHBORHOOD"
   },
@@ -108279,7 +108279,7 @@
   },
   {
     "id": 63010911,
-    "name": "Vohibe I Et Ii",
+    "name": "Vohibe I Et II",
     "parent_id": 63010900,
     "type": "NEIGHBORHOOD"
   },
@@ -108327,7 +108327,7 @@
   },
   {
     "id": 63011007,
-    "name": "Ankasy I Et Ii,Ambohitra,Bekibaka",
+    "name": "Ankasy I Et II,Ambohitra,Bekibaka",
     "parent_id": 63011000,
     "type": "NEIGHBORHOOD"
   },
@@ -108435,7 +108435,7 @@
   },
   {
     "id": 63011025,
-    "name": "Ranoabo Sud,Ankilitoka Ii",
+    "name": "Ranoabo Sud,Ankilitoka II",
     "parent_id": 63011000,
     "type": "NEIGHBORHOOD"
   },
@@ -108711,7 +108711,7 @@
   },
   {
     "id": 63011314,
-    "name": "Kilibory Ii",
+    "name": "Kilibory II",
     "parent_id": 63011300,
     "type": "NEIGHBORHOOD"
   },
@@ -108981,7 +108981,7 @@
   },
   {
     "id": 63011440,
-    "name": "Mandopake Ii",
+    "name": "Mandopake II",
     "parent_id": 63011400,
     "type": "NEIGHBORHOOD"
   },
@@ -109137,7 +109137,7 @@
   },
   {
     "id": 63011513,
-    "name": "Andranomilitse Ii",
+    "name": "Andranomilitse II",
     "parent_id": 63011500,
     "type": "NEIGHBORHOOD"
   },
@@ -109203,7 +109203,7 @@
   },
   {
     "id": 63011524,
-    "name": "Asonjo Ii",
+    "name": "Asonjo II",
     "parent_id": 63011500,
     "type": "NEIGHBORHOOD"
   },
@@ -109275,7 +109275,7 @@
   },
   {
     "id": 63011536,
-    "name": "Bevaro,Ambararata I Et Ii,Ankilimalangy,Sonjorano",
+    "name": "Bevaro,Ambararata I Et II,Ankilimalangy,Sonjorano",
     "parent_id": 63011500,
     "type": "NEIGHBORHOOD"
   },
@@ -109305,7 +109305,7 @@
   },
   {
     "id": 63011541,
-    "name": "Ranomasy Ii",
+    "name": "Ranomasy II",
     "parent_id": 63011500,
     "type": "NEIGHBORHOOD"
   },
@@ -109335,7 +109335,7 @@
   },
   {
     "id": 63011546,
-    "name": "Seta Ii,Amanda,Beseva",
+    "name": "Seta II,Amanda,Beseva",
     "parent_id": 63011500,
     "type": "NEIGHBORHOOD"
   },
@@ -109443,7 +109443,7 @@
   },
   {
     "id": 63011613,
-    "name": "Gogogogo Bas-Ii",
+    "name": "Gogogogo Bas-II",
     "parent_id": 63011600,
     "type": "NEIGHBORHOOD"
   },
@@ -109695,7 +109695,7 @@
   },
   {
     "id": 63011802,
-    "name": "Ankaragnabo,Betsako Ii ,Antsakoamaro",
+    "name": "Ankaragnabo,Betsako II ,Antsakoamaro",
     "parent_id": 63011800,
     "type": "NEIGHBORHOOD"
   },
@@ -110085,7 +110085,7 @@
   },
   {
     "id": 63020316,
-    "name": "Ankilimasy Ii",
+    "name": "Ankilimasy II",
     "parent_id": 63020300,
     "type": "NEIGHBORHOOD"
   },
@@ -110157,7 +110157,7 @@
   },
   {
     "id": 63020328,
-    "name": "Morafeno I,Iii",
+    "name": "Morafeno I,III",
     "parent_id": 63020300,
     "type": "NEIGHBORHOOD"
   },
@@ -110337,7 +110337,7 @@
   },
   {
     "id": 63020610,
-    "name": "Mandabe Ii",
+    "name": "Mandabe II",
     "parent_id": 63020600,
     "type": "NEIGHBORHOOD"
   },
@@ -111015,7 +111015,7 @@
   },
   {
     "id": 63040101,
-    "name": "Ambolody I Et Ii",
+    "name": "Ambolody I Et II",
     "parent_id": 63040100,
     "type": "NEIGHBORHOOD"
   },
@@ -111261,7 +111261,7 @@
   },
   {
     "id": 63040501,
-    "name": "Bevoay Ii",
+    "name": "Bevoay II",
     "parent_id": 63040500,
     "type": "NEIGHBORHOOD"
   },
@@ -111555,7 +111555,7 @@
   },
   {
     "id": 63050212,
-    "name": "Tanambao Ii",
+    "name": "Tanambao II",
     "parent_id": 63050200,
     "type": "NEIGHBORHOOD"
   },
@@ -111723,7 +111723,7 @@
   },
   {
     "id": 63050504,
-    "name": "Mandabe I Et Ii",
+    "name": "Mandabe I Et II",
     "parent_id": 63050500,
     "type": "NEIGHBORHOOD"
   },
@@ -111867,7 +111867,7 @@
   },
   {
     "id": 63050806,
-    "name": "Anontsy,Tsivaray,Ampakabe Ii",
+    "name": "Anontsy,Tsivaray,Ampakabe II",
     "parent_id": 63050800,
     "type": "NEIGHBORHOOD"
   },
@@ -111891,7 +111891,7 @@
   },
   {
     "id": 63050810,
-    "name": "Eretike,Ankotbe Ii",
+    "name": "Eretike,Ankotbe II",
     "parent_id": 63050800,
     "type": "NEIGHBORHOOD"
   },
@@ -111945,7 +111945,7 @@
   },
   {
     "id": 63050907,
-    "name": "Morafeno Iii",
+    "name": "Morafeno III",
     "parent_id": 63050900,
     "type": "NEIGHBORHOOD"
   },
@@ -111963,7 +111963,7 @@
   },
   {
     "id": 63051002,
-    "name": "Beora Centre, Beora Tanambao, Beora Ii, Ambatomainty Beara",
+    "name": "Beora Centre, Beora Tanambao, Beora II, Ambatomainty Beara",
     "parent_id": 63051000,
     "type": "NEIGHBORHOOD"
   },
@@ -112377,7 +112377,7 @@
   },
   {
     "id": 63051507,
-    "name": "Betaly Ii",
+    "name": "Betaly II",
     "parent_id": 63051500,
     "type": "NEIGHBORHOOD"
   },
@@ -112623,7 +112623,7 @@
   },
   {
     "id": 63051902,
-    "name": "Ambatokapike Nord I Et Ii",
+    "name": "Ambatokapike Nord I Et II",
     "parent_id": 63051900,
     "type": "NEIGHBORHOOD"
   },
@@ -112641,7 +112641,7 @@
   },
   {
     "id": 63051905,
-    "name": "Anjamena Mahazoarivo I Et Ii",
+    "name": "Anjamena Mahazoarivo I Et II",
     "parent_id": 63051900,
     "type": "NEIGHBORHOOD"
   },
@@ -112653,7 +112653,7 @@
   },
   {
     "id": 63051907,
-    "name": "Anjamena Sud Ii,Anjamena Anivorano",
+    "name": "Anjamena Sud II,Anjamena Anivorano",
     "parent_id": 63051900,
     "type": "NEIGHBORHOOD"
   },
@@ -112815,7 +112815,7 @@
   },
   {
     "id": 63052300,
-    "name": "Savazy Ii",
+    "name": "Savazy II",
     "parent_id": 63050000,
     "type": "MUNICIPALITY"
   },
@@ -112839,7 +112839,7 @@
   },
   {
     "id": 63052304,
-    "name": "Savazy Ii",
+    "name": "Savazy II",
     "parent_id": 63052300,
     "type": "NEIGHBORHOOD"
   },
@@ -112929,7 +112929,7 @@
   },
   {
     "id": 63052411,
-    "name": "Vohipotsy Ii",
+    "name": "Vohipotsy II",
     "parent_id": 63052400,
     "type": "NEIGHBORHOOD"
   },
@@ -113439,7 +113439,7 @@
   },
   {
     "id": 63060109,
-    "name": "Tsianihy, Andranobiby I Et Ii, Ambahy, Ambia, Bevorondolo, Andranombilo",
+    "name": "Tsianihy, Andranobiby I Et II, Ambahy, Ambia, Bevorondolo, Andranombilo",
     "parent_id": 63060100,
     "type": "NEIGHBORHOOD"
   },
@@ -113577,7 +113577,7 @@
   },
   {
     "id": 63060404,
-    "name": "Bekoropoka, Belalitse, Ankazomanga I Et Ii, Tsianaloka",
+    "name": "Bekoropoka, Belalitse, Ankazomanga I Et II, Tsianaloka",
     "parent_id": 63060400,
     "type": "NEIGHBORHOOD"
   },
@@ -113823,7 +113823,7 @@
   },
   {
     "id": 63060808,
-    "name": "Tsihake, Tsihake I, Tsihake Ii",
+    "name": "Tsihake, Tsihake I, Tsihake II",
     "parent_id": 63060800,
     "type": "NEIGHBORHOOD"
   },
@@ -113907,7 +113907,7 @@
   },
   {
     "id": 63070104,
-    "name": "Marohariva-Ii",
+    "name": "Marohariva-II",
     "parent_id": 63070100,
     "type": "NEIGHBORHOOD"
   },
@@ -114015,7 +114015,7 @@
   },
   {
     "id": 63070304,
-    "name": "Andravindahy Ii",
+    "name": "Andravindahy II",
     "parent_id": 63070300,
     "type": "NEIGHBORHOOD"
   },
@@ -114087,7 +114087,7 @@
   },
   {
     "id": 63070407,
-    "name": "Ankabokara I,Ankabokara Ii",
+    "name": "Ankabokara I,Ankabokara II",
     "parent_id": 63070400,
     "type": "NEIGHBORHOOD"
   },
@@ -114111,7 +114111,7 @@
   },
   {
     "id": 63070411,
-    "name": "Lambomankandro Ii,Ampasibe,Bevatry",
+    "name": "Lambomankandro II,Ampasibe,Bevatry",
     "parent_id": 63070400,
     "type": "NEIGHBORHOOD"
   },
@@ -114459,7 +114459,7 @@
   },
   {
     "id": 63071104,
-    "name": "Soatanimbary I Et Ii",
+    "name": "Soatanimbary I Et II",
     "parent_id": 63071100,
     "type": "NEIGHBORHOOD"
   },
@@ -114579,7 +114579,7 @@
   },
   {
     "id": 63071219,
-    "name": "Sakaraha Bas Ii",
+    "name": "Sakaraha Bas II",
     "parent_id": 63071200,
     "type": "NEIGHBORHOOD"
   },
@@ -114753,13 +114753,13 @@
   },
   {
     "id": 63080122,
-    "name": "Mahavatsy Ii Est",
+    "name": "Mahavatsy II Est",
     "parent_id": 63080100,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 63080123,
-    "name": "Mahavatsy Ii Ouest",
+    "name": "Mahavatsy II Ouest",
     "parent_id": 63080100,
     "type": "NEIGHBORHOOD"
   },
@@ -114807,7 +114807,7 @@
   },
   {
     "id": 63080131,
-    "name": "Tanambao Ii",
+    "name": "Tanambao II",
     "parent_id": 63080100,
     "type": "NEIGHBORHOOD"
   },
@@ -114849,13 +114849,13 @@
   },
   {
     "id": 63080138,
-    "name": "Tsimenatse Ii",
+    "name": "Tsimenatse II",
     "parent_id": 63080100,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 63080139,
-    "name": "Tsimenatse Iii",
+    "name": "Tsimenatse III",
     "parent_id": 63080100,
     "type": "NEIGHBORHOOD"
   },
@@ -114873,7 +114873,7 @@
   },
   {
     "id": 63090000,
-    "name": "Toliara Ii",
+    "name": "Toliara II",
     "parent_id": 63000000,
     "type": "DISTRICT"
   },
@@ -114885,7 +114885,7 @@
   },
   {
     "id": 63090101,
-    "name": "Ambiky Ii,Ambiky Be,Tanandava",
+    "name": "Ambiky II,Ambiky Be,Tanandava",
     "parent_id": 63090100,
     "type": "NEIGHBORHOOD"
   },
@@ -115215,7 +115215,7 @@
   },
   {
     "id": 63090604,
-    "name": "Andamoty Ii ,Ankilifaly,Ankondro,Ampingabe Mahasoa",
+    "name": "Andamoty II ,Ankilifaly,Ankondro,Ampingabe Mahasoa",
     "parent_id": 63090600,
     "type": "NEIGHBORHOOD"
   },
@@ -115425,7 +115425,7 @@
   },
   {
     "id": 63090713,
-    "name": "Ankililoaka Ii,Mangily,Ankilisorohy",
+    "name": "Ankililoaka II,Mangily,Ankilisorohy",
     "parent_id": 63090700,
     "type": "NEIGHBORHOOD"
   },
@@ -115851,7 +115851,7 @@
   },
   {
     "id": 63091302,
-    "name": "Andakoro Ii",
+    "name": "Andakoro II",
     "parent_id": 63091300,
     "type": "NEIGHBORHOOD"
   },
@@ -116043,7 +116043,7 @@
   },
   {
     "id": 63091511,
-    "name": "Manombo Ii",
+    "name": "Manombo II",
     "parent_id": 63091500,
     "type": "NEIGHBORHOOD"
   },
@@ -116751,7 +116751,7 @@
   },
   {
     "id": 63092517,
-    "name": "Tsianisiha Ii",
+    "name": "Tsianisiha II",
     "parent_id": 63092500,
     "type": "NEIGHBORHOOD"
   },
@@ -116793,7 +116793,7 @@
   },
   {
     "id": 63092605,
-    "name": "Soalara-Nord-Ii",
+    "name": "Soalara-Nord-II",
     "parent_id": 63092600,
     "type": "NEIGHBORHOOD"
   },
@@ -116908,7 +116908,7 @@
   },
   {
     "id": 64010205,
-    "name": "Bemangily Ii",
+    "name": "Bemangily II",
     "parent_id": 64010200,
     "type": "NEIGHBORHOOD"
   },
@@ -117076,7 +117076,7 @@
   },
   {
     "id": 64010411,
-    "name": "Mahasoa Ii",
+    "name": "Mahasoa II",
     "parent_id": 64010400,
     "type": "NEIGHBORHOOD"
   },
@@ -117106,7 +117106,7 @@
   },
   {
     "id": 64010502,
-    "name": "Andranomena I Et Ii",
+    "name": "Andranomena I Et II",
     "parent_id": 64010500,
     "type": "NEIGHBORHOOD"
   },
@@ -117226,7 +117226,7 @@
   },
   {
     "id": 64010707,
-    "name": "Madoso I Et Ii",
+    "name": "Madoso I Et II",
     "parent_id": 64010700,
     "type": "NEIGHBORHOOD"
   },
@@ -117472,7 +117472,7 @@
   },
   {
     "id": 64011006,
-    "name": "Tsangoragna,Bekily  Ii",
+    "name": "Tsangoragna,Bekily  II",
     "parent_id": 64011000,
     "type": "NEIGHBORHOOD"
   },
@@ -117904,7 +117904,7 @@
   },
   {
     "id": 64020203,
-    "name": "Ampanihy,Ankazoabo,Andafia,Soaserana I Et Ii,Ambondro",
+    "name": "Ampanihy,Ankazoabo,Andafia,Soaserana I Et II,Ambondro",
     "parent_id": 64020200,
     "type": "NEIGHBORHOOD"
   },
@@ -117946,7 +117946,7 @@
   },
   {
     "id": 64020210,
-    "name": "Benato,Tanambao I Et Ii,Belalitsy",
+    "name": "Benato,Tanambao I Et II,Belalitsy",
     "parent_id": 64020200,
     "type": "NEIGHBORHOOD"
   },
@@ -118036,7 +118036,7 @@
   },
   {
     "id": 64020305,
-    "name": "Tanandava Ii,Androbotsy",
+    "name": "Tanandava II,Androbotsy",
     "parent_id": 64020300,
     "type": "NEIGHBORHOOD"
   },
@@ -118054,7 +118054,7 @@
   },
   {
     "id": 64020402,
-    "name": "Ankilivalo,Tanandava Iii Bekidresy,Bekinana Ankilimahasoa,Andranotelo Tanandava-Gasy",
+    "name": "Ankilivalo,Tanandava III Bekidresy,Bekinana Ankilimahasoa,Andranotelo Tanandava-Gasy",
     "parent_id": 64020400,
     "type": "NEIGHBORHOOD"
   },
@@ -118672,7 +118672,7 @@
   },
   {
     "id": 64021112,
-    "name": "Mandabe Ii",
+    "name": "Mandabe II",
     "parent_id": 64021100,
     "type": "NEIGHBORHOOD"
   },
@@ -118756,7 +118756,7 @@
   },
   {
     "id": 64030102,
-    "name": "Andranopasy-Ii,Tanambao,Antsirasira,Anosy,Antsira,",
+    "name": "Andranopasy-II,Tanambao,Antsirasira,Anosy,Antsira,",
     "parent_id": 64030100,
     "type": "NEIGHBORHOOD"
   },
@@ -118816,7 +118816,7 @@
   },
   {
     "id": 64030202,
-    "name": "Ambivy Ii,Soamiranga,Tsimandika",
+    "name": "Ambivy II,Soamiranga,Tsimandika",
     "parent_id": 64030200,
     "type": "NEIGHBORHOOD"
   },
@@ -119164,7 +119164,7 @@
   },
   {
     "id": 64030611,
-    "name": "Manja Ii,Mangarivotra,Caserne Zp, Croix Rouge",
+    "name": "Manja II,Mangarivotra,Caserne Zp, Croix Rouge",
     "parent_id": 64030600,
     "type": "NEIGHBORHOOD"
   },
@@ -119242,7 +119242,7 @@
   },
   {
     "id": 64040102,
-    "name": "Ambatolahy Ii",
+    "name": "Ambatolahy II",
     "parent_id": 64040100,
     "type": "NEIGHBORHOOD"
   },
@@ -120064,7 +120064,7 @@
   },
   {
     "id": 64041510,
-    "name": "Miandrivazo Ii",
+    "name": "Miandrivazo II",
     "parent_id": 64041500,
     "type": "NEIGHBORHOOD"
   },
@@ -120226,7 +120226,7 @@
   },
   {
     "id": 64050108,
-    "name": "Antevamena I Et Ii,Soanierana",
+    "name": "Antevamena I Et II,Soanierana",
     "parent_id": 64050100,
     "type": "NEIGHBORHOOD"
   },
@@ -120508,7 +120508,7 @@
   },
   {
     "id": 64050314,
-    "name": "Voloy I Et Ii,Behasy",
+    "name": "Voloy I Et II,Behasy",
     "parent_id": 64050300,
     "type": "NEIGHBORHOOD"
   },
@@ -120610,7 +120610,7 @@
   },
   {
     "id": 64050416,
-    "name": "Bevolionga,Ambiky I Et Ii,Ankoabe,Maroaloky,Tanamb",
+    "name": "Bevolionga,Ambiky I Et II,Ankoabe,Maroaloky,Tanamb",
     "parent_id": 64050400,
     "type": "NEIGHBORHOOD"
   },
@@ -120670,7 +120670,7 @@
   },
   {
     "id": 64050426,
-    "name": "Tsitelo,Soaserana Ii,Tsitelo Atsimo Et Avaratra",
+    "name": "Tsitelo,Soaserana II,Tsitelo Atsimo Et Avaratra",
     "parent_id": 64050400,
     "type": "NEIGHBORHOOD"
   },
@@ -120712,13 +120712,13 @@
   },
   {
     "id": 64050506,
-    "name": "Kivalo,Ambato Sur Mer,Ampatika",
+    "name": "Kivalo, Ambato Sur Mer, Ampatika",
     "parent_id": 64050500,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 64050507,
-    "name": "Marofandilia, Tanambao,Fenoarivo,Campement",
+    "name": "Marofandilia, Tanambao, Fenoarivo, Campement",
     "parent_id": 64050500,
     "type": "NEIGHBORHOOD"
   },
@@ -120826,13 +120826,13 @@
   },
   {
     "id": 64050617,
-    "name": "Tsimahavaobe ,Morima",
+    "name": "Tsimahavaobe, Morima",
     "parent_id": 64050600,
     "type": "NEIGHBORHOOD"
   },
   {
     "id": 64050618,
-    "name": "Tsimahavaokely ,Angara",
+    "name": "Tsimahavaokely, Angara",
     "parent_id": 64050600,
     "type": "NEIGHBORHOOD"
   }

@@ -11,20 +11,27 @@ export async function locationSeed(prisma: PrismaClient) {
   const countries = JSON.parse(rawCountryData);
 
   for (const country of countries) {
-    await prisma.country.upsert({
-      where: { id: country["id"] },
-      update: {},
-      create: {
-        id: country["id"],
-        alpha2Code: country["alpha_2_code"],
-        alpha3Code: country["alpha_3_code"],
-        name: country["name_native"],
-        name_en: country["name_en"],
-        name_fr: country["name_fr"],
-        nationality: country["nationality_fr"],
-        nationality_en: country["nationality_en"],
-      },
-    });
+    try{
+      await prisma.country.upsert({
+        where: { code: country["code"] },
+        update: {},
+        create: {
+          code: country["code"],
+          alpha3Code: country["alpha_3_code"],
+          name: country["name_native"],
+          name_en: country["name_en"],
+          name_fr: country["name_fr"],
+          nationality: country["nationality_fr"],
+          nationality_en: country["nationality_en"],
+          currencyCode: country["currency_code"],
+          phonePrefix: country["phone_prefix"],
+        },
+      });
+    }
+    catch(error){
+      console.error(country)
+      console.error(error)
+    }
   }
 
   // Seed Location
@@ -41,7 +48,7 @@ export async function locationSeed(prisma: PrismaClient) {
         name: location["name"],
         type: location["type"],
         code: location["code"],
-        countryId: location["country_id"],
+        countryCode: location["country_code"],
         parentId: location["parent_id"],
       },
     });
