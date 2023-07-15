@@ -1,5 +1,12 @@
 import { ArgsType, Field, Int, ID, InputType } from '@nestjs/graphql';
-import { Max, Min, IsString, IsOptional, IsObject, IsEnum } from 'class-validator';
+import {
+  Max,
+  Min,
+  IsString,
+  IsOptional,
+  IsObject,
+  IsEnum,
+} from 'class-validator';
 import { PageArgs, EnumSortOrder } from 'src/common/query.metadata';
 import { EnumJurisdictionLevel } from 'src/jurisdiction/jurisdiction-level/entities/jurisdiction-level.entity';
 
@@ -31,12 +38,18 @@ export class JurisdictionInstanceQueryArgs extends PageArgs {
   @IsOptional()
   orderBy?: JurisdictionInstanceOrderByInput;
 
-  @Field(() => EnumJurisdictionLevel, { nullable: true, description: 'Code of the jurisdiction level' })
+  @Field(() => EnumJurisdictionLevel, {
+    nullable: true,
+    description: 'Code of the jurisdiction level',
+  })
   @IsEnum(EnumJurisdictionLevel)
   @IsOptional()
   levelCode?: EnumJurisdictionLevel;
 
-  @Field(() => ID, { nullable: true, description: 'Hashed unique ID of the location' })
+  @Field(() => ID, {
+    nullable: true,
+    description: 'Hashed unique ID of the location',
+  })
   @IsString()
   @IsOptional()
   locationId?: string;

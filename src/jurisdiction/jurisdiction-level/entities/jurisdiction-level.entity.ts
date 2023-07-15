@@ -3,26 +3,26 @@ import { IsEnum, IsString } from 'class-validator';
 import { JurisdictionLevel as JurisdictionLevelModel } from '@prisma/client';
 
 export enum EnumJurisdictionLevel {
-  SUPREME_COURT = 'SUPREME_COURT', 
+  SUPREME_COURT = 'SUPREME_COURT',
   CASSATION_COURT = 'CASSATION_COURT',
   AUDIT_COURT = 'AUDIT_COURT',
   ADMINISTRATIVE_LAW_COURT = 'ADMINISTRATIVE_LAW_COURT',
   APPELLATE_COURT = 'APPELLATE_COURT',
   ADMINISTRATIVE_COURT = 'ADMINISTRATIVE_COURT',
   FISCAL_COURT = 'FISCAL_COURT',
-  TRIAL_COURT = 'TRIAL_COURT'
+  TRIAL_COURT = 'TRIAL_COURT',
 }
-
 
 registerEnumType(EnumJurisdictionLevel, {
   name: 'EnumJurisdictionLevel',
   description: 'Level of jurisdiction.',
 });
 
-
 @ObjectType()
 export class JurisdictionLevel {
-  @Field(() => EnumJurisdictionLevel, { description: 'Unique identifier of the jurisdiction level' })
+  @Field(() => EnumJurisdictionLevel, {
+    description: 'Unique identifier of the jurisdiction level',
+  })
   @IsEnum(EnumJurisdictionLevel)
   code: EnumJurisdictionLevel;
 
@@ -30,7 +30,9 @@ export class JurisdictionLevel {
   @IsString()
   name: string;
 
-  @Field(() => String, { description: 'Short name of the jurisdiction level: TPI, CC...' })
+  @Field(() => String, {
+    description: 'Short name of the jurisdiction level: TPI, CC...',
+  })
   @IsString()
   shortName: string;
 

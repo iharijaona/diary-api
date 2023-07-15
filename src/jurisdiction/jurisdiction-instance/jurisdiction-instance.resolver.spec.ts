@@ -10,7 +10,9 @@ describe('JurisdictionInstanceResolver', () => {
       providers: [JurisdictionInstanceResolver, JurisdictionInstanceService],
     }).compile();
 
-    resolver = module.get<JurisdictionInstanceResolver>(JurisdictionInstanceResolver);
+    resolver = module.get<JurisdictionInstanceResolver>(
+      JurisdictionInstanceResolver,
+    );
   });
 
   it('should be defined', () => {

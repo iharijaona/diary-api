@@ -4,6 +4,10 @@ import { JurisdictionInstanceService } from './jurisdiction-instance.service';
 import { JurisdictionInstanceResolver } from './jurisdiction-instance.resolver';
 
 @Module({
-  providers: [PrismaService, JurisdictionInstanceResolver, JurisdictionInstanceService]
+  providers: [
+    PrismaService,
+    JurisdictionInstanceResolver,
+    JurisdictionInstanceService,
+  ],
 })
 export class JurisdictionInstanceModule {}

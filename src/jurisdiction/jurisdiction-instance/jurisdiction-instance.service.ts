@@ -2,36 +2,37 @@ import { Injectable } from '@nestjs/common';
 import { Prisma } from '@prisma/client';
 import { decodeId } from 'src/common/hashids.helper';
 import { PrismaService } from 'src/prisma.service';
-import { PaginatedJurisdictionInstance, JurisdictionInstance } from './entities/jurisdiction-instance.entity';
+import {
+  PaginatedJurisdictionInstance,
+  JurisdictionInstance,
+} from './entities/jurisdiction-instance.entity';
 import { JurisdictionInstanceQueryArgs } from './dto/jurisdiction-instance.args';
 import { JurisdictionInstanceNotFoundError } from './jurisdiction-instance.error';
 import { EnumJurisdictionLevel } from '../jurisdiction-level/entities/jurisdiction-level.entity';
 
 @Injectable()
 export class JurisdictionInstanceService {
-
   constructor(private prisma: PrismaService) {}
 
-  
-  async findAllJurisdictionInstances(args: JurisdictionInstanceQueryArgs): Promise<PaginatedJurisdictionInstance> {
-
+  async findAllJurisdictionInstances(
+    args: JurisdictionInstanceQueryArgs,
+  ): Promise<PaginatedJurisdictionInstance> {
     // Filter by name and code
     let whereFilter: Prisma.JurisdictionInstanceWhereInput = args.filter
       ? {
-          OR: [
-            { name: { contains: args.filter, mode: 'insensitive' } },
-          ],
+          OR: [{ name: { contains: args.filter, mode: 'insensitive' } }],
         }
       : {};
 
     // Filter by level code
-    whereFilter = args.levelCode ? { ...whereFilter, levelCode: EnumJurisdictionLevel[args.levelCode] } : whereFilter;
+    whereFilter = args.levelCode
+      ? { ...whereFilter, levelCode: EnumJurisdictionLevel[args.levelCode] }
+      : whereFilter;
 
     // Filter by location id
     whereFilter = args.locationId
       ? { ...whereFilter, locationId: decodeId(args.locationId) }
       : whereFilter;
-
 
     // Compute pagination metadata
     const totalItemCount = await this.prisma.jurisdictionInstance.count({
@@ -63,16 +64,17 @@ export class JurisdictionInstanceService {
       totalItemCount,
       currentPage,
     };
-
   }
 
   async findOneJurisdictionInstance(id: string): Promise<JurisdictionInstance> {
     try {
-      const jurisdictionInstance = await this.prisma.jurisdictionInstance.findUnique({
-        where: { id: decodeId(id) },
-      });
+      const jurisdictionInstance =
+        await this.prisma.jurisdictionInstance.findUnique({
+          where: { id: decodeId(id) },
+        });
       // Throw error if not exists
-      if (!jurisdictionInstance) throw new JurisdictionInstanceNotFoundError(id);
+      if (!jurisdictionInstance)
+        throw new JurisdictionInstanceNotFoundError(id);
       return new JurisdictionInstance(jurisdictionInstance);
     } catch (error) {
       throw new JurisdictionInstanceNotFoundError(id, error);

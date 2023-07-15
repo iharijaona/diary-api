@@ -32,15 +32,13 @@ export class CountryService {
     const currentPage =
       Math.floor(args.skip / (args.take > 0 ? args.take : 1)) + 1;
     const filteredCountries = await Promise.all(
-      (
-        await this.prisma.country.findMany({
-          skip: args.skip,
-          take: args.take,
-          where: whereFilter,
-          orderBy:
-            args.orderBy as Prisma.Enumerable<Prisma.CountryOrderByWithRelationInput>,
-        })
-      )
+      await this.prisma.country.findMany({
+        skip: args.skip,
+        take: args.take,
+        where: whereFilter,
+        orderBy:
+          args.orderBy as Prisma.Enumerable<Prisma.CountryOrderByWithRelationInput>,
+      }),
     );
 
     // Return the results

@@ -9,7 +9,9 @@ describe('JurisdictionInstanceService', () => {
       providers: [JurisdictionInstanceService],
     }).compile();
 
-    service = module.get<JurisdictionInstanceService>(JurisdictionInstanceService);
+    service = module.get<JurisdictionInstanceService>(
+      JurisdictionInstanceService,
+    );
   });
 
   it('should be defined', () => {

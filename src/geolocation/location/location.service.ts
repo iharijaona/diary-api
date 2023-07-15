@@ -66,9 +66,7 @@ export class LocationService {
   }
 
   async findOneLocation(id: string): Promise<Location> {
-
     try {
-
       const locationRaw = await this.prisma.location.findUnique({
         where: { id: decodeId(id) },
       });

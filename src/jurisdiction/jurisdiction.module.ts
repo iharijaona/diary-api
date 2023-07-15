@@ -3,6 +3,6 @@ import { JurisdictionLevelModule } from './jurisdiction-level/jurisdiction-level
 import { JurisdictionInstanceModule } from './jurisdiction-instance/jurisdiction-instance.module';
 
 @Module({
-  imports: [JurisdictionLevelModule, JurisdictionInstanceModule]
+  imports: [JurisdictionLevelModule, JurisdictionInstanceModule],
 })
 export class JurisdictionModule {}

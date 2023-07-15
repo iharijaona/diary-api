@@ -9,7 +9,9 @@ export class CountryResolver {
   constructor(private readonly countryService: CountryService) {}
 
   @Query(() => Country)
-  async country(@Args('code', { type: () => ID }) code: string): Promise<Country> {
+  async country(
+    @Args('code', { type: () => ID }) code: string,
+  ): Promise<Country> {
     const country = await this.countryService.findOneCountry(code);
     if (!country) {
       throw new NotFoundException(code);

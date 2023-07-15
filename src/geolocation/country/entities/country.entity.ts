@@ -24,10 +24,16 @@ export class Country {
   @Field((type) => String, { description: 'Nationality in english' })
   nationality_en: string;
 
-  @Field((type) => String, { nullable: true, description: 'Currency code of the country' })
+  @Field((type) => String, {
+    nullable: true,
+    description: 'Currency code of the country',
+  })
   currencyCode?: string;
 
-  @Field((type) => String, { nullable: true, description: 'Phone prefix of the country' })
+  @Field((type) => String, {
+    nullable: true,
+    description: 'Phone prefix of the country',
+  })
   phonePrefix?: string;
 }
 

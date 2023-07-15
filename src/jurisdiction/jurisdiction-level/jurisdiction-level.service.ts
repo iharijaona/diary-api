@@ -1,13 +1,16 @@
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from 'src/prisma.service';
-import { JurisdictionLevel, EnumJurisdictionLevel } from './entities/jurisdiction-level.entity';
+import {
+  JurisdictionLevel,
+  EnumJurisdictionLevel,
+} from './entities/jurisdiction-level.entity';
 
 @Injectable()
 export class JurisdictionLevelService {
   constructor(private prisma: PrismaService) {}
 
   async findAllJurisdictionLevel(): Promise<JurisdictionLevel[]> {
-    const jurisdictionLevels  = await this.prisma.jurisdictionLevel.findMany()
+    const jurisdictionLevels = await this.prisma.jurisdictionLevel.findMany();
     // Return the results
     return await jurisdictionLevels.map((item) => new JurisdictionLevel(item));
   }
