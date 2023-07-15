@@ -114,6 +114,7 @@ type Location {
 
   """Name of the location"""
   name: String!
+  parent: Location
 
   """Parent location ID"""
   parentId: ID

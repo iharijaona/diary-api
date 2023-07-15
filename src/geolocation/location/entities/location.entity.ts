@@ -1,5 +1,5 @@
 import { ObjectType, Field, ID, registerEnumType } from '@nestjs/graphql';
-import { IsOptional, IsEnum, IsArray } from 'class-validator';
+import { IsOptional, IsEnum, IsArray, IsObject } from 'class-validator';
 import { encodeId } from 'src/common/hashids.helper';
 import { Location as LocationModel } from '@prisma/client';
 import { Paginated } from 'src/common/query.metadata';
@@ -22,7 +22,7 @@ export class Location {
   @Field(() => ID, { description: 'Hashed unique ID of the location' })
   id: string;
 
-  @Field((type) => String, { description: 'Name of the location' })
+  @Field(() => String, { description: 'Name of the location' })
   name: string;
 
   @Field(() => String, {
@@ -36,9 +36,9 @@ export class Location {
   @IsEnum(EnumLocationType)
   type: EnumLocationType;
 
-  @Field((type) => ID, { nullable: true, description: 'Parent location ID' })
+  @Field(() => ID, { nullable: true, description: 'Parent location ID' })
   @IsOptional()
-  parentId: string;
+  parentId?: string;
 
   @Field(() => ID, {
     nullable: true,
@@ -51,6 +51,11 @@ export class Location {
   @IsArray()
   @IsOptional()
   subdivisions?: Location[];
+
+  @Field(() => Location, { nullable: true })
+  @IsObject()
+  @IsOptional()
+  parent?: Location;
 
   constructor(payload: LocationModel) {
     Object.assign(this, {

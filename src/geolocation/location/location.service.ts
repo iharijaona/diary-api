@@ -72,7 +72,7 @@ export class LocationService {
       });
 
       // Throw error if not exists
-      // if (!locationRaw) throw new LocationNotFoundError(id);
+      if (!locationRaw) throw new LocationNotFoundError(id);
 
       return new Location(locationRaw);
     } catch (error) {

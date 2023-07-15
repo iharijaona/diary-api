@@ -32,7 +32,13 @@ export class LocationResolver {
   }
 
   @ResolveField(() => [Location])
-  async subdivisions(@Parent() parentLocation: Location) {
-    return this.locationService.findLocationSubdivisions(parentLocation.id);
+  async subdivisions(@Parent() currentLocation: Location) {
+    return this.locationService.findLocationSubdivisions(currentLocation.id);
   }
+
+  @ResolveField(() => Location)
+  async parent(@Parent() currentLocation: Location) {
+    if (currentLocation.parentId) return this.locationService.findOneLocation(currentLocation.parentId);
+  }
+  
 }
